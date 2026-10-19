@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1197" viewBox="0 0 600 1197" role="img" aria-labelledby="title desc">
+<title id="title">cat ~/profile/stack.txt</title>
+<desc id="desc">interface: HTML / CSS / JavaScript / Bootstrap; React + TypeScript in G Energy application: C# / ASP.NET Core MVC / Web API data: Entity Framework Core / SQL Server verification: Unit, integration and browser checks / Git / GitHub Actions next: Contribute to full-stack features, learn through code review and deepen my .NET + relational data skills.</desc>
+<rect x="1" y="1" width="598" height="1195" rx="9" fill="#050d0b" stroke="#214d38" />
+<circle cx="22" cy="23" r="4" fill="#396048" />
+<circle cx="39" cy="23" r="4" fill="#467b59" />
+<circle cx="56" cy="23" r="4" fill="#71ffaf" />
+<text x="91" y="29" font-family="Consolas,Courier New,monospace" font-size="16" fill="#9eb7ab">rifatur17@dev: ~/readout</text>
+<path d="M1 44H599" stroke="#214d38" />
+<text x="28" y="92" font-family="Consolas,Courier New,monospace" font-size="26" fill="#69e5ed">$ cat ~/profile/stack.txt</text>
+<text x="22" y="136" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">01</text>
+<defs><clipPath id="row-0"><rect x="70" y="102" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-0)"><text x="70" y="136" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[INTERFACE]</text></g>
+<text x="22" y="179" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">02</text>
+<defs><clipPath id="row-1"><rect x="70" y="145" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-1)"><text x="70" y="179" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">HTML / CSS / JavaScript /</text></g>
+<text x="22" y="222" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">03</text>
+<defs><clipPath id="row-2"><rect x="70" y="188" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-2)"><text x="70" y="222" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Bootstrap; React +</text></g>
+<text x="22" y="265" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">04</text>
+<defs><clipPath id="row-3"><rect x="70" y="231" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-3)"><text x="70" y="265" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">TypeScript in G Energy</text></g>
+<text x="22" y="351" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">06</text>
+<defs><clipPath id="row-5"><rect x="70" y="317" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-5)"><text x="70" y="351" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[APPLICATION]</text></g>
+<text x="22" y="394" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">07</text>
+<defs><clipPath id="row-6"><rect x="70" y="360" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-6)"><text x="70" y="394" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">C# / ASP.NET Core MVC /</text></g>
+<text x="22" y="437" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">08</text>
+<defs><clipPath id="row-7"><rect x="70" y="403" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-7)"><text x="70" y="437" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Web API</text></g>
+<text x="22" y="523" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">10</text>
+<defs><clipPath id="row-9"><rect x="70" y="489" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-9)"><text x="70" y="523" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[DATA]</text></g>
+<text x="22" y="566" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">11</text>
+<defs><clipPath id="row-10"><rect x="70" y="532" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-10)"><text x="70" y="566" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Entity Framework Core /</text></g>
+<text x="22" y="609" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">12</text>
+<defs><clipPath id="row-11"><rect x="70" y="575" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-11)"><text x="70" y="609" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">SQL Server</text></g>
+<text x="22" y="695" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">14</text>
+<defs><clipPath id="row-13"><rect x="70" y="661" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-13)"><text x="70" y="695" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[VERIFICATION]</text></g>
+<text x="22" y="738" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">15</text>
+<defs><clipPath id="row-14"><rect x="70" y="704" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-14)"><text x="70" y="738" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Unit, integration and</text></g>
+<text x="22" y="781" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">16</text>
+<defs><clipPath id="row-15"><rect x="70" y="747" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-15)"><text x="70" y="781" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">browser checks / Git /</text></g>
+<text x="22" y="824" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">17</text>
+<defs><clipPath id="row-16"><rect x="70" y="790" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-16)"><text x="70" y="824" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">GitHub Actions</text></g>
+<text x="22" y="910" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">19</text>
+<defs><clipPath id="row-18"><rect x="70" y="876" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-18)"><text x="70" y="910" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[NEXT]</text></g>
+<text x="22" y="953" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">20</text>
+<defs><clipPath id="row-19"><rect x="70" y="919" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-19)"><text x="70" y="953" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Contribute to full-stack</text></g>
+<text x="22" y="996" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">21</text>
+<defs><clipPath id="row-20"><rect x="70" y="962" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-20)"><text x="70" y="996" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">features, learn through</text></g>
+<text x="22" y="1039" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">22</text>
+<defs><clipPath id="row-21"><rect x="70" y="1005" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-21)"><text x="70" y="1039" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">code review and deepen my</text></g>
+<text x="22" y="1082" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">23</text>
+<defs><clipPath id="row-22"><rect x="70" y="1048" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-22)"><text x="70" y="1082" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">.NET + relational data</text></g>
+<text x="22" y="1125" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">24</text>
+<defs><clipPath id="row-23"><rect x="70" y="1091" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-23)"><text x="70" y="1125" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">skills.</text></g>
+<path d="M22 1166H578" stroke="#173e29" />
+<text x="26" y="1187" font-family="Consolas,Courier New,monospace" font-size="16" fill="#658976">// source-backed profile</text>
+<rect class="cursor" x="549" y="1176" width="23" height="6" fill="#71ffaf" />
+</svg>

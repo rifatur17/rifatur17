@@ -10,19 +10,19 @@ StockPilot leads because it directly supports the stated C#/.NET internship dire
 
 ## GitHub rendering
 
-- Ordinary Markdown carries every important claim, project name, stack, and destination. The README remains useful when images fail.
+- Project descriptions, engineering notes, identity and stack are terminal readouts with staggered text reveal. Every readout has descriptive alt text and a searchable [text-only transcript](PROFILE_TEXT.md). Project headings and navigation remain native Markdown links.
 - GitHub-supported `picture` elements select light/dark asset filenames. Both themes deliberately keep the artwork dark, like embedded terminal windows; surrounding text follows GitHub's selected theme.
-- All 24 SVGs are local, self-contained vector files, with no scripts, external fonts, foreignObject, or network requests. Native SVG motion moves schematic packets and scanner lines; the header adds code streams, a rotating reticle, and a blinking cursor. All motion is decorative. Picture sources select eight physically animation-free alternatives when `prefers-reduced-motion: reduce` is set; animated files also contain a defensive reduced-motion style. Project text remains stationary and readable.
+- All 44 SVGs are local, self-contained vector files, with no scripts, external fonts, foreignObject, or network requests. Native SVG motion moves schematic packets and scanner lines; the header adds code streams, a rotating reticle, a blinking cursor and a name reveal. Readout lines reveal within about three seconds, then remain readable for most of the 24-second cycle. Picture sources select 18 physically animation-free alternatives when reduced motion is requested.
 - No dynamic stats services, skill-icon services, custom CSS layouts, or external widgets are required.
-- Figures scale to their available width. Below 600px, picture sources select a larger-type header and vertically stacked project diagrams. Body text and links use GitHub's native responsive rendering; surrounding text also carries the figures' meaning.
+- Figures scale to their available width. Below 600px, picture sources select a larger-type header, vertically stacked project diagrams and narrower prose readouts with larger type. Links use native GitHub rendering so every destination remains individually clickable.
 - Figure links lead to implementation details. They are conceptual diagrams, not application screenshots or results from a test run.
 
 See GitHub's [profile README requirements](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme) and [supported picture-element example](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github).
 
 ## Update
 
-1. Edit README text and keep contribution boundaries explicit.
-2. If changing figures, edit `scripts/build_assets.py`, then run `python scripts/build_assets.py`.
+1. Edit prose in `scripts/text_panels.py`, navigation in `scripts/build_readme.py`, or figures in `scripts/build_assets.py`. Keep contribution boundaries explicit.
+2. Run `python scripts/build_assets.py` and `python scripts/build_readme.py` to regenerate assets, README and the text-only transcript.
 3. Run `python scripts/validate_profile.py` for local checks, or add `--links` to check HTTPS destinations.
 4. Preview the README on GitHub in light and dark mode and at a narrow viewport.
 5. Commit README and generated assets together. No scheduled workflow is necessary.

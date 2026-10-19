@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">cat ~/profile/stack.txt</title>
+<desc id="desc">interface: HTML / CSS / JavaScript / Bootstrap; React + TypeScript in G Energy application: C# / ASP.NET Core MVC / Web API data: Entity Framework Core / SQL Server verification: Unit, integration and browser checks / Git / GitHub Actions next: Contribute to full-stack features, learn through code review and deepen my .NET + relational data skills.</desc>
+<style>@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.6s step-end infinite}@media(prefers-reduced-motion:reduce){.motion{display:none}.cursor{animation:none}}</style>
+<rect x="1" y="1" width="1198" height="673" rx="9" fill="#050d0b" stroke="#214d38"/>
+<circle cx="22" cy="23" r="4" fill="#396048"/>
+<circle cx="39" cy="23" r="4" fill="#467b59"/>
+<circle cx="56" cy="23" r="4" fill="#71ffaf"/>
+<text x="91" y="29" font-family="Consolas,Courier New,monospace" font-size="16" fill="#9eb7ab">rifatur17@dev: ~/readout</text>
+<path d="M1 44H1199" stroke="#214d38"/>
+<text x="28" y="92" font-family="Consolas,Courier New,monospace" font-size="25" fill="#69e5ed">$ cat ~/profile/stack.txt</text>
+<text x="22" y="136" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">01</text>
+<defs><clipPath id="row-0"><rect x="70" y="111" width="1110" height="34"><animate attributeName="width" values="0;0;1110;1110" keyTimes="0;0.01;0.09;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-0)"><text x="70" y="136" font-family="Consolas,Courier New,monospace" font-size="23" fill="#71ffaf">[INTERFACE]</text></g>
+<text x="22" y="170" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">02</text>
+<defs><clipPath id="row-1"><rect x="70" y="145" width="1110" height="34"><animate attributeName="width" values="0;0;1110;1110" keyTimes="0;0.0115;0.0915;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-1)"><text x="70" y="170" font-family="Consolas,Courier New,monospace" font-size="23" fill="#d9eee2">HTML / CSS / JavaScript / Bootstrap; React + TypeScript in G Energy</text></g>
+<text x="22" y="238" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">04</text>
+<defs><clipPath id="row-3"><rect x="70" y="213" width="1110" height="34"><animate attributeName="width" values="0;0;1110;1110" keyTimes="0;0.0145;0.0945;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-3)"><text x="70" y="238" font-family="Consolas,Courier New,monospace" font-size="23" fill="#71ffaf">[APPLICATION]</text></g>
+<text x="22" y="272" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">05</text>
+<defs><clipPath id="row-4"><rect x="70" y="247" width="1110" height="34"><animate attributeName="width" values="0;0;1110;1110" keyTimes="0;0.016;0.096;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-4)"><text x="70" y="272" font-family="Consolas,Courier New,monospace" font-size="23" fill="#d9eee2">C# / ASP.NET Core MVC / Web API</text></g>
+<text x="22" y="340" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">07</text>
+<defs><clipPath id="row-6"><rect x="70" y="315" width="1110" height="34"><animate attributeName="width" values="0;0;1110;1110" keyTimes="0;0.019000000000000003;0.099;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-6)"><text x="70" y="340" font-family="Consolas,Courier New,monospace" font-size="23" fill="#71ffaf">[DATA]</text></g>
+<text x="22" y="374" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">08</text>
+<defs><clipPath id="row-7"><rect x="70" y="349" width="1110" height="34"><animate attributeName="width" values="0;0;1110;1110" keyTimes="0;0.0205;0.1005;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-7)"><text x="70" y="374" font-family="Consolas,Courier New,monospace" font-size="23" fill="#d9eee2">Entity Framework Core / SQL Server</text></g>
+<text x="22" y="442" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">10</text>
+<defs><clipPath id="row-9"><rect x="70" y="417" width="1110" height="34"><animate attributeName="width" values="0;0;1110;1110" keyTimes="0;0.0235;0.10350000000000001;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-9)"><text x="70" y="442" font-family="Consolas,Courier New,monospace" font-size="23" fill="#71ffaf">[VERIFICATION]</text></g>
+<text x="22" y="476" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">11</text>
+<defs><clipPath id="row-10"><rect x="70" y="451" width="1110" height="34"><animate attributeName="width" values="0;0;1110;1110" keyTimes="0;0.025;0.10500000000000001;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-10)"><text x="70" y="476" font-family="Consolas,Courier New,monospace" font-size="23" fill="#d9eee2">Unit, integration and browser checks / Git / GitHub Actions</text></g>
+<text x="22" y="544" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">13</text>
+<defs><clipPath id="row-12"><rect x="70" y="519" width="1110" height="34"><animate attributeName="width" values="0;0;1110;1110" keyTimes="0;0.028000000000000004;0.10800000000000001;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-12)"><text x="70" y="544" font-family="Consolas,Courier New,monospace" font-size="23" fill="#71ffaf">[NEXT]</text></g>
+<text x="22" y="578" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">14</text>
+<defs><clipPath id="row-13"><rect x="70" y="553" width="1110" height="34"><animate attributeName="width" values="0;0;1110;1110" keyTimes="0;0.0295;0.1095;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-13)"><text x="70" y="578" font-family="Consolas,Courier New,monospace" font-size="23" fill="#d9eee2">Contribute to full-stack features, learn through code review and deepen my</text></g>
+<text x="22" y="612" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">15</text>
+<defs><clipPath id="row-14"><rect x="70" y="587" width="1110" height="34"><animate attributeName="width" values="0;0;1110;1110" keyTimes="0;0.031;0.111;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-14)"><text x="70" y="612" font-family="Consolas,Courier New,monospace" font-size="23" fill="#d9eee2">.NET + relational data skills.</text></g>
+<path d="M22 644H1178" stroke="#173e29"/>
+<text x="26" y="665" font-family="Consolas,Courier New,monospace" font-size="16" fill="#658976">// source-backed profile</text>
+<rect class="cursor" x="1149" y="654" width="23" height="6" fill="#71ffaf"/>
+<g class="motion"><circle r="3" fill="#69e5ed"><animateMotion path="M22 644H1178" dur="5s" repeatCount="indefinite"/></circle></g>
+</svg>

@@ -2,6 +2,7 @@
 from html import escape
 from pathlib import Path
 import xml.etree.ElementTree as ET
+from text_panels import PANELS, make_text
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
@@ -56,8 +57,13 @@ def make(theme, kind, narrow=False, animated=True):
     if kind == "header":
         x, y = (32, 98) if narrow else (42, 102)
         text(x, y, "$ whoami", 25 if narrow else 22, green)
+        for index, yy in enumerate((y+82,y+165)):
+            p.append(f'<defs><clipPath id="name-{index}"><rect x="{x-3}" y="{yy-90}" width="600" height="100"><animate attributeName="width" values="0;0;600;600" keyTimes="0;{0.02+index*0.06};{0.1+index*0.06};1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>')
+        p.append('<g clip-path="url(#name-0)">')
         text(x-2, y+82, "RIFATUR", 76 if narrow else 82, ink, 700, "1")
+        p.append('</g><g clip-path="url(#name-1)">')
         text(x-2, y+165, "RAHMAN", 76 if narrow else 82, green, 700, "1")
+        p.append('</g>')
         p.append(f'<rect class="cursor" x="{x+(286 if narrow else 308)}" y="{y+173}" width="43" height="8" fill="{green}"/>')
         text(x, y+210, "FULL STACK DEVELOPER", 27 if narrow else 24, cyan, 700)
         text(x, y+260, "C#  /  ASP.NET CORE  /  SQL SERVER", 25 if narrow else 19, muted)
@@ -181,7 +187,7 @@ def make(theme, kind, narrow=False, animated=True):
         tree = ET.fromstring(result)
         for parent in tree.iter():
             for child in list(parent):
-                if child.tag.endswith('}style') or child.attrib.get('class') == 'motion':
+                if child.tag.rsplit('}',1)[-1] in ('style','animate','animateMotion','animateTransform') or child.attrib.get('class') == 'motion':
                     parent.remove(child)
         result = ET.tostring(tree, encoding='unicode')+'\n'
         result = result.replace('Animated conceptual', 'Animation-free conceptual')
@@ -199,4 +205,9 @@ if __name__ == "__main__":
         for narrow in (False, True):
             name = f"still-{kind}{'-mobile' if narrow else ''}.svg"
             (ASSETS/name).write_text(make('dark',kind,narrow,False),encoding="utf-8",newline="\n")
-    print("Generated 16 animated and 8 static terminal SVG assets.")
+    for kind in PANELS:
+        for narrow in (False, True):
+            for animated in (False, True):
+                name=f"readout-{'still-' if not animated else ''}{kind}{'-mobile' if narrow else ''}.svg"
+                (ASSETS/name).write_text(make_text(kind,narrow,animated),encoding='utf-8',newline='\n')
+    print("Generated 44 terminal SVG assets, including animated prose and static alternatives.")

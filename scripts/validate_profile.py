@@ -7,6 +7,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 from build_assets import make
+from text_panels import make_text
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -18,13 +19,20 @@ def main():
     md = (ROOT / "README.md").read_text(encoding="utf-8")
     assert not re.search(r"<(script|style|iframe)|style=|javascript:", md, re.I)
     paths = re.findall(r'(?:src|srcset)="(assets/[^\"]+)"', md)
-    assert len(set(paths)) == 24
+    assert len(set(paths)) == 44
     for path in sorted(set(paths)):
         file = ROOT / path
         xml = file.read_text(encoding="utf-8")
         tree = ET.fromstring(xml)
-        assert tree.attrib["viewBox"].startswith(("0 0 1200 ", "0 0 720 "))
+        assert tree.attrib["viewBox"].startswith(("0 0 1200 ", "0 0 720 ", "0 0 600 "))
         assert not re.search(r"<script|<foreignObject|https?://(?!www.w3.org/2000/svg)|onload=|@import", xml, re.I)
+        if file.stem.startswith('readout-'):
+            animated=not file.stem.startswith('readout-still-')
+            name=file.stem.removeprefix('readout-').removeprefix('still-')
+            narrow=name.endswith('-mobile')
+            assert xml == make_text(name.removesuffix('-mobile'),narrow,animated)
+            assert ('<animate ' in xml) == animated
+            continue
         animated = file.stem.startswith('motion-')
         if animated:
             assert "prefers-reduced-motion:reduce" in xml
@@ -35,9 +43,9 @@ def main():
             kind, theme = file.stem.removeprefix('still-'), 'dark'
         narrow = kind.endswith("-mobile")
         assert xml == make(theme, kind.removesuffix("-mobile"), narrow, animated), f"Stale asset: {path}"
-    assert len(re.findall(r"<picture>", md)) == len(re.findall(r"</picture>", md)) == 4
+    assert len(re.findall(r"<picture>", md)) == len(re.findall(r"</picture>", md)) == 9
     assert all(re.search(r'alt="[^\"]+"', image) for image in re.findall(r"<img\b[^>]+>", md))
-    print("PASS: 24 reproducible SVGs, including 8 animation-free alternatives; 4 pictures; alt text; no scripts or external dependencies.")
+    print("PASS: 44 reproducible SVGs; 9 pictures; alt text; animated prose and static alternatives; no scripts or external dependencies.")
     if args.links:
         urls = sorted(set(re.findall(r'https://[^\s)"<>]+', md)))
         def check(url):

@@ -12,8 +12,13 @@
 <text x="625" y="29" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="14" font-weight="400">UTF-8</text>
 <path d="M1 44H719" fill="none" stroke="#214d38" stroke-width="1" />
 <text x="32" y="98" fill="#71ffaf" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="400">$ whoami</text>
+<defs><clipPath id="name-0"><rect x="29" y="90" width="600" height="100" /></clipPath></defs>
+<defs><clipPath id="name-1"><rect x="29" y="173" width="600" height="100" /></clipPath></defs>
+<g clip-path="url(#name-0)">
 <text x="30" y="180" fill="#e5fff0" font-family="Consolas, Courier New, monospace" font-size="76" font-weight="700" letter-spacing="1">RIFATUR</text>
+</g><g clip-path="url(#name-1)">
 <text x="30" y="263" fill="#71ffaf" font-family="Consolas, Courier New, monospace" font-size="76" font-weight="700" letter-spacing="1">RAHMAN</text>
+</g>
 <rect class="cursor" x="318" y="271" width="43" height="8" fill="#71ffaf" />
 <text x="32" y="308" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="27" font-weight="700">FULL STACK DEVELOPER</text>
 <text x="32" y="358" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="400">C#  /  ASP.NET CORE  /  SQL SERVER</text>

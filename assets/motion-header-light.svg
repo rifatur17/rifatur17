@@ -17,8 +17,13 @@
 <text x="1105" y="29" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="14" font-weight="400">UTF-8</text>
 <path d="M1 44H1199" fill="none" stroke="#214d38" stroke-width="1"/>
 <text x="42" y="102" fill="#71ffaf" font-family="Consolas, Courier New, monospace" font-size="22" font-weight="400">$ whoami</text>
+<defs><clipPath id="name-0"><rect x="39" y="94" width="600" height="100"><animate attributeName="width" values="0;0;600;600" keyTimes="0;0.02;0.1;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<defs><clipPath id="name-1"><rect x="39" y="177" width="600" height="100"><animate attributeName="width" values="0;0;600;600" keyTimes="0;0.08;0.16;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#name-0)">
 <text x="40" y="184" fill="#e5fff0" font-family="Consolas, Courier New, monospace" font-size="82" font-weight="700" letter-spacing="1">RIFATUR</text>
+</g><g clip-path="url(#name-1)">
 <text x="40" y="267" fill="#71ffaf" font-family="Consolas, Courier New, monospace" font-size="82" font-weight="700" letter-spacing="1">RAHMAN</text>
+</g>
 <rect class="cursor" x="350" y="275" width="43" height="8" fill="#71ffaf"/>
 <text x="42" y="312" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="24" font-weight="700">FULL STACK DEVELOPER</text>
 <text x="42" y="362" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="19" font-weight="400">C#  /  ASP.NET CORE  /  SQL SERVER</text>
