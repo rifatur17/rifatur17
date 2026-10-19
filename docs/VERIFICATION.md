@@ -2,7 +2,15 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
-## Current terminal revision
+## Current animated terminal revision
+
+Published native SVG animation in `8a927829c08d3aa61c4c7d9e3e3e78df7b760392`, independently confirmed by GitHub's API. The header includes a blinking cursor, falling code, rotating reticle, moving schematic packets, and a slow scanner. Project figures include moving packets, trace highlighting, and a simulated charging progress bar. These remain conceptual illustrations, not live operational telemetry.
+
+All 24 SVG files passed parsing and generator reproducibility checks. Sixteen image-context browser comparisons tested four figure types at desktop/mobile dimensions with motion enabled and reduced motion requested. All eight animated cases changed between frames; all eight static alternatives had exactly zero changed pixels. Reduced-motion alternatives are selected by the outer HTML picture element rather than relying solely on SVG-internal media queries.
+
+After publication, actual images on the public GitHub profile were compared between frames in Chrome. All four desktop images selected new `motion-` sources and visibly changed (11791, 10680, 1561, and 4635 changed pixels respectively). All four reduced-motion mobile images selected `still-` sources and had zero changed pixels. Both page visits returned HTTP 200. GitHub Markdown rendering and `git diff --check` also passed. Text and project links remain unchanged.
+
+## Previous static terminal revision
 
 Published the terminal redesign in `febfcea5d0a7f0eaa5024e7f1f4a89cd41a868c6`. GitHub's API confirmed that commit on `main`. The art uses dark green terminal surfaces, neon green/cyan, monospace type, window chrome, grids, and implementation schematics. Both GitHub themes deliberately use dark terminal panels.
 
