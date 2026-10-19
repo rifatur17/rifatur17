@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="256" viewBox="0 0 1200 256" role="img" aria-labelledby="title desc">
+<title id="title">G Energy — one connected demo workflow</title>
+<desc id="desc">Technical illustration. Full project descriptions and source links are available in the README.</desc>
+<rect width="1200" height="256" rx="18" fill="#0d1117"/>
+<text x="32" y="38" fill="#8cb8ff" font-family="Consolas, monospace" font-size="17" font-weight="600" letter-spacing="1">02 / G ENERGY</text>
+<text x="755" y="38" fill="#a5b2c5" font-family="Consolas, monospace" font-size="15" font-weight="500" letter-spacing="1">DEVELOPMENT DEMO</text>
+<path d="M32 57H1168" stroke="#303d50"/>
+<rect x="32" y="82" width="352" height="92" rx="9" fill="#151c27" stroke="#303d50"/>
+<text x="52" y="116" fill="#f0f3f8" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">Reserve</text>
+<text x="52" y="146" fill="#a5b2c5" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400">Owner / Driver access</text>
+<path d="M392 128h24m-6 -5 6 5-6 5" fill="none" stroke="#8cb8ff" stroke-width="2"/>
+<rect x="424" y="82" width="352" height="92" rx="9" fill="#151c27" stroke="#303d50"/>
+<text x="444" y="116" fill="#f0f3f8" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">Charge</text>
+<text x="444" y="146" fill="#a5b2c5" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400">Simulated session</text>
+<path d="M784 128h24m-6 -5 6 5-6 5" fill="none" stroke="#8cb8ff" stroke-width="2"/>
+<rect x="816" y="82" width="352" height="92" rx="9" fill="#151c27" stroke="#303d50"/>
+<text x="836" y="116" fill="#f0f3f8" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">Settle</text>
+<text x="836" y="146" fill="#a5b2c5" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400">Owner demo wallet</text>
+<text x="32" y="216" fill="#8cb8ff" font-family="Consolas, monospace" font-size="14" font-weight="600" letter-spacing="1">EXPLICIT BOUNDARY</text>
+<text x="276" y="216" fill="#a5b2c5" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400">Charging and all money movements are simulated.</text>
+<rect x="32" y="238" width="1136" height="2" fill="#303d50"/>
+</svg>

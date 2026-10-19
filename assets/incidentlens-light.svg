@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="256" viewBox="0 0 1200 256" role="img" aria-labelledby="title desc">
+<title id="title">IncidentLens — maintenance with a defined boundary</title>
+<desc id="desc">Technical illustration. Full project descriptions and source links are available in the README.</desc>
+<rect width="1200" height="256" rx="18" fill="#ffffff"/>
+<text x="32" y="38" fill="#a5411c" font-family="Consolas, monospace" font-size="17" font-weight="600" letter-spacing="1">03 / INCIDENTLENS</text>
+<text x="755" y="38" fill="#526079" font-family="Consolas, monospace" font-size="15" font-weight="500" letter-spacing="1">MY MAINTENANCE FOCUS</text>
+<path d="M32 57H1168" stroke="#cbd5e3"/>
+<rect x="32" y="82" width="352" height="92" rx="9" fill="#f3f6fa" stroke="#cbd5e3"/>
+<text x="52" y="116" fill="#142036" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">Audit</text>
+<text x="52" y="146" fill="#526079" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400">Dependency chain</text>
+<path d="M392 128h24m-6 -5 6 5-6 5" fill="none" stroke="#a5411c" stroke-width="2"/>
+<rect x="424" y="82" width="352" height="92" rx="9" fill="#f3f6fa" stroke="#cbd5e3"/>
+<text x="444" y="116" fill="#142036" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">Adapt</text>
+<text x="444" y="146" fill="#526079" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400">Glob compatibility</text>
+<path d="M784 128h24m-6 -5 6 5-6 5" fill="none" stroke="#a5411c" stroke-width="2"/>
+<rect x="816" y="82" width="352" height="92" rx="9" fill="#f3f6fa" stroke="#cbd5e3"/>
+<text x="836" y="116" fill="#142036" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">Check</text>
+<text x="836" y="146" fill="#526079" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400">Regression fixtures</text>
+<text x="32" y="216" fill="#a5411c" font-family="Consolas, monospace" font-size="14" font-weight="600" letter-spacing="1">ENGINEERING INTENT</text>
+<text x="276" y="216" fill="#526079" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400">Preserve behavior. Bound expansion resources.</text>
+<rect x="32" y="238" width="1136" height="2" fill="#cbd5e3"/>
+</svg>

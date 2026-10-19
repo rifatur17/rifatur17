@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
+<title id="title">IncidentLens — maintenance with a defined boundary</title>
+<desc id="desc">Technical illustration. Full project descriptions and source links are available in the README.</desc>
+<rect width="720" height="430" rx="18" fill="#ffffff"/>
+<text x="32" y="43" fill="#a5411c" font-family="Consolas, monospace" font-size="26" font-weight="600">03 / INCIDENTLENS</text>
+<rect x="32" y="76" width="656" height="94" rx="9" fill="#f3f6fa" stroke="#cbd5e3"/>
+<text x="54" y="112" fill="#142036" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="600">Audit</text>
+<text x="54" y="148" fill="#526079" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400">Dependency chain</text>
+<path d="M360 174v12m-5 -5 5 5 5-5" fill="none" stroke="#a5411c" stroke-width="2"/>
+<rect x="32" y="190" width="656" height="94" rx="9" fill="#f3f6fa" stroke="#cbd5e3"/>
+<text x="54" y="226" fill="#142036" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="600">Adapt</text>
+<text x="54" y="262" fill="#526079" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400">Glob compatibility</text>
+<path d="M360 288v12m-5 -5 5 5 5-5" fill="none" stroke="#a5411c" stroke-width="2"/>
+<rect x="32" y="304" width="656" height="94" rx="9" fill="#f3f6fa" stroke="#cbd5e3"/>
+<text x="54" y="340" fill="#142036" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="600">Check</text>
+<text x="54" y="376" fill="#526079" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400">Regression fixtures</text>
+</svg>

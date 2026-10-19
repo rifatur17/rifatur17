@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="412" viewBox="0 0 1200 412" role="img" aria-labelledby="title desc">
+<title id="title">Rifatur Rahman — Full Stack Developer</title>
+<desc id="desc">Technical illustration. Full project descriptions and source links are available in the README.</desc>
+<rect width="1200" height="412" rx="18" fill="#0d1117"/>
+<text x="44" y="48" fill="#d4f77d" font-family="Consolas, monospace" font-size="16" font-weight="600" letter-spacing="1.8">RR / ENGINEERING PORTFOLIO</text>
+<path d="M44 69H1156" stroke="#303d50"/>
+<text x="44" y="147" fill="#f0f3f8" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700">Rifatur Rahman</text>
+<text x="47" y="187" fill="#a5b2c5" font-family="Consolas, monospace" font-size="19" font-weight="600" letter-spacing="2">FULL STACK DEVELOPER</text>
+<text x="44" y="257" fill="#f0f3f8" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="600">From interface</text>
+<text x="44" y="305" fill="#d4f77d" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="600">to integrity.</text>
+<text x="46" y="369" fill="#a5b2c5" font-family="Consolas, monospace" font-size="17" font-weight="500">C#  /  ASP.NET CORE  /  SQL SERVER</text>
+<path d="M757 111L757 367" stroke="#303d50"/>
+<rect x="789" y="116" width="367" height="70" rx="9" fill="#151c27" stroke="#303d50"/>
+<text x="811" y="143" fill="#8cb8ff" font-family="Consolas, monospace" font-size="15" font-weight="600">01</text>
+<text x="855" y="143" fill="#8cb8ff" font-family="Consolas, monospace" font-size="16" font-weight="600">INTERFACE</text>
+<text x="855" y="169" fill="#a5b2c5" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400">MVC · React</text>
+<circle cx="757" cy="151" r="5" fill="#8cb8ff"/>
+<path d="M763 151H789" stroke="#303d50"/>
+<rect x="789" y="204" width="367" height="70" rx="9" fill="#151c27" stroke="#303d50"/>
+<text x="811" y="231" fill="#d4f77d" font-family="Consolas, monospace" font-size="15" font-weight="600">02</text>
+<text x="855" y="231" fill="#d4f77d" font-family="Consolas, monospace" font-size="16" font-weight="600">APPLICATION</text>
+<text x="855" y="257" fill="#a5b2c5" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400">Web API · shared services</text>
+<circle cx="757" cy="239" r="5" fill="#d4f77d"/>
+<path d="M763 239H789" stroke="#303d50"/>
+<rect x="789" y="292" width="367" height="70" rx="9" fill="#151c27" stroke="#303d50"/>
+<text x="811" y="319" fill="#ffbb9d" font-family="Consolas, monospace" font-size="15" font-weight="600">03</text>
+<text x="855" y="319" fill="#ffbb9d" font-family="Consolas, monospace" font-size="16" font-weight="600">DATA</text>
+<text x="855" y="345" fill="#a5b2c5" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400">EF Core · SQL Server</text>
+<circle cx="757" cy="327" r="5" fill="#ffbb9d"/>
+<path d="M763 327H789" stroke="#303d50"/>
+</svg>
