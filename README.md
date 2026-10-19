@@ -1,16 +1,18 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/terminal-header-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/terminal-header-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/terminal-header-light.svg">
-    <img src="assets/terminal-header-light.svg" width="1200" alt="Rifatur Rahman — full-stack developer terminal. C# / ASP.NET Core / SQL Server. AIUB CSE student seeking a full-stack internship.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/still-header-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/still-header.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/motion-header-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/motion-header-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/motion-header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/motion-header-light.svg">
+    <img src="assets/motion-header-light.svg" width="1200" alt="Rifatur Rahman — full-stack developer terminal. C# / ASP.NET Core / SQL Server. AIUB CSE student seeking a full-stack internship.">
 </picture>
 
 I'm **Rifatur Rahman**, a BSc in Computer Science and Engineering student at **American International University-Bangladesh (AIUB)**, based in Dhaka. I build across the interface, API, and database, with a focus on **C# and ASP.NET Core**.
 
 **Seeking a Full Stack Developer Internship.**
 
-[Portfolio](https://rifatur17.github.io/) · [CV](https://rifatur17.github.io/assets/terminal-Rifatur_Rahman_CV.pdf) · [Email](mailto:rifaturrahman1131@gmail.com)
+[Portfolio](https://rifatur17.github.io/) · [CV](https://rifatur17.github.io/assets/motion-Rifatur_Rahman_CV.pdf) · [Email](mailto:rifaturrahman1131@gmail.com)
 
 ## `~/projects`
 
@@ -22,11 +24,13 @@ A single-business application with purchase receiving, a point of sale, invoices
 
 <a href="https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/INVENTORY_CONCURRENCY.md">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/terminal-stockpilot-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="assets/terminal-stockpilot-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-stockpilot-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-stockpilot-light.svg">
-    <img src="assets/terminal-stockpilot-light.svg" width="1200" alt="StockPilot write path: MVC and API share services; LedgerGate opens a serializable transaction and takes a SQL Server application lock before writing stock and the ledger. Writes are deliberately serialized for a small business workload.">
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/still-stockpilot-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/still-stockpilot.svg">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/motion-stockpilot-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/motion-stockpilot-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/motion-stockpilot-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/motion-stockpilot-light.svg">
+    <img src="assets/motion-stockpilot-light.svg" width="1200" alt="StockPilot write path: MVC and API share services; LedgerGate opens a serializable transaction and takes a SQL Server application lock before writing stock and the ledger. Writes are deliberately serialized for a small business workload.">
   </picture>
 </a>
 
@@ -44,11 +48,13 @@ An EV charging demonstration connecting Owner/Driver access, vehicle assignments
 
 <a href="https://github.com/rifatur17/G-Energy-Project-Demo/blob/main/docs/member4-wallet-payment.md">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/terminal-genergy-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="assets/terminal-genergy-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-genergy-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-genergy-light.svg">
-    <img src="assets/terminal-genergy-light.svg" width="1200" alt="G Energy demo workflow: reserve, charge, settle. Driver charging permission is separate from the Owner wallet. Charging, top-ups, payments, and refunds are simulated.">
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/still-genergy-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/still-genergy.svg">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/motion-genergy-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/motion-genergy-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/motion-genergy-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/motion-genergy-light.svg">
+    <img src="assets/motion-genergy-light.svg" width="1200" alt="G Energy demo workflow: reserve, charge, settle. Driver charging permission is separate from the Owner wallet. Charging, top-ups, payments, and refunds are simulated.">
   </picture>
 </a>
 
@@ -66,11 +72,13 @@ My work here focuses on **dependency security, glob compatibility, and CI reliab
 
 <a href="https://github.com/rifatur17/IncidentLens/tree/main/tools/eslint-glob-compat">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/terminal-incidentlens-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="assets/terminal-incidentlens-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-incidentlens-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-incidentlens-light.svg">
-    <img src="assets/terminal-incidentlens-light.svg" width="1200" alt="IncidentLens maintenance focus: dependency audit, compatibility adapter, regression checks. Preserve glob behavior while bounding expansion resources. Original application by Niloy Bhuiyan; upstream history and authorship retained.">
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/still-incidentlens-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/still-incidentlens.svg">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/motion-incidentlens-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/motion-incidentlens-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/motion-incidentlens-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/motion-incidentlens-light.svg">
+    <img src="assets/motion-incidentlens-light.svg" width="1200" alt="IncidentLens maintenance focus: dependency audit, compatibility adapter, regression checks. Preserve glob behavior while bounding expansion resources. Original application by Niloy Bhuiyan; upstream history and authorship retained.">
   </picture>
 </a>
 

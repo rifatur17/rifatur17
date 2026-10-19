@@ -12,7 +12,7 @@ StockPilot leads because it directly supports the stated C#/.NET internship dire
 
 - Ordinary Markdown carries every important claim, project name, stack, and destination. The README remains useful when images fail.
 - GitHub-supported `picture` elements select light/dark asset filenames. Both themes deliberately keep the artwork dark, like embedded terminal windows; surrounding text follows GitHub's selected theme.
-- All sixteen SVGs are local, self-contained vector files, with no scripts, external fonts, animation, foreignObject, or network requests.
+- All 24 SVGs are local, self-contained vector files, with no scripts, external fonts, foreignObject, or network requests. Native SVG motion moves schematic packets and scanner lines; the header adds code streams, a rotating reticle, and a blinking cursor. All motion is decorative. Picture sources select eight physically animation-free alternatives when `prefers-reduced-motion: reduce` is set; animated files also contain a defensive reduced-motion style. Project text remains stationary and readable.
 - No dynamic stats services, skill-icon services, custom CSS layouts, or external widgets are required.
 - Figures scale to their available width. Below 600px, picture sources select a larger-type header and vertically stacked project diagrams. Body text and links use GitHub's native responsive rendering; surrounding text also carries the figures' meaning.
 - Figure links lead to implementation details. They are conceptual diagrams, not application screenshots or results from a test run.

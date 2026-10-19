@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
 <title id="title">G Energy — charging and wallet boundaries</title>
-<desc id="desc">Static engineering schematic. Project details and source links follow in the README.</desc>
-<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#123323" stroke-width="0.6"/></pattern><radialGradient id="glow"><stop stop-color="#14663e" stop-opacity="0.32"/><stop offset="1" stop-color="#050d0b" stop-opacity="0"/></radialGradient></defs>
-<rect x="1" y="1" width="1198" height="308" rx="12" fill="#050d0b" stroke="#214d38"/>
-<rect x="2" y="44" width="1196" height="264" fill="url(#grid)"/>
-<ellipse cx="1020" cy="155" rx="360" ry="260" fill="url(#glow)"/>
-<circle cx="22" cy="23" r="4" fill="#396048"/>
-<circle cx="39" cy="23" r="4" fill="#467b59"/>
-<circle cx="56" cy="23" r="4" fill="#71ffaf"/>
+<desc id="desc">Animation-free conceptual engineering schematic, not live telemetry. Project details and source links follow in the README.</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#123323" stroke-width="0.6" /></pattern><radialGradient id="glow"><stop stop-color="#14663e" stop-opacity="0.32" /><stop offset="1" stop-color="#050d0b" stop-opacity="0" /></radialGradient></defs>
+<rect x="1" y="1" width="1198" height="308" rx="12" fill="#050d0b" stroke="#214d38" />
+<rect x="2" y="44" width="1196" height="264" fill="url(#grid)" />
+<ellipse cx="1020" cy="155" rx="360" ry="260" fill="url(#glow)" />
+<circle cx="22" cy="23" r="4" fill="#396048" />
+<circle cx="39" cy="23" r="4" fill="#467b59" />
+<circle cx="56" cy="23" r="4" fill="#71ffaf" />
 <text x="91" y="29" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="16" font-weight="400">~/projects/genergy — source map</text>
 <text x="1105" y="29" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="14" font-weight="400">UTF-8</text>
-<path d="M1 44H1199" fill="none" stroke="#214d38" stroke-width="1"/>
+<path d="M1 44H1199" fill="none" stroke="#214d38" stroke-width="1" />
 <text x="28" y="83" fill="#71ffaf" font-family="Consolas, Courier New, monospace" font-size="22" font-weight="700">$ trace charging.flow</text>
 <text x="780" y="83" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="18" font-weight="400">[ DEVELOPMENT DEMO ]</text>
-<rect x="28" y="113" width="352" height="107" rx="4" fill="#091812" stroke="#214d38"/>
+<rect x="28" y="113" width="352" height="107" rx="4" fill="#091812" stroke="#214d38" />
 <text x="47" y="151" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="23" font-weight="700">01 / RESERVE</text>
 <text x="47" y="191" fill="#e5fff0" font-family="Consolas, Courier New, monospace" font-size="19" font-weight="400">Owner / Driver access</text>
-<path d="M386 165h28m-6 -5 6 5-6 5" fill="none" stroke="#71ffaf" stroke-width="2"/>
-<rect x="420" y="113" width="352" height="107" rx="4" fill="#091812" stroke="#214d38"/>
+<path d="M386 165h28m-6 -5 6 5-6 5" fill="none" stroke="#71ffaf" stroke-width="2" />
+<rect x="420" y="113" width="352" height="107" rx="4" fill="#091812" stroke="#214d38" />
 <text x="439" y="151" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="23" font-weight="700">02 / CHARGE</text>
 <text x="439" y="191" fill="#e5fff0" font-family="Consolas, Courier New, monospace" font-size="19" font-weight="400">simulated session</text>
-<path d="M778 165h28m-6 -5 6 5-6 5" fill="none" stroke="#71ffaf" stroke-width="2"/>
-<rect x="812" y="113" width="352" height="107" rx="4" fill="#091812" stroke="#214d38"/>
+<path d="M778 165h28m-6 -5 6 5-6 5" fill="none" stroke="#71ffaf" stroke-width="2" />
+<rect x="812" y="113" width="352" height="107" rx="4" fill="#091812" stroke="#214d38" />
 <text x="831" y="151" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="23" font-weight="700">03 / SETTLE</text>
 <text x="831" y="191" fill="#e5fff0" font-family="Consolas, Courier New, monospace" font-size="19" font-weight="400">Owner demo wallet</text>
-<path d="M28 245H1170" fill="none" stroke="#214d38" stroke-width="1"/>
+<path d="M28 245H1170" fill="none" stroke="#214d38" stroke-width="1" />
 <text x="28" y="281" fill="#71ffaf" font-family="Consolas, Courier New, monospace" font-size="19" font-weight="400">// charging + top-ups + payments + refunds are simulated</text>
 </svg>

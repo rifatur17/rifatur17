@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
 <title id="title">StockPilot — inventory write path</title>
-<desc id="desc">Static engineering schematic. Project details and source links follow in the README.</desc>
+<desc id="desc">Animated conceptual engineering schematic, not live telemetry. Project details and source links follow in the README.</desc>
 <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#123323" stroke-width="0.6"/></pattern><radialGradient id="glow"><stop stop-color="#14663e" stop-opacity="0.32"/><stop offset="1" stop-color="#050d0b" stop-opacity="0"/></radialGradient></defs>
 <rect x="1" y="1" width="1198" height="308" rx="12" fill="#050d0b" stroke="#214d38"/>
 <rect x="2" y="44" width="1196" height="264" fill="url(#grid)"/>
 <ellipse cx="1020" cy="155" rx="360" ry="260" fill="url(#glow)"/>
+<style>@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.6s step-end infinite}@media(prefers-reduced-motion:reduce){.motion{display:none}.cursor{animation:none;opacity:1}}</style>
+<g class="motion" opacity="0.16"><rect x="2" y="44" width="1196" height="2" fill="#71ffaf"/><rect x="2" y="36" width="1196" height="8" fill="#71ffaf" opacity="0.15"/><animateTransform attributeName="transform" type="translate" from="0 0" to="0 262" dur="8s" repeatCount="indefinite"/></g>
 <circle cx="22" cy="23" r="4" fill="#396048"/>
 <circle cx="39" cy="23" r="4" fill="#467b59"/>
 <circle cx="56" cy="23" r="4" fill="#71ffaf"/>
@@ -30,4 +32,8 @@
 <rect x="824" y="219" width="346" height="49" rx="4" fill="#091812" stroke="#214d38"/>
 <text x="841" y="250" fill="#e5fff0" font-family="Consolas, Courier New, monospace" font-size="18" font-weight="400">SQL / persisted retry keys</text>
 <text x="600" y="293" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="16" font-weight="400">// small-business write workload</text>
+<g class="motion"><circle r="9" fill="#69e5ed" opacity="0.1"><animateMotion path="M750 148H790" dur="2.8s" begin="0s" repeatCount="indefinite"/></circle><circle r="4" fill="#69e5ed"><animateMotion path="M750 148H790" dur="2.8s" begin="0s" repeatCount="indefinite"/></circle></g>
+<g class="motion"><circle r="9" fill="#71ffaf" opacity="0.1"><animateMotion path="M939 170V196H682V219" dur="4s" begin="-1s" repeatCount="indefinite"/></circle><circle r="4" fill="#71ffaf"><animateMotion path="M939 170V196H682V219" dur="4s" begin="-1s" repeatCount="indefinite"/></circle></g>
+<g class="motion"><circle r="9" fill="#69e5ed" opacity="0.1"><animateMotion path="M770 244H809" dur="2.8s" begin="-1.4s" repeatCount="indefinite"/></circle><circle r="4" fill="#69e5ed"><animateMotion path="M770 244H809" dur="2.8s" begin="-1.4s" repeatCount="indefinite"/></circle></g>
+<rect class="motion" x="29" y="139" width="3" height="30" fill="#71ffaf"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 32;0 32;0 64;0 64;0 0" dur="6s" repeatCount="indefinite"/></rect>
 </svg>

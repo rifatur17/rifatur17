@@ -18,19 +18,26 @@ def main():
     md = (ROOT / "README.md").read_text(encoding="utf-8")
     assert not re.search(r"<(script|style|iframe)|style=|javascript:", md, re.I)
     paths = re.findall(r'(?:src|srcset)="(assets/[^\"]+)"', md)
-    assert len(set(paths)) == 16
+    assert len(set(paths)) == 24
     for path in sorted(set(paths)):
         file = ROOT / path
         xml = file.read_text(encoding="utf-8")
         tree = ET.fromstring(xml)
         assert tree.attrib["viewBox"].startswith(("0 0 1200 ", "0 0 720 "))
         assert not re.search(r"<script|<foreignObject|https?://(?!www.w3.org/2000/svg)|onload=|@import", xml, re.I)
-        kind, theme = file.stem.removeprefix("terminal-").rsplit("-", 1)
+        animated = file.stem.startswith('motion-')
+        if animated:
+            assert "prefers-reduced-motion:reduce" in xml
+            assert "animateMotion" in xml and "animateTransform" in xml
+            kind, theme = file.stem.removeprefix("motion-").rsplit("-", 1)
+        else:
+            assert 'animateMotion' not in xml and 'animateTransform' not in xml
+            kind, theme = file.stem.removeprefix('still-'), 'dark'
         narrow = kind.endswith("-mobile")
-        assert xml == make(theme, kind.removesuffix("-mobile"), narrow), f"Stale asset: {path}"
+        assert xml == make(theme, kind.removesuffix("-mobile"), narrow, animated), f"Stale asset: {path}"
     assert len(re.findall(r"<picture>", md)) == len(re.findall(r"</picture>", md)) == 4
     assert all(re.search(r'alt="[^\"]+"', image) for image in re.findall(r"<img\b[^>]+>", md))
-    print("PASS: 16 parseable, reproducible, self-contained SVGs; 4 pictures; image alt text; no unsupported active content.")
+    print("PASS: 24 reproducible SVGs, including 8 animation-free alternatives; 4 pictures; alt text; no scripts or external dependencies.")
     if args.links:
         urls = sorted(set(re.findall(r'https://[^\s)"<>]+', md)))
         def check(url):

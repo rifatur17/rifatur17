@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
 <title id="title">IncidentLens — dependency security maintenance</title>
-<desc id="desc">Static engineering schematic. Project details and source links follow in the README.</desc>
+<desc id="desc">Animated conceptual engineering schematic, not live telemetry. Project details and source links follow in the README.</desc>
 <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#123323" stroke-width="0.6"/></pattern><radialGradient id="glow"><stop stop-color="#14663e" stop-opacity="0.32"/><stop offset="1" stop-color="#050d0b" stop-opacity="0"/></radialGradient></defs>
 <rect x="1" y="1" width="1198" height="308" rx="12" fill="#050d0b" stroke="#214d38"/>
 <rect x="2" y="44" width="1196" height="264" fill="url(#grid)"/>
 <ellipse cx="1020" cy="155" rx="360" ry="260" fill="url(#glow)"/>
+<style>@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.6s step-end infinite}@media(prefers-reduced-motion:reduce){.motion{display:none}.cursor{animation:none;opacity:1}}</style>
+<g class="motion" opacity="0.16"><rect x="2" y="44" width="1196" height="2" fill="#71ffaf"/><rect x="2" y="36" width="1196" height="8" fill="#71ffaf" opacity="0.15"/><animateTransform attributeName="transform" type="translate" from="0 0" to="0 262" dur="8s" repeatCount="indefinite"/></g>
 <circle cx="22" cy="23" r="4" fill="#396048"/>
 <circle cx="39" cy="23" r="4" fill="#467b59"/>
 <circle cx="56" cy="23" r="4" fill="#71ffaf"/>
@@ -21,4 +23,6 @@
 <text x="600" y="199" fill="#71ffaf" font-family="Consolas, Courier New, monospace" font-size="21" font-weight="400">[02] bound expansion resources</text>
 <text x="600" y="238" fill="#e5fff0" font-family="Consolas, Courier New, monospace" font-size="21" font-weight="400">[03] check regression fixtures</text>
 <text x="28" y="297" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="17" font-weight="400">// original app: Niloy Bhuiyan / my focus: security + maintenance</text>
+<g class="motion"><circle r="8" fill="#69e5ed" opacity="0.1"><animateMotion path="M49 180V231H79" dur="4.5s" begin="0s" repeatCount="indefinite"/></circle><circle r="3" fill="#69e5ed"><animateMotion path="M49 180V231H79" dur="4.5s" begin="0s" repeatCount="indefinite"/></circle></g>
+<rect class="motion" x="586" y="144" width="3" height="21" fill="#71ffaf"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 39;0 39;0 78;0 78;0 0" dur="6s" repeatCount="indefinite"/></rect>
 </svg>
