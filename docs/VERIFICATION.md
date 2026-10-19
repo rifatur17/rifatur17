@@ -2,6 +2,14 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
+## Current terminal revision
+
+Published the terminal redesign in `febfcea5d0a7f0eaa5024e7f1f4a89cd41a868c6`. GitHub's API confirmed that commit on `main`. The art uses dark green terminal surfaces, neon green/cyan, monospace type, window chrome, grids, and implementation schematics. Both GitHub themes deliberately use dark terminal panels.
+
+After publication, all six live Chrome checks were repeated at 1440/390/320px in light and dark color schemes. Each returned HTTP 200, loaded four new `terminal-` SVG assets with nonzero natural widths, selected the correct desktop/mobile source, displayed the internship statement, and had no horizontal document overflow. The actual published dark desktop rendering and desktop/mobile asset sheets were visually reviewed. SVG reproducibility/safety checks, GitHub Markdown rendering, and `git diff --check` also passed. Project destinations and factual claims remain the same as the initial version.
+
+## Initial publication
+
 - Created public `rifatur17/rifatur17` after confirming the repository did not already exist through authenticated access.
 - Published README and supporting assets on `main` in commit `6af84cbaddaa1609b31688516a82151c8f5f634f`. GitHub's API and `git ls-remote` independently returned that commit.
 - GitHub's Markdown API rendered the README successfully, retaining all four picture elements, media sources, alt text, and project links.
