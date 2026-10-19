@@ -2,7 +2,15 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
-## Current animated terminal revision
+## Current animated prose revision
+
+Published in `ccfaacb087d42fb34d81a8cc078c8350505c0932`, confirmed by GitHub's API. Identity, project descriptions, engineering notes and stack are now animated readouts with line numbers, staggered text reveal and cursors. The name in the hero also reveals in sequence. Individual navigation links remain clickable native Markdown. A text-only transcript preserves searchable prose and contribution boundaries. GitHub's native sidebar bio has not been modified and cannot host these README image effects.
+
+All 44 referenced SVGs passed parsing, safety and generator reproducibility checks. Twenty local image-context comparisons covered five prose panels at desktop/mobile sizes with motion enabled and reduced motion. All ten text-reveal cases changed within the text area, excluding the decorative footer; all ten reduced-motion comparisons had exactly zero changed pixels. Desktop and mobile StockPilot readouts were visually inspected.
+
+Live public-profile verification passed at 1440/390/320px in light and dark themes: nine pictures loaded, every image decoded, no horizontal document overflow, canonical CV link present, and the text transcript link present. A published StockPilot readout changed by 8256 pixels between frames, confirming live animation. A separate reduced-motion mobile visit selected all nine static alternatives and the sampled prose panel changed by zero pixels. All 15 distinct HTTPS destinations returned HTTP 200, including the restored canonical CV path. GitHub Markdown rendering and `git diff --check` passed.
+
+## Previous animated diagram revision
 
 Published native SVG animation in `8a927829c08d3aa61c4c7d9e3e3e78df7b760392`, independently confirmed by GitHub's API. The header includes a blinking cursor, falling code, rotating reticle, moving schematic packets, and a slow scanner. Project figures include moving packets, trace highlighting, and a simulated charging progress bar. These remain conceptual illustrations, not live operational telemetry.
 
