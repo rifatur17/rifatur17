@@ -4,14 +4,14 @@ The root README appears on the GitHub profile because this public repository mat
 
 ## Direction
 
-“From interface to integrity” connects the frontend, application layer, and relational data. An editorial hierarchy, numbered project studies, and restrained technical diagrams make the work easy to scan. Ink, lime, blue, and warm copper distinguish the layers without imitating the supplied reference. Each figure explains an implemented boundary or tradeoff rather than displaying invented metrics.
+A developer-terminal visual direction: near-black green surfaces, phosphor-green output, cyan syntax accents, monospace typography, window chrome, coordinate grids, and source-oriented schematics. The hero opens with `whoami`, while project figures resemble a trace or a dependency inspector. This reflects the user's requested hacker/dev-console atmosphere without implying cybersecurity credentials or inventing operational data. Each figure explains an implemented boundary or tradeoff rather than displaying invented metrics.
 
 StockPilot leads because it directly supports the stated C#/.NET internship direction. G Energy demonstrates React-to-.NET integration. IncidentLens demonstrates narrowly attributed security and maintenance work. Hospital Appointment System was reviewed but not featured: its public README still describes unmerged contribution branches and pending runtime verification. Other graphics and research work remain discoverable through the portfolio.
 
 ## GitHub rendering
 
 - Ordinary Markdown carries every important claim, project name, stack, and destination. The README remains useful when images fail.
-- GitHub-supported `picture` elements select light/dark assets. The fallback is light.
+- GitHub-supported `picture` elements select light/dark asset filenames. Both themes deliberately keep the artwork dark, like embedded terminal windows; surrounding text follows GitHub's selected theme.
 - All sixteen SVGs are local, self-contained vector files, with no scripts, external fonts, animation, foreignObject, or network requests.
 - No dynamic stats services, skill-icon services, custom CSS layouts, or external widgets are required.
 - Figures scale to their available width. Below 600px, picture sources select a larger-type header and vertically stacked project diagrams. Body text and links use GitHub's native responsive rendering; surrounding text also carries the figures' meaning.

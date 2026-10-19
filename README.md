@@ -1,18 +1,18 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/header-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img src="assets/header-light.svg" width="1200" alt="Rifatur Rahman — Full Stack Developer. From interface to integrity. C# / .NET / SQL Server.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/terminal-header-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/terminal-header-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/terminal-header-light.svg">
+    <img src="assets/terminal-header-light.svg" width="1200" alt="Rifatur Rahman — full-stack developer terminal. C# / ASP.NET Core / SQL Server. AIUB CSE student seeking a full-stack internship.">
 </picture>
 
 I'm **Rifatur Rahman**, a BSc in Computer Science and Engineering student at **American International University-Bangladesh (AIUB)**, based in Dhaka. I build across the interface, API, and database, with a focus on **C# and ASP.NET Core**.
 
 **Seeking a Full Stack Developer Internship.**
 
-[Portfolio](https://rifatur17.github.io/) · [CV](https://rifatur17.github.io/assets/Rifatur_Rahman_CV.pdf) · [Email](mailto:rifaturrahman1131@gmail.com)
+[Portfolio](https://rifatur17.github.io/) · [CV](https://rifatur17.github.io/assets/terminal-Rifatur_Rahman_CV.pdf) · [Email](mailto:rifaturrahman1131@gmail.com)
 
-## Selected engineering
+## `~/projects`
 
 ### 01 / StockPilot
 
@@ -22,11 +22,11 @@ A single-business application with purchase receiving, a point of sale, invoices
 
 <a href="https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/INVENTORY_CONCURRENCY.md">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/stockpilot-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="assets/stockpilot-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/stockpilot-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/stockpilot-light.svg">
-    <img src="assets/stockpilot-light.svg" width="1200" alt="StockPilot write path: MVC and API share services; LedgerGate opens a serializable transaction and takes a SQL Server application lock before writing stock and the ledger. Writes are deliberately serialized for a small business workload.">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/terminal-stockpilot-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/terminal-stockpilot-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-stockpilot-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-stockpilot-light.svg">
+    <img src="assets/terminal-stockpilot-light.svg" width="1200" alt="StockPilot write path: MVC and API share services; LedgerGate opens a serializable transaction and takes a SQL Server application lock before writing stock and the ledger. Writes are deliberately serialized for a small business workload.">
   </picture>
 </a>
 
@@ -44,11 +44,11 @@ An EV charging demonstration connecting Owner/Driver access, vehicle assignments
 
 <a href="https://github.com/rifatur17/G-Energy-Project-Demo/blob/main/docs/member4-wallet-payment.md">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/genergy-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="assets/genergy-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/genergy-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/genergy-light.svg">
-    <img src="assets/genergy-light.svg" width="1200" alt="G Energy demo workflow: reserve, charge, settle. Driver charging permission is separate from the Owner wallet. Charging, top-ups, payments, and refunds are simulated.">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/terminal-genergy-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/terminal-genergy-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-genergy-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-genergy-light.svg">
+    <img src="assets/terminal-genergy-light.svg" width="1200" alt="G Energy demo workflow: reserve, charge, settle. Driver charging permission is separate from the Owner wallet. Charging, top-ups, payments, and refunds are simulated.">
   </picture>
 </a>
 
@@ -66,11 +66,11 @@ My work here focuses on **dependency security, glob compatibility, and CI reliab
 
 <a href="https://github.com/rifatur17/IncidentLens/tree/main/tools/eslint-glob-compat">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/incidentlens-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="assets/incidentlens-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/incidentlens-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/incidentlens-light.svg">
-    <img src="assets/incidentlens-light.svg" width="1200" alt="IncidentLens maintenance focus: dependency audit, compatibility adapter, regression checks. Preserve glob behavior while bounding expansion resources. Original application by Niloy Bhuiyan; upstream history and authorship retained.">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/terminal-incidentlens-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/terminal-incidentlens-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-incidentlens-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-incidentlens-light.svg">
+    <img src="assets/terminal-incidentlens-light.svg" width="1200" alt="IncidentLens maintenance focus: dependency audit, compatibility adapter, regression checks. Preserve glob behavior while bounding expansion resources. Original application by Niloy Bhuiyan; upstream history and authorship retained.">
   </picture>
 </a>
 
@@ -80,15 +80,15 @@ My work here focuses on **dependency security, glob compatibility, and CI reliab
 
 [Repository](https://github.com/rifatur17/IncidentLens) · [Adapter and regression tests](https://github.com/rifatur17/IncidentLens/tree/main/tools/eslint-glob-compat) · [My security change](https://github.com/rifatur17/IncidentLens/commit/ab1025ba8f7e5c571396285971d433f95b228b13)
 
-## Where I work in the stack
+## `cat stack.txt`
 
-| Layer | Main tools |
-| :--- | :--- |
-| Interface | HTML, CSS, JavaScript, Bootstrap; React and TypeScript in G Energy |
-| Application | C#, ASP.NET Core MVC, ASP.NET Core Web API |
-| Data | Entity Framework Core, SQL Server |
-| Verification | Unit and integration tests, browser checks, Git, GitHub Actions |
+- **Interface** → `HTML` `CSS` `JavaScript` `Bootstrap` · React + TypeScript in G Energy
+- **Application** → `C#` `ASP.NET Core MVC` `Web API`
+- **Data** → `Entity Framework Core` `SQL Server`
+- **Verification** → unit / integration / browser checks · `Git` `GitHub Actions`
 
 I'm looking for an internship where I can contribute to full-stack features, learn through code review, and deepen my work with .NET and relational data.
 
-**Let's talk:** [rifaturrahman1131@gmail.com](mailto:rifaturrahman1131@gmail.com) · [Explore the portfolio](https://rifatur17.github.io/projects/)
+### `connect --next`
+
+[rifaturrahman1131@gmail.com](mailto:rifaturrahman1131@gmail.com) · [Explore the portfolio](https://rifatur17.github.io/projects/)

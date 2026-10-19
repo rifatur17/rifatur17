@@ -25,7 +25,7 @@ def main():
         tree = ET.fromstring(xml)
         assert tree.attrib["viewBox"].startswith(("0 0 1200 ", "0 0 720 "))
         assert not re.search(r"<script|<foreignObject|https?://(?!www.w3.org/2000/svg)|onload=|@import", xml, re.I)
-        kind, theme = file.stem.rsplit("-", 1)
+        kind, theme = file.stem.removeprefix("terminal-").rsplit("-", 1)
         narrow = kind.endswith("-mobile")
         assert xml == make(theme, kind.removesuffix("-mobile"), narrow), f"Stale asset: {path}"
     assert len(re.findall(r"<picture>", md)) == len(re.findall(r"</picture>", md)) == 4

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+<title id="title">G Energy — charging and wallet boundaries</title>
+<desc id="desc">Static engineering schematic. Project details and source links follow in the README.</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#123323" stroke-width="0.6"/></pattern><radialGradient id="glow"><stop stop-color="#14663e" stop-opacity="0.32"/><stop offset="1" stop-color="#050d0b" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="718" height="458" rx="12" fill="#050d0b" stroke="#214d38"/>
+<rect x="2" y="44" width="716" height="414" fill="url(#grid)"/>
+<ellipse cx="540" cy="230" rx="360" ry="260" fill="url(#glow)"/>
+<circle cx="22" cy="23" r="4" fill="#396048"/>
+<circle cx="39" cy="23" r="4" fill="#467b59"/>
+<circle cx="56" cy="23" r="4" fill="#71ffaf"/>
+<text x="91" y="29" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="16" font-weight="400">~/projects/genergy — source map</text>
+<text x="625" y="29" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="14" font-weight="400">UTF-8</text>
+<path d="M1 44H719" fill="none" stroke="#214d38" stroke-width="1"/>
+<text x="28" y="92" fill="#71ffaf" font-family="Consolas, Courier New, monospace" font-size="29" font-weight="700">$ trace charging.flow</text>
+<rect x="28" y="119" width="664" height="82" rx="4" fill="#091812" stroke="#214d38"/>
+<text x="48" y="153" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="29" font-weight="700">RESERVE</text>
+<text x="48" y="184" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="400">Owner / Driver access</text>
+<rect x="28" y="218" width="664" height="82" rx="4" fill="#091812" stroke="#214d38"/>
+<text x="48" y="252" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="29" font-weight="700">CHARGE</text>
+<text x="48" y="283" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="400">simulated charging session</text>
+<rect x="28" y="317" width="664" height="82" rx="4" fill="#091812" stroke="#214d38"/>
+<text x="48" y="351" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="29" font-weight="700">SETTLE</text>
+<text x="48" y="382" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="400">Owner demo wallet</text>
+<text x="28" y="444" fill="#71ffaf" font-family="Consolas, Courier New, monospace" font-size="24" font-weight="400">// charging + money are simulated</text>
+</svg>

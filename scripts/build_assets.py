@@ -1,4 +1,4 @@
-"""Generate self-contained, GitHub-compatible SVGs. Python standard library only."""
+"""Build original terminal-style profile art; no runtime services or dependencies."""
 from html import escape
 from pathlib import Path
 
@@ -7,92 +7,143 @@ ASSETS = ROOT / "assets"
 
 
 def make(theme, kind, narrow=False):
-    dark = theme == "dark"
-    bg, panel, ink, muted, line = ("#0d1117", "#151c27", "#f0f3f8", "#a5b2c5", "#303d50") if dark else ("#ffffff", "#f3f6fa", "#142036", "#526079", "#cbd5e3")
-    green = "#d4f77d" if dark else "#476800"
-    blue = "#8cb8ff" if dark else "#245bb5"
-    coral = "#ffbb9d" if dark else "#a5411c"
+    # The terminal stays dark in either GitHub theme, like an embedded code window.
+    bg, panel, ink = "#050d0b", "#091812", "#e5fff0"
+    green, cyan, muted, line = "#71ffaf", "#69e5ed", "#9eb7ab", "#214d38"
     width = 720 if narrow else 1200
-    height = (440 if kind == "header" else 430) if narrow else (412 if kind == "header" else 256)
-    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">']
-    titles = {"header": "Rifatur Rahman — Full Stack Developer", "stockpilot": "StockPilot — a shared write path", "genergy": "G Energy — one connected demo workflow", "incidentlens": "IncidentLens — maintenance with a defined boundary"}
-    parts += [f'<title id="title">{titles[kind]}</title>', '<desc id="desc">Technical illustration. Full project descriptions and source links are available in the README.</desc>', f'<rect width="{width}" height="{height}" rx="18" fill="{bg}"/>']
+    height = (570 if narrow else 500) if kind == "header" else (460 if narrow else 310)
+    title = {"header": "Rifatur Rahman — full-stack engineering terminal", "stockpilot": "StockPilot — inventory write path", "genergy": "G Energy — charging and wallet boundaries", "incidentlens": "IncidentLens — dependency security maintenance"}[kind]
+    p = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">', f'<title id="title">{escape(title)}</title>', '<desc id="desc">Static engineering schematic. Project details and source links follow in the README.</desc>', '<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#123323" stroke-width="0.6"/></pattern><radialGradient id="glow"><stop stop-color="#14663e" stop-opacity="0.32"/><stop offset="1" stop-color="#050d0b" stop-opacity="0"/></radialGradient></defs>', f'<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="12" fill="{bg}" stroke="{line}"/>', f'<rect x="2" y="44" width="{width-4}" height="{height-46}" fill="url(#grid)"/>', f'<ellipse cx="{width-180}" cy="{height//2}" rx="360" ry="260" fill="url(#glow)"/>']
 
-    def text(x, y, s, size=18, color=ink, weight=400, mono=False, spacing=None):
-        family = "Consolas, monospace" if mono else "Segoe UI, Arial, sans-serif"
+    def text(x, y, s, size=18, color=ink, weight=400, spacing=None):
         track = f' letter-spacing="{spacing}"' if spacing else ""
-        parts.append(f'<text x="{x}" y="{y}" fill="{color}" font-family="{family}" font-size="{size}" font-weight="{weight}"{track}>{escape(s)}</text>')
+        p.append(f'<text x="{x}" y="{y}" fill="{color}" font-family="Consolas, Courier New, monospace" font-size="{size}" font-weight="{weight}"{track}>{escape(s)}</text>')
 
-    def rule(x1, y1, x2, y2, stroke=line):
-        parts.append(f'<path d="M{x1} {y1}H{x2}" stroke="{stroke}"/>' if y1 == y2 else f'<path d="M{x1} {y1}L{x2} {y2}" stroke="{stroke}"/>')
+    def path(d, stroke=line, sw=1):
+        p.append(f'<path d="{d}" fill="none" stroke="{stroke}" stroke-width="{sw}"/>')
 
     def box(x, y, w, h, stroke=line):
-        parts.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="9" fill="{panel}" stroke="{stroke}"/>')
+        p.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="4" fill="{panel}" stroke="{stroke}"/>')
 
-    def arrow(x, y, length=36, color=muted):
-        parts.append(f'<path d="M{x} {y}h{length}m-6 -5 6 5-6 5" fill="none" stroke="{color}" stroke-width="2"/>')
+    def dot(x, y, color=green, r=3):
+        p.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{color}"/>')
 
-    if kind == "header" and narrow:
-        text(32, 44, "RR / ENGINEERING PORTFOLIO", 23, green, 600, True)
-        rule(32, 65, 688, 65)
-        text(32, 140, "Rifatur Rahman", 62, ink, 700)
-        text(34, 185, "FULL STACK DEVELOPER", 27, muted, 600, True)
-        text(32, 260, "From interface", 46, ink, 600)
-        text(32, 315, "to integrity.", 46, green, 600)
-        rule(32, 350, 688, 350)
-        text(32, 399, "C# / ASP.NET CORE / SQL SERVER", 25, muted, 500, True)
-    elif kind == "header":
-        text(44, 48, "RR / ENGINEERING PORTFOLIO", 16, green, 600, True, "1.8")
-        rule(44, 69, 1156, 69)
-        text(44, 147, "Rifatur Rahman", 62, ink, 700)
-        text(47, 187, "FULL STACK DEVELOPER", 19, muted, 600, True, "2")
-        text(44, 257, "From interface", 40, ink, 600)
-        text(44, 305, "to integrity.", 40, green, 600)
-        text(46, 369, "C#  /  ASP.NET CORE  /  SQL SERVER", 17, muted, 500, True)
-        # A vertical path, intentionally schematic rather than a performance dashboard.
-        rule(757, 111, 757, 367)
-        for y, n, title, detail, accent in [(116,"01","INTERFACE","MVC · React",blue),(204,"02","APPLICATION","Web API · shared services",green),(292,"03","DATA","EF Core · SQL Server",coral)]:
-            box(789, y, 367, 70)
-            text(811, y+27, n, 15, accent, 600, True)
-            text(855, y+27, title, 16, accent, 600, True)
-            text(855, y+53, detail, 17, muted)
-            parts.append(f'<circle cx="757" cy="{y+35}" r="5" fill="{accent}"/>')
-            rule(763,y+35,789,y+35)
-    else:
-        accent = {"stockpilot": green, "genergy": blue, "incidentlens": coral}[kind]
-        meta = {"stockpilot": ("01 / STOCKPILOT", "SHARED WRITE PATH", [("MVC + REST API", "Same application services"), ("LedgerGate", "Serializable + app lock"), ("SQL Server", "Stock + ledger + retry key")], "DESIGN TRADEOFF", "Writes serialize for a small-business workload."), "genergy": ("02 / G ENERGY", "DEVELOPMENT DEMO", [("Reserve", "Owner / Driver access"), ("Charge", "Simulated session"), ("Settle", "Owner demo wallet")], "EXPLICIT BOUNDARY", "Charging and all money movements are simulated."), "incidentlens": ("03 / INCIDENTLENS", "MY MAINTENANCE FOCUS", [("Audit", "Dependency chain"), ("Adapt", "Glob compatibility"), ("Check", "Regression fixtures")], "ENGINEERING INTENT", "Preserve behavior. Bound expansion resources.")}[kind]
+    def arrow(x, y, length=24, color=green):
+        path(f'M{x} {y}h{length}m-6 -5 6 5-6 5', color, 2)
+
+    for i, color in enumerate(["#396048", "#467b59", green]):
+        dot(22+i*17, 23, color, 4)
+    chrome = "rifatur17@dev: ~" if kind == "header" else f'~/projects/{kind} — source map'
+    text(91, 29, chrome, 16, muted)
+    text(width-95, 29, "UTF-8", 14, muted)
+    path(f'M1 44H{width-1}')
+
+    if kind == "header":
+        x, y = (32, 98) if narrow else (42, 102)
+        text(x, y, "$ whoami", 25 if narrow else 22, green)
+        text(x-2, y+82, "RIFATUR", 76 if narrow else 82, ink, 700, "1")
+        text(x-2, y+165, "RAHMAN_", 76 if narrow else 82, green, 700, "1")
+        text(x, y+210, "FULL STACK DEVELOPER", 27 if narrow else 24, cyan, 700)
+        text(x, y+260, "C#  /  ASP.NET CORE  /  SQL SERVER", 25 if narrow else 19, muted)
         if narrow:
-            text(32, 43, meta[0], 26, accent, 600, True)
-            for i, (title, detail) in enumerate(meta[2]):
-                y = 76 + i * 114
-                box(32, y, 656, 94)
-                text(54, y+36, title, 32, ink, 600)
-                text(54, y+72, detail, 28, muted)
-                if i < 2:
-                    parts.append(f'<path d="M360 {y+98}v12m-5 -5 5 5 5-5" fill="none" stroke="{accent}" stroke-width="2"/>')
-            parts.append('</svg>')
-            return "\n".join(parts) + "\n"
-        text(32, 38, meta[0], 17, accent, 600, True, "1")
-        text(755, 38, meta[1], 15, muted, 500, True, "1")
-        rule(32, 57, 1168, 57)
-        for i, (title, detail) in enumerate(meta[2]):
-            x = 32 + i * 392
-            box(x, 82, 352, 92)
-            text(x+20, 116, title, 25, ink, 600)
-            text(x+20, 146, detail, 18, muted)
-            if i < 2:
-                arrow(x+360, 128, 24, accent)
-        text(32, 216, meta[3], 14, accent, 600, True, "1")
-        text(276, 216, meta[4], 20, muted)
-        parts.append(f'<rect x="32" y="238" width="1136" height="2" fill="{line}"/>')
-    parts.append('</svg>')
-    return "\n".join(parts) + "\n"
+            path('M32 389H688')
+            text(32, 433, "> UI → API → DATABASE", 28, green)
+            text(32, 479, "AIUB / CSE STUDENT", 24, muted)
+            text(32, 527, "SEEKING: FULL-STACK INTERNSHIP", 23, cyan)
+        else:
+            box(713, 83, 447, 308)
+            text(734, 114, "application.topology", 16, green)
+            text(734, 141, "// conceptual request path", 14, muted)
+            path('M734 157H1138')
+            for yy, label, detail, accent in [(178,"UI","MVC / React",green),(246,"API","ASP.NET Core",cyan),(314,"DATA","EF Core / SQL",green)]:
+                box(744, yy, 78, 42, accent)
+                text(759, yy+28, label, 17, accent, 700)
+                arrow(834, yy+21, 32, accent)
+                text(882, yy+28, detail, 18, ink)
+                if yy < 314:
+                    path(f'M783 {yy+42}v26', line, 2)
+            path('M42 414H1158')
+            text(42, 455, "[ AIUB / CSE ]", 18, muted)
+            text(325, 455, "seeking: full-stack internship", 19, cyan)
+            text(1020, 455, "</> RR", 19, green, 700)
+    elif kind == "stockpilot":
+        if narrow:
+            text(28, 92, "$ trace stock.write", 29, green, 700)
+            rows = [("01", "MVC + REST API", "shared services"), ("02", "LedgerGate", "serializable + SQL app lock"), ("03", "SQL Server", "stock + ledger + retry keys")]
+            for i, (n, label, detail) in enumerate(rows):
+                y = 119+i*99
+                box(28, y, 664, 82)
+                text(45, y+34, n, 24, green)
+                text(103, y+34, label, 29, ink, 700)
+                text(103, y+65, detail, 25, muted)
+            text(28, 444, "// deliberate write serialization", 24, cyan)
+        else:
+            text(28, 83, "$ trace stock.write", 22, green, 700)
+            text(28, 113, "INVENTORY CONSISTENCY / IMPLEMENTATION MAP", 15, muted)
+            box(28, 138, 528, 135)
+            for y, n, s, col in [(170,"01","begin serializable transaction",ink),(202,"02","acquire SQL application lock",green),(234,"03","write stock + ledger; commit",ink)]:
+                text(45,y,n,16,muted)
+                text(88,y,s,19,col)
+            text(599, 154, "MVC + API", 21, cyan, 700)
+            arrow(750,148,40)
+            text(814,154,"shared services",20,ink)
+            path('M939 170V196H682V219',green,2)
+            box(600,219,155,49,green)
+            text(617,250,"LedgerGate",19,green)
+            arrow(770,244,39)
+            box(824,219,346,49)
+            text(841,250,"SQL / persisted retry keys",18,ink)
+            text(600,293,"// small-business write workload",16,muted)
+    elif kind == "genergy":
+        if narrow:
+            text(28, 92, "$ trace charging.flow", 29, green, 700)
+            for i,(name,detail) in enumerate([("RESERVE","Owner / Driver access"),("CHARGE","simulated charging session"),("SETTLE","Owner demo wallet")]):
+                y=119+i*99
+                box(28,y,664,82)
+                text(48,y+34,name,29,cyan,700)
+                text(48,y+65,detail,25,muted)
+            text(28,444,"// charging + money are simulated",24,green)
+        else:
+            text(28,83,"$ trace charging.flow",22,green,700)
+            text(780,83,"[ DEVELOPMENT DEMO ]",18,cyan)
+            for i,(name,detail) in enumerate([("01 / RESERVE","Owner / Driver access"),("02 / CHARGE","simulated session"),("03 / SETTLE","Owner demo wallet")]):
+                x=28+i*392
+                box(x,113,352,107)
+                text(x+19,151,name,23,cyan,700)
+                text(x+19,191,detail,19,ink)
+                if i<2:
+                    arrow(x+358,165,28)
+            path('M28 245H1170')
+            text(28,281,"// charging + top-ups + payments + refunds are simulated",19,green)
+    else:
+        if narrow:
+            text(28,92,"$ inspect maintenance.scope",27,green,700)
+            for i,(label,detail) in enumerate([("AUDIT","dependency chain"),("ADAPT","glob compatibility boundary"),("VERIFY","regression + resource bounds")]):
+                y=119+i*99
+                box(28,y,664,82)
+                text(48,y+34,label,29,cyan,700)
+                text(48,y+65,detail,25,muted)
+            text(28,444,"// upstream authorship preserved",24,green)
+        else:
+            text(28,83,"$ inspect maintenance.scope",22,green,700)
+            text(28,113,"DEPENDENCY SECURITY / COMPATIBILITY / CI",15,muted)
+            box(28,137,528,137)
+            text(49,169,"Next ESLint",21,cyan,700)
+            text(49,202,"└─ fast-glob",20,ink)
+            text(49,237,"   └─ scoped compatibility adapter",19,green)
+            text(600,160,"[01] preserve glob behavior",21,ink)
+            text(600,199,"[02] bound expansion resources",21,green)
+            text(600,238,"[03] check regression fixtures",21,ink)
+            text(28,297,"// original app: Niloy Bhuiyan / my focus: security + maintenance",17,muted)
+    p.append('</svg>')
+    return "\n".join(p)+"\n"
 
 
 if __name__ == "__main__":
     ASSETS.mkdir(exist_ok=True)
     for theme in ("dark", "light"):
         for kind in ("header", "stockpilot", "genergy", "incidentlens"):
-            (ASSETS / f"{kind}-{theme}.svg").write_text(make(theme, kind), encoding="utf-8")
-            (ASSETS / f"{kind}-mobile-{theme}.svg").write_text(make(theme, kind, True), encoding="utf-8")
-    print("Generated 16 self-contained SVG assets.")
+            for narrow in (False, True):
+                name = f"terminal-{kind}{'-mobile' if narrow else ''}-{theme}.svg"
+                (ASSETS/name).write_text(make(theme,kind,narrow),encoding="utf-8",newline="\n")
+    print("Generated 16 terminal-style SVG assets.")
