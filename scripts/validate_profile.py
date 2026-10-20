@@ -8,6 +8,8 @@ import xml.etree.ElementTree as ET
 
 from build_assets import make
 from text_panels import make_text
+from profile_scan import make_scan
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -19,7 +21,7 @@ def main():
     md = (ROOT / "README.md").read_text(encoding="utf-8")
     assert not re.search(r"<(script|style|iframe)|style=|javascript:", md, re.I)
     paths = re.findall(r'(?:src|srcset)="(assets/[^\"]+)"', md)
-    assert len(set(paths)) == 44
+    assert len(set(paths)) == 46
     for path in sorted(set(paths)):
         file = ROOT / path
         xml = file.read_text(encoding="utf-8")
@@ -28,6 +30,15 @@ def main():
         assert tree.attrib["viewBox"].startswith(("0 0 1200 ", "0 0 720 ", "0 0 600 "))
         assert not re.search(r"<script|<foreignObject|https?://(?!www.w3.org/2000/svg)|onload=|@import", xml, re.I)
         assert 'bg-grid' in xml and 'bg-base' in xml
+        if file.stem.startswith('scan-'):
+            name=file.stem.removeprefix('scan-')
+            animated=not name.startswith('still-')
+            name=name.removeprefix('still-')
+            narrow=name.endswith('-mobile')
+            assert xml==make_scan(name.removesuffix('-mobile'),narrow,animated)
+            if not animated:
+                assert not any(el.tag.rsplit('}',1)[-1].startswith('animate') for el in tree.iter())
+            continue
         if stem.startswith('readout-'):
             animated=not stem.startswith('readout-still-')
             name=stem.removeprefix('readout-').removeprefix('still-')
@@ -47,9 +58,14 @@ def main():
             kind, theme = stem.removeprefix('still-'), 'dark'
         narrow = kind.endswith("-mobile")
         assert xml == make(theme, kind.removesuffix("-mobile"), narrow, animated), f"Stale asset: {path}"
-    assert len(re.findall(r"<picture>", md)) == len(re.findall(r"</picture>", md)) == 9
+    assert len(re.findall(r"<picture>", md)) == len(re.findall(r"</picture>", md)) == 10
     assert all(re.search(r'alt="[^\"]+"', image) for image in re.findall(r"<img\b[^>]+>", md))
-    print("PASS: 44 reproducible SVGs; 9 pictures; alt text; animated prose and static alternatives; no scripts or external dependencies.")
+    data=json.loads((ROOT/'data/github-public-snapshot.json').read_text())
+    days=[day for week in data['calendar']['weeks'] for day in week['contributionDays']]
+    assert len(days)==365 and len({d['date'] for d in days})==365
+    assert sum(d['contributionCount'] for d in days)==data['calendar']['totalContributions']
+    assert all(d['contributionCount']>=0 for d in days)
+    print("PASS: 46 reproducible SVGs; 10 pictures; 365 unique contribution days reconcile to the source total; static alternatives; no scripts or external dependencies.")
     if args.links:
         urls = sorted(set(re.findall(r'https://[^\s)"<>]+', md)))
         def check(url):

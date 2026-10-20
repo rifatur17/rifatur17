@@ -57,3 +57,9 @@ Seeking a Full Stack Developer Internship.
 **Next:** Contribute to full-stack features, learn through code review and deepen my .NET + relational data skills.
 
 [Portfolio](https://rifatur17.github.io/) · [CV](https://rifatur17.github.io/assets/Rifatur_Rahman_CV.pdf) · [Email](mailto:rifaturrahman1131@gmail.com)
+
+## GitHub activity snapshot / 20 October 2026
+
+8 public repositories; 84 contributions in the 365-day calendar; 4 primary repository languages. The visible crawler is decorative; calendar tiles retain their actual daily counts.
+
+[Source snapshot](../data/github-public-snapshot.json) · [Full calendar](https://github.com/rifatur17?tab=overview)

@@ -1,21 +1,31 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cyber-still-header-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cyber-still-header.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/cyber-motion-header-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/cyber-motion-header-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cyber-motion-header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/cyber-motion-header-light.svg">
-  <img src="assets/cyber-motion-header-light.svg" width="1200" alt="Rifatur Rahman — animated full-stack developer terminal. C# / ASP.NET Core / SQL Server. Seeking a Full Stack Developer Internship.">
-</picture>
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cyber-readout-still-intro-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cyber-readout-still-intro.svg">
-  <source media="(max-width: 600px)" srcset="assets/cyber-readout-intro-mobile.svg">
-  <img src="assets/cyber-readout-intro.svg" width="1200" alt="identity: Rifatur Rahman / Dhaka, Bangladesh education: BSc in Computer Science and Engineering student at American International University-Bangladesh (AIUB). focus: Building across the interface, API and database with C# and ASP.NET Core. seeking: Full Stack Developer Internship">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/scan-still-profile-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/scan-still-profile.svg">
+  <source media="(max-width: 600px)" srcset="assets/scan-profile-mobile.svg">
+  <img src="assets/scan-profile.svg" width="1200" alt="Rifatur Rahman / @rifatur17. Full Stack Developer. C# / ASP.NET Core / SQL Server. AIUB BSc CSE student in Dhaka, seeking a Full Stack Developer Internship. ASCII portrait derived from his actual public GitHub avatar.">
 </picture>
 
 [`[ portfolio ↗ ]`](https://rifatur17.github.io/) · [`[ CV ↓ ]`](https://rifatur17.github.io/assets/Rifatur_Rahman_CV.pdf) · [`[ email ]`](mailto:rifaturrahman1131@gmail.com) · [Text-only profile](docs/PROFILE_TEXT.md)
+
+## `profile.signal`
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/scan-still-signal-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/scan-still-signal.svg">
+  <source media="(max-width: 600px)" srcset="assets/scan-signal-mobile.svg">
+  <img src="assets/scan-signal.svg" width="1200" alt="GitHub snapshot on 20 October 2026: 8 public repositories, 84 contributions, 4 primary repository languages. These are dated snapshot values.">
+</picture>
+
+## `contribution.activity`
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/scan-still-activity-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/scan-still-activity.svg">
+  <source media="(max-width: 600px)" srcset="assets/scan-activity-mobile.svg">
+  <img src="assets/scan-activity.svg" width="1200" alt="84 actual GitHub contributions over 21 October 2025 to 20 October 2026. Desktop shows all 365 days; mobile shows the latest 13 weeks. The animated crawler is decorative and does not change counts.">
+</picture>
+
+[`[ full contribution calendar ↗ ]`](https://github.com/rifatur17?tab=overview) · [`snapshot / 20 OCT 2026`](data/github-public-snapshot.json)
 
 ## `ls ~/projects`
 

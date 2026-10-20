@@ -4,6 +4,7 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 from text_panels import PANELS, make_text
 from console_background import background
+from profile_scan import make_scan
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
@@ -199,17 +200,24 @@ def make(theme, kind, narrow=False, animated=True):
 if __name__ == "__main__":
     ASSETS.mkdir(exist_ok=True)
     for theme in ("dark", "light"):
-        for kind in ("header", "stockpilot", "genergy", "incidentlens"):
+        for kind in ("stockpilot", "genergy", "incidentlens"):
             for narrow in (False, True):
                 name = f"cyber-motion-{kind}{'-mobile' if narrow else ''}-{theme}.svg"
                 (ASSETS/name).write_text(make(theme,kind,narrow),encoding="utf-8",newline="\n")
-    for kind in ("header", "stockpilot", "genergy", "incidentlens"):
+    for kind in ("stockpilot", "genergy", "incidentlens"):
         for narrow in (False, True):
             name = f"cyber-still-{kind}{'-mobile' if narrow else ''}.svg"
             (ASSETS/name).write_text(make('dark',kind,narrow,False),encoding="utf-8",newline="\n")
     for kind in PANELS:
+        if kind=='intro':
+            continue
         for narrow in (False, True):
             for animated in (False, True):
                 name=f"cyber-readout-{'still-' if not animated else ''}{kind}{'-mobile' if narrow else ''}.svg"
                 (ASSETS/name).write_text(make_text(kind,narrow,animated),encoding='utf-8',newline='\n')
-    print("Generated 44 terminal SVG assets, including animated prose and static alternatives.")
+    for kind in ('profile','activity','signal'):
+        for narrow in (False,True):
+            for animated in (False,True):
+                name=f"scan-{'still-' if not animated else ''}{kind}{'-mobile' if narrow else ''}.svg"
+                (ASSETS/name).write_text(make_scan(kind,narrow,animated),encoding='utf-8',newline='\n')
+    print("Generated 46 SVG assets with profile scan, verified activity and signal panels.")

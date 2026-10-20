@@ -45,3 +45,10 @@ No benchmark numbers, production-performance guarantees, or ownership of the ups
 [Hospital Appointment System](https://github.com/hospital-appointment-team/hospital-appointment-system): public README describes PHP/MySQL MVC, separately owned team contributions, unmerged PRs, and runtime verification pending. It was omitted from the primary selection to keep the profile focused on inspectable .NET work and attributable maintenance.
 
 The two user-supplied photographs informed the emphasis on project storytelling and evidence. No reference portrait, branding, project claims, or visual assets were reused.
+
+## Later video references / public data scan
+
+- [Contribution automation tutorial](https://www.youtube.com/watch?v=3brBa0Grkh8): title, description and playback inspected. It concerns automatic daily commits and a green contribution graph. This implementation takes the contribution-grid presentation cue; it does not install or run that automation.
+- [GitSkins profile short](https://www.youtube.com/shorts/SJUqhtjIRgU): playback frames showed an ASCII portrait profile-scan composition, contribution-grid animation and a profile-signal panel. Those concepts informed original local SVG assets; no template, third-party visual asset or subscription was used.
+- `data/github-public-snapshot.json` stores the real public REST/GraphQL result inspected on 20 October 2026: 8 public repositories, 4 primary repository languages, 84 contribution events across 5 active days in 365 distinct calendar dates. Daily counts reconcile exactly to the GraphQL total. The UI labels the snapshot date.
+- The ASCII glyph data is derived from the account's actual public avatar at the `avatar_url` recorded in the snapshot. The avatar was visually inspected before deriving the glyph representation.
