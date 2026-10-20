@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1100" viewBox="0 0 600 1100" role="img" aria-labelledby="title desc">
+<title id="title">Rifatur Rahman — ASCII profile scan</title>
+<desc id="desc">Public GitHub data snapshot as of 20 October 2026. Decorative motion does not change activity counts. 9 public repositories, 381 contributions in the 365-day calendar.</desc>
+<rect x="1" y="1" width="598" height="1098" rx="10" fill="#050d0b" stroke="#7dcbb1"/>
+<defs>
+<linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123b33"/><stop offset=".28" stop-color="#4a927e"/><stop offset=".53" stop-color="#0e2b25"/><stop offset="1" stop-color="#397e70"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#7df7cf" stop-opacity=".2"/><stop offset="1" stop-color="#7df7cf" stop-opacity="0"/></radialGradient>
+<linearGradient id="rim"><stop stop-color="#b5ffe2"/><stop offset=".5" stop-color="#3f7a68"/><stop offset="1" stop-color="#b0f8db"/></linearGradient>
+</defs>
+<rect x="2" y="2" width="596" height="1096" rx="12" fill="url(#frame)"/>
+<ellipse cx="150.0" cy="902.0" rx="300.0" ry="660.0" fill="url(#aura)"/>
+<rect x="13" y="44" width="574" height="1043" rx="9" fill="#071512" stroke="url(#rim)" stroke-width="2"/>
+<path d="M30 1094H570" stroke="#baffdf" stroke-opacity=".6"/>
+
+<style>@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.6s step-end infinite}@media(prefers-reduced-motion:reduce){.motion{display:none}.cursor{animation:none}}</style>
+<circle cx="22" cy="23" r="4" fill="#ffb7a8"/>
+<circle cx="39" cy="23" r="4" fill="#f0d69c"/>
+<circle cx="56" cy="23" r="4" fill="#a5f5cd"/>
+<text x="91" y="29" font-family="Consolas,Courier New,monospace" font-size="16" font-weight="400" fill="#9eb7ab">rifatur17 / profile.scan</text>
+<path d="M1 44H599" stroke="#7dcbb1"/>
+<text x="28" y="94" font-family="Consolas,Courier New,monospace" font-size="23" font-weight="400" fill="#a8e8e0">$ scan rifatur17 --profile</text>
+<rect x="28" y="123" width="544" height="437" rx="5" fill="#081a17" fill-opacity="0.92" stroke="#71a995"/>
+<text x="43" y="148" font-family="Consolas,Courier New,monospace" font-size="14" font-weight="400" fill="#a9f4d7">AVATAR / ASCII</text>
+<text xml:space="preserve" x="100" y="168.0" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                                                                      </text>
+<text xml:space="preserve" x="100" y="175.2" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                                                                      </text>
+<text xml:space="preserve" x="100" y="182.4" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                      .                                               </text>
+<text xml:space="preserve" x="100" y="189.6" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                   ....   ..:-----:.                                  </text>
+<text xml:space="preserve" x="100" y="196.8" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                 ......:=****=:===**+++=.                             </text>
+<text xml:space="preserve" x="100" y="204.0" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">               ......-***::-:::::-:--:..+=.                           </text>
+<text xml:space="preserve" x="100" y="211.2" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">             .....:+**----------------:+:.+.                          </text>
+<text xml:space="preserve" x="100" y="218.4" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">            .....-*:--=-=--====----=+=---:++                          </text>
+<text xml:space="preserve" x="100" y="225.6" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">          ......-*----+==-====+#+=-======-::=.                        </text>
+<text xml:space="preserve" x="100" y="232.8" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">         ......=*:-+-#-==-=================:*=:.                      </text>
+<text xml:space="preserve" x="100" y="240.0" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">        ......+#----======-=====----:-----=-:--.                      </text>
+<text xml:space="preserve" x="100" y="247.2" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">        .....+*--=======------:-=+***++*#=-----+.                     </text>
+<text xml:space="preserve" x="100" y="254.4" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">         ...-*-===+=*=--==+++**+=-:::..:-#:----+:                     </text>
+<text xml:space="preserve" x="100" y="261.6" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">         ...+:=-==+=*--++-:-::...........-+-----+                     </text>
+<text xml:space="preserve" x="100" y="268.8" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">          .=*--=======-+--:-::....:-======*=---=+                     </text>
+<text xml:space="preserve" x="100" y="276.0" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">         .++:-======---#*+==-=++++=:......-#=--==                     </text>
+<text xml:space="preserve" x="100" y="283.2" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">         :+--=-++=----::::::::::::::::-:::::---*=                     </text>
+<text xml:space="preserve" x="100" y="290.4" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">         :-----===-+--+----::-:-:-::::::::-:#-:+-.                    </text>
+<text xml:space="preserve" x="100" y="297.6" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">         .+=-=+-==-#=:=::::::=:-*=:+:::--=+:*:=. :                    </text>
+<text xml:space="preserve" x="100" y="304.8" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">          .+*::*%-**+:=#**++*::=-+.:+++==:..*::- :                    </text>
+<text xml:space="preserve" x="100" y="312.0" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">            -=:=#-==--.......:::.:-.......::=.:- :                    </text>
+<text xml:space="preserve" x="100" y="319.2" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">            .-.::-:+::---:-=:+*++++**.:==-:.=::=:.                    </text>
+<text xml:space="preserve" x="100" y="326.4" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">             ::.=:-==:..::..-=:::-::-*-....:+:--=                     </text>
+<text xml:space="preserve" x="100" y="333.6" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">              :.-:--==:..:=*=:---:--::::-:-:=:--=                     </text>
+<text xml:space="preserve" x="100" y="340.8" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">              .:::---:---=:--::::-:::::-:*-:---*-                     </text>
+<text xml:space="preserve" x="100" y="348.0" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">               .-*:----:-*::-:=*##**==*-:+::=-:+                      </text>
+<text xml:space="preserve" x="100" y="355.2" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                 *:-----:*-#*=:.::::.:++::----.+                      </text>
+<text xml:space="preserve" x="100" y="362.4" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                 :*:-----=--+***===+***:-----:+:                      </text>
+<text xml:space="preserve" x="100" y="369.6" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                  -*:-------:::*+++=::------:+-                       </text>
+<text xml:space="preserve" x="100" y="376.8" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                   +*=--===----------------:*+:                     . </text>
+<text xml:space="preserve" x="100" y="384.0" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                 .=*::#=-==========-------#*:.*+-.                  . </text>
+<text xml:space="preserve" x="100" y="391.2" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">               .-*=::--#*---===========-=*+#-::.++++=:.             . </text>
+<text xml:space="preserve" x="100" y="398.4" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">            .-+*+.:::=--#++=-----------++:-#---::::.:++++-:.          </text>
+<text xml:space="preserve" x="100" y="405.6" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">         :-+*=.::::::=--=+-:--------==--:.=+--+-:::::::..:=+++-:..    </text>
+<text xml:space="preserve" x="100" y="412.8" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">     .-+*+-.:::::-:::-=--+=--::::::--:....------::::::::::::..-=+++=  </text>
+<text xml:space="preserve" x="100" y="420.0" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">  -+++=.:::::::::::::-==--+-:::::::.......:=---=:----:::::::::::::..  </text>
+<text xml:space="preserve" x="100" y="427.2" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">   ..::::::--:-=+=--::-+---#+...::........+#--==:::::::::::::::::::   </text>
+<text xml:space="preserve" x="100" y="434.4" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">   ::::::::::::---:-::--+-=-+*+-..:::..:-**=-=-+:::::-:::::::::::::   </text>
+<text xml:space="preserve" x="100" y="441.6" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">    ::::::::::---::-::::+--=-:+**=:...+**--==+-*::::::::::::::::::    </text>
+<text xml:space="preserve" x="100" y="448.8" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">     :::::::----=-::::::-*-=----:+**=*-:---===-#:-:::::::::::::::     </text>
+<text xml:space="preserve" x="100" y="456.0" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">     :::-::::::::::::::::+-===-----:#---==-===-#:::::::::::::::::     </text>
+<text xml:space="preserve" x="100" y="463.2" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">      ::::::--::-::::::::-+-----------------=--#::::::::::::::::      </text>
+<text xml:space="preserve" x="100" y="470.4" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">       ::-::::-::-::::::::+--=++=+==----=====--*:::::::::::::::       </text>
+<text xml:space="preserve" x="100" y="477.6" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">        :::-::::::::::::::-=--------+===----=--*:::::::-::::::        </text>
+<text xml:space="preserve" x="100" y="484.8" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">         ::::::-:::::::::::+:-------=----------*:::::::::::::         </text>
+<text xml:space="preserve" x="100" y="492.0" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">          ::-::::::::::::::=-------------------+-:::::::::::          </text>
+<text xml:space="preserve" x="100" y="499.2" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">            ::-:::::-:::::::+-----=-=----------+-:::::::-:            </text>
+<text xml:space="preserve" x="100" y="506.4" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">             ::::-:::-::::::=-------=--------=-+-::::::::             </text>
+<text xml:space="preserve" x="100" y="513.6" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">               -:-:-::-::::::+---------------=--=::::::               </text>
+<text xml:space="preserve" x="100" y="520.8" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                 :::-::-:::::-----=--=-------=--+::::                 </text>
+<text xml:space="preserve" x="100" y="528.0" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                   -==:-::::::+------=-=--------+::                   </text>
+<text xml:space="preserve" x="100" y="535.2" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                      ::-:::::=:-----=-------=--                      </text>
+<text xml:space="preserve" x="100" y="542.4" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                          :::::=---=-==-----                          </text>
+<text xml:space="preserve" x="100" y="549.6" textLength="400" lengthAdjust="spacingAndGlyphs" font-family="Consolas,Courier New,monospace" font-size="7.8" fill="#85ffc3">                                                                      </text>
+<defs><clipPath id="portrait-scan"><rect x="30" y="158" width="540" height="399"/></clipPath><linearGradient id="portrait-beam" x2="0" y2="1"><stop stop-color="#7dffd1" stop-opacity="0"/><stop offset="1" stop-color="#afffe8" stop-opacity="0.4"/></linearGradient></defs>
+<g class="motion" clip-path="url(#portrait-scan)"><g><rect x="28" y="158" width="544" height="45" fill="url(#portrait-beam)"/><path d="M28 203h544" stroke="#b5ffe8" stroke-width="1.4"/><animateTransform attributeName="transform" type="translate" values="0 -50;0 367;0 -50" dur="9s" repeatCount="indefinite"/></g></g>
+<defs><clipPath id="typed-0"><rect x="30" y="574" width="550" height="54"><animate attributeName="width" values="0;0;550;550" keyTimes="0;0.01;0.11;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs><g clip-path="url(#typed-0)">
+<text x="30" y="620" font-family="Consolas,Courier New,monospace" font-size="42" font-weight="700" fill="#e5fff0">Rifatur Rahman</text>
+</g>
+<text x="30" y="659" font-family="Consolas,Courier New,monospace" font-size="23" font-weight="400" fill="#a9f4d7">@rifatur17</text>
+<text x="30" y="707" font-family="Consolas,Courier New,monospace" font-size="16" font-weight="400" fill="#a9f4d7">ROLE</text>
+<defs><clipPath id="typed-1"><rect x="30" y="705" width="550" height="36"><animate attributeName="width" values="0;0;550;550" keyTimes="0;0.016;0.116;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs><g clip-path="url(#typed-1)">
+<text x="30" y="733" font-family="Consolas,Courier New,monospace" font-size="24" font-weight="400" fill="#dff8e9">Full Stack Developer</text>
+</g>
+<text x="30" y="776" font-family="Consolas,Courier New,monospace" font-size="16" font-weight="400" fill="#a9f4d7">STACK</text>
+<defs><clipPath id="typed-2"><rect x="30" y="774" width="550" height="36"><animate attributeName="width" values="0;0;550;550" keyTimes="0;0.022;0.122;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs><g clip-path="url(#typed-2)">
+<text x="30" y="802" font-family="Consolas,Courier New,monospace" font-size="24" font-weight="400" fill="#dff8e9">C# / ASP.NET Core / SQL</text>
+</g>
+<text x="30" y="845" font-family="Consolas,Courier New,monospace" font-size="16" font-weight="400" fill="#a9f4d7">EDUCATION</text>
+<defs><clipPath id="typed-3"><rect x="30" y="843" width="550" height="36"><animate attributeName="width" values="0;0;550;550" keyTimes="0;0.028000000000000004;0.128;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs><g clip-path="url(#typed-3)">
+<text x="30" y="871" font-family="Consolas,Courier New,monospace" font-size="24" font-weight="400" fill="#dff8e9">AIUB / BSc CSE student</text>
+</g>
+<text x="30" y="914" font-family="Consolas,Courier New,monospace" font-size="16" font-weight="400" fill="#a9f4d7">LOCATION</text>
+<defs><clipPath id="typed-4"><rect x="30" y="912" width="550" height="36"><animate attributeName="width" values="0;0;550;550" keyTimes="0;0.034;0.134;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs><g clip-path="url(#typed-4)">
+<text x="30" y="940" font-family="Consolas,Courier New,monospace" font-size="24" font-weight="400" fill="#dff8e9">Dhaka, Bangladesh</text>
+</g>
+<text x="30" y="983" font-family="Consolas,Courier New,monospace" font-size="16" font-weight="400" fill="#a9f4d7">SEEKING</text>
+<defs><clipPath id="typed-5"><rect x="30" y="981" width="550" height="36"><animate attributeName="width" values="0;0;550;550" keyTimes="0;0.04;0.14;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs><g clip-path="url(#typed-5)">
+<text x="30" y="1009" font-family="Consolas,Courier New,monospace" font-size="24" font-weight="400" fill="#dff8e9">Full Stack Developer Internship</text>
+</g>
+<text x="30" y="1080" font-family="Consolas,Courier New,monospace" font-size="24" font-weight="400" fill="#a8e8e0">C#  /  .NET  /  SQL SERVER</text>
+<rect class="cursor" x="551" y="1075" width="22" height="6" fill="#71ffaf"/>
+</svg>

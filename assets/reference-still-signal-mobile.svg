@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="510" viewBox="0 0 600 510" role="img" aria-labelledby="title desc">
+<title id="title">Profile signal — verified GitHub snapshot</title>
+<desc id="desc">Public GitHub data snapshot as of 20 October 2026. Decorative motion does not change activity counts. 9 public repositories, 381 contributions in the 365-day calendar.</desc>
+<rect x="1" y="1" width="598" height="508" rx="10" fill="#050d0b" stroke="#7dcbb1" />
+<defs>
+<linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123b33" /><stop offset=".28" stop-color="#4a927e" /><stop offset=".53" stop-color="#0e2b25" /><stop offset="1" stop-color="#397e70" /></linearGradient>
+<radialGradient id="aura"><stop stop-color="#7df7cf" stop-opacity=".2" /><stop offset="1" stop-color="#7df7cf" stop-opacity="0" /></radialGradient>
+<linearGradient id="rim"><stop stop-color="#b5ffe2" /><stop offset=".5" stop-color="#3f7a68" /><stop offset="1" stop-color="#b0f8db" /></linearGradient>
+</defs>
+<rect x="2" y="2" width="596" height="506" rx="12" fill="url(#frame)" />
+<ellipse cx="150.0" cy="418.2" rx="300.0" ry="306.0" fill="url(#aura)" />
+<rect x="13" y="44" width="574" height="453" rx="9" fill="#071512" stroke="url(#rim)" stroke-width="2" />
+<path d="M30 504H570" stroke="#baffdf" stroke-opacity=".6" />
+
+<circle cx="22" cy="23" r="4" fill="#ffb7a8" />
+<circle cx="39" cy="23" r="4" fill="#f0d69c" />
+<circle cx="56" cy="23" r="4" fill="#a5f5cd" />
+<text x="91" y="29" font-family="Consolas,Courier New,monospace" font-size="16" font-weight="400" fill="#9eb7ab">rifatur17 / signal.scan</text>
+<path d="M1 44H599" stroke="#7dcbb1" />
+<text x="28" y="94" font-family="Consolas,Courier New,monospace" font-size="25" font-weight="400" fill="#a8e8e0">$ inspect profile.signal</text>
+<rect x="28" y="126" width="264" height="135" rx="5" fill="#081a17" fill-opacity="0.92" stroke="#71a995" />
+<text x="46" y="188" font-family="Consolas,Courier New,monospace" font-size="49" font-weight="700" fill="#a9f4d7">9</text>
+<text x="46" y="225" font-family="Consolas,Courier New,monospace" font-size="17" font-weight="400" fill="#dff8e9">PUBLIC REPOS</text>
+<rect x="308" y="126" width="264" height="135" rx="5" fill="#081a17" fill-opacity="0.92" stroke="#71a995" />
+<text x="326" y="188" font-family="Consolas,Courier New,monospace" font-size="49" font-weight="700" fill="#a9f4d7">381</text>
+<text x="326" y="225" font-family="Consolas,Courier New,monospace" font-size="17" font-weight="400" fill="#dff8e9">CONTRIBUTIONS / 365D</text>
+<rect x="28" y="283" width="264" height="135" rx="5" fill="#081a17" fill-opacity="0.92" stroke="#71a995" />
+<text x="46" y="345" font-family="Consolas,Courier New,monospace" font-size="49" font-weight="700" fill="#a9f4d7">4</text>
+<text x="46" y="382" font-family="Consolas,Courier New,monospace" font-size="17" font-weight="400" fill="#dff8e9">REPO LANGUAGES</text>
+<rect x="308" y="283" width="264" height="135" rx="5" fill="#081a17" fill-opacity="0.92" stroke="#71a995" />
+<text x="326" y="345" font-family="Consolas,Courier New,monospace" font-size="49" font-weight="700" fill="#a9f4d7">293</text>
+<text x="326" y="382" font-family="Consolas,Courier New,monospace" font-size="17" font-weight="400" fill="#dff8e9">ACTIVE DAYS / 365D</text>
+<text x="28" y="473" font-family="Consolas,Courier New,monospace" font-size="19" font-weight="400" fill="#9eb7ab">GitHub snapshot / 20 OCT 2026</text>
+</svg>

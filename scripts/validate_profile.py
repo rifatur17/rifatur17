@@ -7,7 +7,7 @@ import re
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 import xml.etree.ElementTree as ET
-from build_assets import make
+from profile_scan import make_scan
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -19,18 +19,18 @@ def main():
     d=json.loads((ROOT/'data/cv-profile.json').read_text(encoding='utf-8'))
     md=(ROOT/'README.md').read_text(encoding='utf-8')
     paths=set(re.findall(r'(?:src|srcset)="(assets/[^\"]+)"',md))
-    assert len(paths)==8
+    assert len(paths)==12
     for name in paths:
         p=ROOT/name
         xml=p.read_text(encoding='utf-8')
         tree=ET.fromstring(xml)
         assert not re.search(r'<script|<foreignObject|https?://(?!www.w3.org/2000/svg)|onload=|@import',xml,re.I)
-        stem=p.stem.removeprefix('studio-')
+        stem=p.stem.removeprefix('reference-')
         animated=not stem.startswith('still-')
         stem=stem.removeprefix('still-')
         narrow=stem.endswith('-mobile')
-        theme=stem.removesuffix('-mobile')
-        assert xml==make(theme,narrow,animated)
+        kind=stem.removesuffix('-mobile')
+        assert xml==make_scan(kind,narrow,animated)
         if not animated:
             assert not any(e.tag.rsplit('}',1)[-1].startswith('animate') for e in tree.iter())
     assert hashlib.sha256((ROOT/d['cv']).read_bytes()).hexdigest()==d['cv_sha256']
@@ -41,7 +41,7 @@ def main():
     assert 'upstream authorship' in md and 'My contribution:' in md and 'My focus:' in md
     assert not re.search(r'<script|<style|style=',md,re.I)
     assert all(re.search(r'alt="[^\"]+"',i) for i in re.findall(r'<img\b[^>]+>',md))
-    print('PASS: 8 reproducible safe SVGs; static alternatives; exact supplied CV bytes; CV fields/skills/training; explicit contribution credit.')
+    print('PASS: 12 reproducible safe SVGs; static alternatives; exact supplied CV bytes; CV fields/skills/training; explicit contribution credit.')
     if args.links:
         urls=sorted(set(re.findall(r'https://[^\s)"<>]+',md)))
         def check(url):

@@ -5,9 +5,13 @@ import json
 ROOT=Path(__file__).resolve().parents[1]
 
 
+def picture(kind,alt):
+    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'reference-still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'reference-still-{kind}.svg'),('(max-width: 600px)',f'reference-{kind}-mobile.svg')]
+    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/reference-{kind}.svg" width="1200" alt="{alt}">\n</picture>'
+
+
 def banner():
-    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px) and (prefers-color-scheme: dark)','studio-still-dark-mobile.svg'),('(prefers-reduced-motion: reduce) and (max-width: 600px)','studio-still-light-mobile.svg'),('(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)','studio-still-dark.svg'),('(prefers-reduced-motion: reduce)','studio-still-light.svg'),('(max-width: 600px) and (prefers-color-scheme: dark)','studio-dark-mobile.svg'),('(max-width: 600px)','studio-light-mobile.svg'),('(prefers-color-scheme: dark)','studio-dark.svg')]
-    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+'  <img src="assets/studio-light.svg" width="1200" alt="Rifatur Rahman — Full-Stack Developer. AIUB CSE student focused on .NET, web engineering and applied AI. Seeking a Full Stack Developer Internship.">\n</picture>'
+    return '## Profile scan\n\n'+picture('profile','Rifatur Rahman — ASCII portrait scanner. AIUB CSE student, C# and ASP.NET Core. Seeking a Full Stack Developer Internship.')
 
 
 def build():
@@ -16,6 +20,12 @@ def build():
        "I'm **Rifatur Rahman**, a Computer Science and Engineering student at **American International University-Bangladesh (AIUB)**, based in Dhaka. My main direction is **C# and ASP.NET Core**. I also work with web interfaces, testing, data analysis and AI-assisted systems.",
        '**Seeking a Full Stack Developer Internship** where I can contribute to useful features, learn through code review and build reliable software.',
        f'[Portfolio]({d["portfolio"]}) · [Download CV]({d["cv_url"]}) · [LinkedIn]({d["linkedin"]}) · [Email](mailto:{d["email"]})',
+       '## The year, so far',
+       picture('activity','GitHub contribution calendar snapshot, 20 October 2026. Includes disclosed synthetic contribution-art commits. Moving object is decorative.'),
+       'GitHub snapshot · 20 October 2026. This calendar includes [disclosed synthetic contribution-art commits](https://github.com/rifatur17/contribution-calendar-art); its total is not a measure of genuine development work. The animated crawler does not alter any tile counts.',
+       '## Signal',
+       picture('signal','Public GitHub snapshot: repository count, calendar contributions, primary repository languages and active days. Includes synthetic art activity.'),
+       'Snapshot values are generated from GitHub, rather than live counters. Contribution and active-day values include the disclosed art repository.',
        '## Selected work',
        '### StockPilot — inventory & sales',
        '`C#` · `ASP.NET Core MVC / Web API` · `EF Core` · `SQL Server` · `Bootstrap`',

@@ -1,12 +1,10 @@
+## Profile scan
+
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/studio-still-dark-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/studio-still-light-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/studio-still-dark.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/studio-still-light.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/studio-dark-mobile.svg">
-  <source media="(max-width: 600px)" srcset="assets/studio-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/studio-dark.svg">
-  <img src="assets/studio-light.svg" width="1200" alt="Rifatur Rahman — Full-Stack Developer. AIUB CSE student focused on .NET, web engineering and applied AI. Seeking a Full Stack Developer Internship.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/reference-still-profile-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/reference-still-profile.svg">
+  <source media="(max-width: 600px)" srcset="assets/reference-profile-mobile.svg">
+  <img src="assets/reference-profile.svg" width="1200" alt="Rifatur Rahman — ASCII portrait scanner. AIUB CSE student, C# and ASP.NET Core. Seeking a Full Stack Developer Internship.">
 </picture>
 
 I'm **Rifatur Rahman**, a Computer Science and Engineering student at **American International University-Bangladesh (AIUB)**, based in Dhaka. My main direction is **C# and ASP.NET Core**. I also work with web interfaces, testing, data analysis and AI-assisted systems.
@@ -14,6 +12,28 @@ I'm **Rifatur Rahman**, a Computer Science and Engineering student at **American
 **Seeking a Full Stack Developer Internship** where I can contribute to useful features, learn through code review and build reliable software.
 
 [Portfolio](https://rifatur17.github.io/) · [Download CV](https://raw.githubusercontent.com/rifatur17/rifatur17/main/assets/Rifatur_Rahman_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/rifatur-rahman11/) · [Email](mailto:rifaturrahman1131@gmail.com)
+
+## The year, so far
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/reference-still-activity-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/reference-still-activity.svg">
+  <source media="(max-width: 600px)" srcset="assets/reference-activity-mobile.svg">
+  <img src="assets/reference-activity.svg" width="1200" alt="GitHub contribution calendar snapshot, 20 October 2026. Includes disclosed synthetic contribution-art commits. Moving object is decorative.">
+</picture>
+
+GitHub snapshot · 20 October 2026. This calendar includes [disclosed synthetic contribution-art commits](https://github.com/rifatur17/contribution-calendar-art); its total is not a measure of genuine development work. The animated crawler does not alter any tile counts.
+
+## Signal
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/reference-still-signal-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/reference-still-signal.svg">
+  <source media="(max-width: 600px)" srcset="assets/reference-signal-mobile.svg">
+  <img src="assets/reference-signal.svg" width="1200" alt="Public GitHub snapshot: repository count, calendar contributions, primary repository languages and active days. Includes synthetic art activity.">
+</picture>
+
+Snapshot values are generated from GitHub, rather than live counters. Contribution and active-day values include the disclosed art repository.
 
 ## Selected work
 

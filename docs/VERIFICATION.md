@@ -2,7 +2,15 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
-## Current CV-aligned Midnight Studio revision
+## Current mint video-reference revision
+
+The user requested a close match to YouTube Short `SJUqhtjIRgU`. The actual video was played and visually inspected in the browser: mint terminal framing, ASCII profile scan, contribution activity crawler and profile signal. The new design uses that composition with the user's portrait and CV-aligned identity. It does not claim pixel identity or change GitHub's surrounding page background.
+
+GitHub GraphQL refreshed the public snapshot on 20 October 2026: 9 public repositories and 381 contributions in the requested calendar. The artwork and adjacent native text disclose that the calendar includes synthetic contribution-art commits. No repository history or dates were changed by this theme revision. CV text, supplied PDF bytes and project contribution attribution remain intact.
+
+Twelve SVG variants passed parsing, safety, generator reproducibility, static fallback, CV content and attribution checks. Desktop profile, desktop activity and mobile profile PNGs were visually inspected; the activity footer spacing was corrected. The three panels have desktop/mobile sources and physically static reduced-motion alternatives. Older version verification below does not apply to the new design.
+
+## Previous CV-aligned Midnight Studio revision
 
 Published implementation in `8b80e1277b4107cc25a671ee94028260cc29c667`. Both pages of the supplied CV were extracted and visually reviewed. Education, coursework, the complete technical toolkit, four selected projects, research results, leadership and training are represented in native Markdown. Repository evidence preserves IncidentLens upstream attribution and distinguishes personal work from team work. No graduation year, CGPA, employment or publication acceptance was invented.
 

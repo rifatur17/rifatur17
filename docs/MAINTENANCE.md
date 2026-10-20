@@ -2,18 +2,20 @@
 
 ## Current direction
 
-Midnight Studio is a restrained navy/indigo theme with blue/cyan accents, readable native Markdown and one original architecture banner. The banner has desktop/mobile, light/dark and physically static reduced-motion variants. All important identity, skills, education, projects, research, leadership and contact text is immediately readable and searchable. No third-party stats widget, code rain, synthetic-activity metric, delayed prose animation or external font is required.
+The current reference is the user-supplied YouTube Short `SJUqhtjIRgU`: mint terminal frames, ASCII portrait scanning, an animated contribution crawler and signal cards. Three panels each have desktop/mobile and animated/static variants (12 SVGs). Both GitHub page themes use the same dark mint artwork, matching the reference. CV facts and project credit remain native Markdown.
+
+The contribution data is a dated GitHub API snapshot, not live telemetry. It includes the separate disclosed synthetic contribution-art repository. Do not present those values as genuine work or remove the visible disclosure. The surrounding GitHub page and native sidebar are controlled by GitHub.
 
 ## Content and sources
 
 - `data/cv-profile.json`: current CV-aligned identity, education, technology, contact, research and training data.
 - `scripts/build_readme.py`: project narratives, role attribution and page structure.
-- `scripts/build_assets.py`: the eight original banner variants.
+- `scripts/build_assets.py`: the twelve reference panel variants.
 - `assets/Rifatur_Rahman_CV.pdf`: exact supplied CV; preserve its bytes unless a new version is explicitly supplied.
 - `docs/CV_RECONCILIATION.md`: source reconciliation and ownership boundaries.
 - `docs/PROFILE_SETTINGS.md`: prepared values for native sidebar fields that require account settings access.
 
-The older snapshot/ASCII source data and generator modules are historical records; they do not drive the current README.
+`data/github-public-snapshot.json` and `data/avatar-ascii.json` drive `scripts/profile_scan.py`; `scripts/reference_frame.py` defines the mint frame. Older matrix and prose modules are historical records.
 
 ## Regenerate and verify
 
