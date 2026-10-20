@@ -7,7 +7,8 @@
     "original_sha256": "e2ee79d5cc3e34d4bd1fe14056346438b8f6bd3ba8c830c8e30f0a2a15319db6",
     "original_bytes": 8682,
     "header_bytes": 540,
-    "kind": "stock"
+    "kind": "stock",
+    "had_readme": true
   },
   {
     "repo": "rifatur17/IncidentLens",
@@ -17,7 +18,8 @@
     "original_sha256": "03914e0325f13fdfaa4c86744b53872984f4d63ec68b88d3686a49dc8209a2fc",
     "original_bytes": 14624,
     "header_bytes": 756,
-    "kind": "incident"
+    "kind": "incident",
+    "had_readme": true
   },
   {
     "repo": "hospital-appointment-team/hospital-appointment-system",
@@ -27,17 +29,20 @@
     "original_sha256": "e795b100fc6ab3b9010cd7699480bdddb713c574a61eac4bc631901ccfe5d4c8",
     "original_bytes": 1434,
     "header_bytes": 772,
-    "kind": "hospital"
+    "kind": "hospital",
+    "had_readme": true
   },
   {
     "repo": "rifatur17/Solar-System-Simulation",
     "status": "published",
     "sha": "72b4d23c2698984ff0f936190a501b0f2a04369d",
-    "readme_preserved": true,
+    "readme_preserved": false,
     "original_sha256": "8193c460ce5dd6fedd800f2a084fa1d47d77889065b648c96655db4456a2fc78",
     "original_bytes": 187,
     "header_bytes": 553,
-    "kind": "solar"
+    "kind": "solar",
+    "had_readme": false,
+    "readme_created": true
   },
   {
     "repo": "rifatur17/G-Energy-Project-Demo",
@@ -47,7 +52,8 @@
     "original_sha256": "d9a96fd8c54ed8cc9220094c99899416cd467d9b2f7cd3917166b088f9c2a9da",
     "original_bytes": 8879,
     "header_bytes": 538,
-    "kind": "energy"
+    "kind": "energy",
+    "had_readme": true
   },
   {
     "repo": "rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content",
@@ -57,7 +63,8 @@
     "original_sha256": "96d6cd1c0a27b4e163dae25e27c500eb07d332c57ef99d4230c1ee0deaf05ce0",
     "original_bytes": 89,
     "header_bytes": 550,
-    "kind": "research"
+    "kind": "research",
+    "had_readme": true
   },
   {
     "repo": "rifatur17/rifatur17.github.io",
@@ -67,7 +74,8 @@
     "original_sha256": "387c822799d328dc9b3d4ccc670181b706ab9fabe6bf362273f27f35376384b6",
     "original_bytes": 4964,
     "header_bytes": 556,
-    "kind": "portfolio"
+    "kind": "portfolio",
+    "had_readme": true
   },
   {
     "repo": "rifatur17/github-test",
@@ -77,7 +85,8 @@
     "original_sha256": "71b278b3956e1122892adf7202c15af796c4092cad0ea1197b153594230ca2a6",
     "original_bytes": 14,
     "header_bytes": 551,
-    "kind": "test"
+    "kind": "test",
+    "had_readme": true
   },
   {
     "repo": "rifatur17/contribution-calendar-art",
@@ -87,6 +96,7 @@
     "original_sha256": "3ad3554a78eaf160e2edea8ce8f3a2b0356cb0b5331b3f1dcd908c857dc0cba2",
     "original_bytes": 1344,
     "header_bytes": 679,
-    "kind": "art"
+    "kind": "art",
+    "had_readme": true
   }
 ]

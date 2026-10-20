@@ -12,6 +12,8 @@ All illustrated transitions are explanatory. No benchmark, deployment, runtime v
 
 All nine repository publications completed and their remote branch heads matched the local commits; coverage and exact commits are recorded in `docs/REPOSITORY_PRESENTATION.md`. Live GitHub StockPilot and Solar System READMEs were visually reviewed. Two StockPilot captures had 26,785 changed pixels within the animated panel, confirming motion after publication. All 18 non-LinkedIn HTTPS destinations returned 200; LinkedIn returned 999 to the automated client, as before. GitHub Markdown rendering and `git diff --check` passed.
 
+The published profile was subsequently inspected in the browser: the new hero, all six linked project cards, native source links, availability statement and expandable CV sections were present. The featured StockPilot card and IncidentLens flow rendered correctly on the actual profile.
+
 ## Previous black and deep-blue palette revision
 
 At the user's request, the existing design is retained with black/deep-blue surfaces and electric-blue accents. All 34 six-digit palette colors were mapped consistently, including text, rain, grid, terminal surfaces, project diagrams, glitch overlays and moving packets. Source comparison after normalizing color literals confirms that geometry, typography, prose and animation timing are unchanged. All twenty desktop/mobile and motion/static variants were regenerated and validated; the supplied CV is unchanged.
