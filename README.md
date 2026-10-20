@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/neon-still-hero-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/neon-still-hero.svg">
-  <source media="(max-width: 600px)" srcset="assets/neon-hero-mobile.svg">
-  <img src="assets/neon-hero.svg" width="1200" alt="Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Neon code rain, glitch lettering and a moving code packet.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/midnight-still-hero-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight-still-hero.svg">
+  <source media="(max-width: 600px)" srcset="assets/midnight-hero-mobile.svg">
+  <img src="assets/midnight-hero.svg" width="1200" alt="Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Neon code rain, glitch lettering and a moving code packet.">
 </picture>
 
 **C# / ASP.NET Core** · web interfaces · applied AI. CSE student at **AIUB**, Dhaka.
@@ -12,19 +12,19 @@
 ## Selected work
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/neon-still-stock-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/neon-still-stock.svg">
-  <source media="(max-width: 600px)" srcset="assets/neon-stock-mobile.svg">
-  <img src="assets/neon-stock.svg" width="1200" alt="StockPilot — inventory and sales. Shared services, SQL write coordination and automated checks.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/midnight-still-stock-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight-still-stock.svg">
+  <source media="(max-width: 600px)" srcset="assets/midnight-stock-mobile.svg">
+  <img src="assets/midnight-stock.svg" width="1200" alt="StockPilot — inventory and sales. Shared services, SQL write coordination and automated checks.">
 </picture>
 
 [Repository](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management) · [Architecture](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/ARCHITECTURE.md) · [Concurrency design](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/INVENTORY_CONCURRENCY.md) · [Screenshot](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/screenshots/dashboard-desktop.png)
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/neon-still-incident-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/neon-still-incident.svg">
-  <source media="(max-width: 600px)" srcset="assets/neon-incident-mobile.svg">
-  <img src="assets/neon-incident.svg" width="1200" alt="IncidentLens — evidence-led investigation. My contribution: dependency security, compatibility and CI.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/midnight-still-incident-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight-still-incident.svg">
+  <source media="(max-width: 600px)" srcset="assets/midnight-incident-mobile.svg">
+  <img src="assets/midnight-incident.svg" width="1200" alt="IncidentLens — evidence-led investigation. My contribution: dependency security, compatibility and CI.">
 </picture>
 
 **My contribution:** security, compatibility and CI maintenance. Retains [Niloy Bhuiyan’s upstream authorship](https://github.com/Niloy-Bhuiyan/IncidentLens).
@@ -32,10 +32,10 @@
 [Repository](https://github.com/rifatur17/IncidentLens) · [My security change](https://github.com/rifatur17/IncidentLens/commit/ab1025ba8f7e5c571396285971d433f95b228b13) · [Compatibility adapter & tests](https://github.com/rifatur17/IncidentLens/tree/main/tools/eslint-glob-compat)
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/neon-still-hospital-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/neon-still-hospital.svg">
-  <source media="(max-width: 600px)" srcset="assets/neon-hospital-mobile.svg">
-  <img src="assets/neon-hospital.svg" width="1200" alt="Hospital Appointment System — team project. My focus: patient authentication and doctor administration.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/midnight-still-hospital-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight-still-hospital.svg">
+  <source media="(max-width: 600px)" srcset="assets/midnight-hospital-mobile.svg">
+  <img src="assets/midnight-hospital.svg" width="1200" alt="Hospital Appointment System — team project. My focus: patient authentication and doctor administration.">
 </picture>
 
 **My focus:** patient authentication and doctor administration within a team project.
@@ -43,10 +43,10 @@
 [Repository](https://github.com/hospital-appointment-team/hospital-appointment-system) · [My foundation PR](https://github.com/hospital-appointment-team/hospital-appointment-system/pull/1)
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/neon-still-solar-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/neon-still-solar.svg">
-  <source media="(max-width: 600px)" srcset="assets/neon-solar-mobile.svg">
-  <img src="assets/neon-solar.svg" width="1200" alt="Solar System Simulation — C++, OpenGL and GLUT. Interactive orbits, camera and lighting.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/midnight-still-solar-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight-still-solar.svg">
+  <source media="(max-width: 600px)" srcset="assets/midnight-solar-mobile.svg">
+  <img src="assets/midnight-solar.svg" width="1200" alt="Solar System Simulation — C++, OpenGL and GLUT. Interactive orbits, camera and lighting.">
 </picture>
 
 [Repository](https://github.com/rifatur17/Solar-System-Simulation) · [Source](https://github.com/rifatur17/Solar-System-Simulation/blob/main/main.cpp)

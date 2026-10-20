@@ -105,6 +105,6 @@ if __name__=='__main__':
  for kind in ['hero',*PROJECTS]:
   for narrow in (False,True):
    for animated in (False,True):
-    name=f"neon-{'still-' if not animated else ''}{kind}{'-mobile' if narrow else ''}.svg"
+    name=f"midnight-{'still-' if not animated else ''}{kind}{'-mobile' if narrow else ''}.svg"
     (ROOT/'assets'/name).write_text(make(kind,narrow,animated),encoding='utf-8',newline='\n')
  print('Generated 20 neon portfolio assets.')

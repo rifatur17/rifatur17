@@ -25,7 +25,7 @@ def main():
         xml=p.read_text(encoding='utf-8')
         tree=ET.fromstring(xml)
         assert not re.search(r'<script|<foreignObject|https?://(?!www.w3.org/2000/svg)|onload=|@import',xml,re.I)
-        stem=p.stem.removeprefix('neon-')
+        stem=p.stem.removeprefix('midnight-')
         animated=not stem.startswith('still-')
         stem=stem.removeprefix('still-')
         narrow=stem.endswith('-mobile')

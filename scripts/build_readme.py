@@ -6,8 +6,8 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def picture(kind,alt):
-    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'neon-still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'neon-still-{kind}.svg'),('(max-width: 600px)',f'neon-{kind}-mobile.svg')]
-    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/neon-{kind}.svg" width="1200" alt="{alt}">\n</picture>'
+    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'midnight-still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'midnight-still-{kind}.svg'),('(max-width: 600px)',f'midnight-{kind}-mobile.svg')]
+    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/midnight-{kind}.svg" width="1200" alt="{alt}">\n</picture>'
 
 
 def banner():
