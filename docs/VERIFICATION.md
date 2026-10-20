@@ -12,6 +12,8 @@ All 36 profile variants and four static contact badges passed parsing, safety, r
 
 All nine repository publications completed and their remote branch heads matched the pushed commits. Original README bodies remained byte-for-byte unchanged beneath the refreshed image headers. GitHub Markdown rendering passed. All 18 non-LinkedIn HTTPS destinations returned 200; LinkedIn retained its automated-client 999 restriction.
 
+The actual published profile was visually inspected: the emerald palette, floating companion/orbiting badges, four contact buttons, animated toolkit and correct language donut were present. A 28-frame live capture measured 5,389 changed pixels inside the hero region; a short GIF preview was created from those screenshots. The native overview showed the dated 9/4/6 metadata and matching language counts.
+
 ## Previous hacker + developer terminal revision
 
 The user requested a stronger hacker/developer blend while keeping a premium appearance. The identity header was redesigned as a dark developer workspace with a CV-based JSON-style window, blue/cyan corner lighting, slow edge code rain, a brief sliced name overlay and a terminal cursor. Project diagrams retain their original content and animations beneath matching dark framing. New filenames prevent stale GitHub asset caches.
