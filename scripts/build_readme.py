@@ -6,12 +6,12 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def picture(kind,alt):
-    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'reference-still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'reference-still-{kind}.svg'),('(max-width: 600px)',f'reference-{kind}-mobile.svg')]
-    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/reference-{kind}.svg" width="1200" alt="{alt}">\n</picture>'
+    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'neon-still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'neon-still-{kind}.svg'),('(max-width: 600px)',f'neon-{kind}-mobile.svg')]
+    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/neon-{kind}.svg" width="1200" alt="{alt}">\n</picture>'
 
 
 def banner():
-    return '## Profile scan\n\n'+picture('profile','Rifatur Rahman — ASCII portrait scanner. AIUB CSE student, C# and ASP.NET Core. Seeking a Full Stack Developer Internship.')
+    return picture('hero','Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Neon code rain, glitch lettering and a moving code packet.')
 
 
 def build():
@@ -20,12 +20,6 @@ def build():
        "I'm **Rifatur Rahman**, a Computer Science and Engineering student at **American International University-Bangladesh (AIUB)**, based in Dhaka. My main direction is **C# and ASP.NET Core**. I also work with web interfaces, testing, data analysis and AI-assisted systems.",
        '**Seeking a Full Stack Developer Internship** where I can contribute to useful features, learn through code review and build reliable software.',
        f'[Portfolio]({d["portfolio"]}) · [Download CV]({d["cv_url"]}) · [LinkedIn]({d["linkedin"]}) · [Email](mailto:{d["email"]})',
-       '## The year, so far',
-       picture('activity','GitHub contribution calendar snapshot, 20 October 2026. Includes disclosed synthetic contribution-art commits. Moving object is decorative.'),
-       'GitHub snapshot · 20 October 2026. This calendar includes [disclosed synthetic contribution-art commits](https://github.com/rifatur17/contribution-calendar-art); its total is not a measure of genuine development work. The animated crawler does not alter any tile counts.',
-       '## Signal',
-       picture('signal','Public GitHub snapshot: repository count, calendar contributions, primary repository languages and active days. Includes synthetic art activity.'),
-       'Snapshot values are generated from GitHub, rather than live counters. Contribution and active-day values include the disclosed art repository.',
        '## Selected work',
        '### StockPilot — inventory & sales',
        '`C#` · `ASP.NET Core MVC / Web API` · `EF Core` · `SQL Server` · `Bootstrap`',
@@ -65,9 +59,30 @@ def build():
        '\n'.join(f'- **{item["name"]}**'+(f' ({item["year"]})' if item['year'] else '')+f' — {item["provider"]}' for item in d['training']),
        '## Connect',
        f'[Email](mailto:{d["email"]}) · [LinkedIn]({d["linkedin"]}) · [Portfolio]({d["portfolio"]}) · [CV]({d["cv_url"]})\n\n{d["location"]} · [{d["phone"]}](tel:{d["phone"]})']
-    md='\n\n'.join(s)+'\n'
+    # Keep the complete CV and engineering notes searchable while giving the
+    # landing view a concise, project-first hierarchy.
+    project_start=s.index('## Selected work')+1
+    cv_start=s.index('## Technical toolkit')
+    notes='\n\n'.join(s[project_start:cv_start])
+    full_cv='\n\n'.join(s[cv_start:])
+    top=[banner(),
+         '**C# / ASP.NET Core** · web interfaces · applied AI. CSE student at **AIUB**, Dhaka.',
+         s[3],
+         '## Selected work']
+    projects=[('stock','StockPilot — inventory and sales. Shared services, SQL write coordination and automated checks.',s[s.index('### StockPilot — inventory & sales')+4],''),
+              ('incident','IncidentLens — evidence-led investigation. My contribution: dependency security, compatibility and CI.',s[s.index('### IncidentLens — evidence-based incident investigation')+4], '**My contribution:** security, compatibility and CI maintenance. Retains [Niloy Bhuiyan’s upstream authorship](https://github.com/Niloy-Bhuiyan/IncidentLens).'),
+              ('hospital','Hospital Appointment System — team project. My focus: patient authentication and doctor administration.',s[s.index('### Hospital Appointment System — patient & staff workflows')+4],'**My focus:** patient authentication and doctor administration within a team project.'),
+              ('solar','Solar System Simulation — C++, OpenGL and GLUT. Interactive orbits, camera and lighting.',s[s.index('### Solar System Simulation — interactive graphics')+3],'')]
+    for kind,alt,links,credit in projects:
+        top.append(picture(kind,alt))
+        if credit: top.append(credit)
+        top.append(links)
+    top += ['<details>\n<summary><b>Engineering notes & project contributions</b></summary>\n\n'+notes+'\n\n</details>',
+            '<details>\n<summary><b>Full CV · skills, education, research & training</b></summary>\n\n'+full_cv+'\n\n</details>',
+            f'[Let’s connect](mailto:{d["email"]}) · [Portfolio]({d["portfolio"]}) · [Download CV]({d["cv_url"]})']
+    md='\n\n'.join(top)+'\n'
     (ROOT/'README.md').write_text(md,encoding='utf-8',newline='\n')
-    transcript=md.replace(banner(),'# Rifatur Rahman — Full-Stack Developer',1).replace('(assets/Rifatur_Rahman_CV.pdf)','(../assets/Rifatur_Rahman_CV.pdf)')
+    transcript='\n\n'.join(['# Rifatur Rahman — Full-Stack Developer',*s[1:]])+'\n'
     (ROOT/'docs/PROFILE_TEXT.md').write_text(transcript,encoding='utf-8',newline='\n')
     print('Generated CV-aligned README and searchable transcript.')
 

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+<title id="title">StockPilot</title>
+<desc id="desc">Original neon portfolio illustration. Rain, glitch and moving packets are decorative, not live telemetry.</desc>
+<defs><radialGradient id="aura"><stop stop-color="#36ff9a" stop-opacity=".16"/><stop offset="1" stop-color="#36ff9a" stop-opacity="0"/></radialGradient><linearGradient id="fade"><stop stop-color="#04090a"/><stop offset="1" stop-color="#071714"/></linearGradient><clipPath id="frame"><rect x="1" y="1" width="1198" height="308" rx="18"/></clipPath><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#3afea3" stroke-opacity=".065" fill="none"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<g clip-path="url(#frame)"><rect width="1200" height="310" fill="url(#fade)"/><rect width="1200" height="310" fill="url(#grid)"/><ellipse cx="1130" cy="155.0" rx="420" ry="400" fill="url(#aura)"/>
+</g>
+<path d="M24 1H1176" fill="none" stroke="#2d664c" stroke-width="1"/>
+<path d="M24 309H1176" fill="none" stroke="#2d664c" stroke-width="1"/>
+<rect x="1" y="1" width="1198" height="308" rx="18" fill="none" stroke="#244636"/>
+<text x="36" y="43" fill="#6affaa" font-size="14" font-weight="600" font-family="Consolas,Courier New,monospace" >01 / FULL-STACK</text>
+<text x="36" y="96" fill="#eaf9f0" font-size="36" font-weight="700" font-family="Segoe UI,Arial,sans-serif" >StockPilot</text>
+<text x="36" y="138" fill="#b4cbbd" font-size="22" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >Inventory. Sales. Consistent writes.</text>
+<text x="36" y="183" fill="#83bc9a" font-size="15" font-weight="400" font-family="Consolas,Courier New,monospace" >C# / ASP.NET CORE / SQL SERVER</text>
+<rect x="800.0" y="96" width="109.0" height="70" rx="8" fill="#0a1c13" stroke="#32764f"/>
+<text x="854.5" y="137" fill="#b4f9ca" font-size="11" font-weight="600" font-family="Consolas,Courier New,monospace" text-anchor="middle">PURCHASE</text>
+<path d="M909.0 131h14" fill="none" stroke="#65ff9f" stroke-width="1"/>
+<rect x="923.0" y="96" width="109.0" height="70" rx="8" fill="#0a1c13" stroke="#32764f"/>
+<text x="977.5" y="137" fill="#b4f9ca" font-size="11" font-weight="600" font-family="Consolas,Courier New,monospace" text-anchor="middle">INVENTORY</text>
+<path d="M1032.0 131h14" fill="none" stroke="#65ff9f" stroke-width="1"/>
+<rect x="1046.0" y="96" width="109.0" height="70" rx="8" fill="#0a1c13" stroke="#32764f"/>
+<text x="1100.5" y="137" fill="#b4f9ca" font-size="11" font-weight="600" font-family="Consolas,Courier New,monospace" text-anchor="middle">SALE</text>
+<path d="M36 245H1164" fill="none" stroke="#1c3a2a" stroke-width="1"/>
+<text x="36" y="281" fill="#8ba99a" font-size="15" font-weight="400" font-family="Consolas,Courier New,monospace" >SHARED SERVICES  /  WRITE COORDINATION</text>
+<path d="M800 190H1155" fill="none" stroke="#255239" stroke-width="1.5"/>
+</svg>

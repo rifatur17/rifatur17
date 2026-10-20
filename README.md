@@ -1,41 +1,58 @@
-## Profile scan
-
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/reference-still-profile-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/reference-still-profile.svg">
-  <source media="(max-width: 600px)" srcset="assets/reference-profile-mobile.svg">
-  <img src="assets/reference-profile.svg" width="1200" alt="Rifatur Rahman — ASCII portrait scanner. AIUB CSE student, C# and ASP.NET Core. Seeking a Full Stack Developer Internship.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/neon-still-hero-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/neon-still-hero.svg">
+  <source media="(max-width: 600px)" srcset="assets/neon-hero-mobile.svg">
+  <img src="assets/neon-hero.svg" width="1200" alt="Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Neon code rain, glitch lettering and a moving code packet.">
 </picture>
 
-I'm **Rifatur Rahman**, a Computer Science and Engineering student at **American International University-Bangladesh (AIUB)**, based in Dhaka. My main direction is **C# and ASP.NET Core**. I also work with web interfaces, testing, data analysis and AI-assisted systems.
-
-**Seeking a Full Stack Developer Internship** where I can contribute to useful features, learn through code review and build reliable software.
+**C# / ASP.NET Core** · web interfaces · applied AI. CSE student at **AIUB**, Dhaka.
 
 [Portfolio](https://rifatur17.github.io/) · [Download CV](https://raw.githubusercontent.com/rifatur17/rifatur17/main/assets/Rifatur_Rahman_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/rifatur-rahman11/) · [Email](mailto:rifaturrahman1131@gmail.com)
 
-## The year, so far
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/reference-still-activity-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/reference-still-activity.svg">
-  <source media="(max-width: 600px)" srcset="assets/reference-activity-mobile.svg">
-  <img src="assets/reference-activity.svg" width="1200" alt="GitHub contribution calendar snapshot, 20 October 2026. Includes disclosed synthetic contribution-art commits. Moving object is decorative.">
-</picture>
-
-GitHub snapshot · 20 October 2026. This calendar includes [disclosed synthetic contribution-art commits](https://github.com/rifatur17/contribution-calendar-art); its total is not a measure of genuine development work. The animated crawler does not alter any tile counts.
-
-## Signal
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/reference-still-signal-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/reference-still-signal.svg">
-  <source media="(max-width: 600px)" srcset="assets/reference-signal-mobile.svg">
-  <img src="assets/reference-signal.svg" width="1200" alt="Public GitHub snapshot: repository count, calendar contributions, primary repository languages and active days. Includes synthetic art activity.">
-</picture>
-
-Snapshot values are generated from GitHub, rather than live counters. Contribution and active-day values include the disclosed art repository.
-
 ## Selected work
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/neon-still-stock-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/neon-still-stock.svg">
+  <source media="(max-width: 600px)" srcset="assets/neon-stock-mobile.svg">
+  <img src="assets/neon-stock.svg" width="1200" alt="StockPilot — inventory and sales. Shared services, SQL write coordination and automated checks.">
+</picture>
+
+[Repository](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management) · [Architecture](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/ARCHITECTURE.md) · [Concurrency design](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/INVENTORY_CONCURRENCY.md) · [Screenshot](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/screenshots/dashboard-desktop.png)
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/neon-still-incident-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/neon-still-incident.svg">
+  <source media="(max-width: 600px)" srcset="assets/neon-incident-mobile.svg">
+  <img src="assets/neon-incident.svg" width="1200" alt="IncidentLens — evidence-led investigation. My contribution: dependency security, compatibility and CI.">
+</picture>
+
+**My contribution:** security, compatibility and CI maintenance. Retains [Niloy Bhuiyan’s upstream authorship](https://github.com/Niloy-Bhuiyan/IncidentLens).
+
+[Repository](https://github.com/rifatur17/IncidentLens) · [My security change](https://github.com/rifatur17/IncidentLens/commit/ab1025ba8f7e5c571396285971d433f95b228b13) · [Compatibility adapter & tests](https://github.com/rifatur17/IncidentLens/tree/main/tools/eslint-glob-compat)
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/neon-still-hospital-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/neon-still-hospital.svg">
+  <source media="(max-width: 600px)" srcset="assets/neon-hospital-mobile.svg">
+  <img src="assets/neon-hospital.svg" width="1200" alt="Hospital Appointment System — team project. My focus: patient authentication and doctor administration.">
+</picture>
+
+**My focus:** patient authentication and doctor administration within a team project.
+
+[Repository](https://github.com/hospital-appointment-team/hospital-appointment-system) · [My foundation PR](https://github.com/hospital-appointment-team/hospital-appointment-system/pull/1)
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/neon-still-solar-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/neon-still-solar.svg">
+  <source media="(max-width: 600px)" srcset="assets/neon-solar-mobile.svg">
+  <img src="assets/neon-solar.svg" width="1200" alt="Solar System Simulation — C++, OpenGL and GLUT. Interactive orbits, camera and lighting.">
+</picture>
+
+[Repository](https://github.com/rifatur17/Solar-System-Simulation) · [Source](https://github.com/rifatur17/Solar-System-Simulation/blob/main/main.cpp)
+
+<details>
+<summary><b>Engineering notes & project contributions</b></summary>
 
 ### StockPilot — inventory & sales
 
@@ -79,6 +96,11 @@ An interactive 3D solar-system simulation with planetary orbits, camera controls
 [Repository](https://github.com/rifatur17/Solar-System-Simulation) · [Source](https://github.com/rifatur17/Solar-System-Simulation/blob/main/main.cpp)
 
 More .NET work: [G Energy — React + ASP.NET Core charging demonstration](https://github.com/rifatur17/G-Energy-Project-Demo).
+
+</details>
+
+<details>
+<summary><b>Full CV · skills, education, research & training</b></summary>
 
 ## Technical toolkit
 
@@ -134,3 +156,7 @@ These are study-specific analysis results. The profile does not imply publicatio
 [Email](mailto:rifaturrahman1131@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rifatur-rahman11/) · [Portfolio](https://rifatur17.github.io/) · [CV](https://raw.githubusercontent.com/rifatur17/rifatur17/main/assets/Rifatur_Rahman_CV.pdf)
 
 Dhaka, Bangladesh · [+8801410609872](tel:+8801410609872)
+
+</details>
+
+[Let’s connect](mailto:rifaturrahman1131@gmail.com) · [Portfolio](https://rifatur17.github.io/) · [Download CV](https://raw.githubusercontent.com/rifatur17/rifatur17/main/assets/Rifatur_Rahman_CV.pdf)

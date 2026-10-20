@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450" role="img" aria-labelledby="title desc">
+<title id="title">Solar system</title>
+<desc id="desc">Original neon portfolio illustration. Rain, glitch and moving packets are decorative, not live telemetry.</desc>
+<defs><radialGradient id="aura"><stop stop-color="#36ff9a" stop-opacity=".16"/><stop offset="1" stop-color="#36ff9a" stop-opacity="0"/></radialGradient><linearGradient id="fade"><stop stop-color="#04090a"/><stop offset="1" stop-color="#071714"/></linearGradient><clipPath id="frame"><rect x="1" y="1" width="598" height="448" rx="18"/></clipPath><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#3afea3" stroke-opacity=".065" fill="none"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<g clip-path="url(#frame)"><rect width="600" height="450" fill="url(#fade)"/><rect width="600" height="450" fill="url(#grid)"/><ellipse cx="530" cy="225.0" rx="420" ry="400" fill="url(#aura)"/>
+</g>
+<path d="M24 1H576" fill="none" stroke="#2d664c" stroke-width="1"/>
+<path d="M24 449H576" fill="none" stroke="#2d664c" stroke-width="1"/>
+<rect x="1" y="1" width="598" height="448" rx="18" fill="none" stroke="#244636"/>
+<text x="28" y="43" fill="#6affaa" font-size="14" font-weight="600" font-family="Consolas,Courier New,monospace" >04 / COMPUTER GRAPHICS</text>
+<text x="28" y="96" fill="#eaf9f0" font-size="32" font-weight="700" font-family="Segoe UI,Arial,sans-serif" >Solar system</text>
+<text x="28" y="138" fill="#b4cbbd" font-size="19" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >Orbital motion. Interactive 3D.</text>
+<text x="28" y="183" fill="#83bc9a" font-size="15" font-weight="400" font-family="Consolas,Courier New,monospace" >C++ / OPENGL / GLUT</text>
+<ellipse cx="300.0" cy="305" rx="58.5" ry="25.35" fill="none" stroke="#28593d"/>
+<ellipse cx="300.0" cy="305" rx="99.0" ry="42.9" fill="none" stroke="#28593d"/>
+<ellipse cx="300.0" cy="305" rx="141.0" ry="61.1" fill="none" stroke="#28593d"/>
+<circle cx="300.0" cy="305" r="13" fill="#bdff75"/>
+<path d="M28 385H572" fill="none" stroke="#1c3a2a" stroke-width="1"/>
+<text x="28" y="421" fill="#8ba99a" font-size="14" font-weight="400" font-family="Consolas,Courier New,monospace" >INTERACTIVE ORBITS  /  CAMERA + LIGHTING</text>
+<path d="M201.0 305a99 43 0 1 0 198 0a99 43 0 1 0 -198 0" fill="none" stroke="#255239" stroke-width="1.5"/>
+</svg>

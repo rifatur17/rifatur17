@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="660" viewBox="0 0 600 660" role="img" aria-labelledby="title desc">
+<title id="title">Rifatur Rahman — Full-Stack Developer</title>
+<desc id="desc">Original neon portfolio illustration. Rain, glitch and moving packets are decorative, not live telemetry.</desc>
+<defs><radialGradient id="aura"><stop stop-color="#36ff9a" stop-opacity=".16"/><stop offset="1" stop-color="#36ff9a" stop-opacity="0"/></radialGradient><linearGradient id="fade"><stop stop-color="#04090a"/><stop offset="1" stop-color="#071714"/></linearGradient><clipPath id="frame"><rect x="1" y="1" width="598" height="658" rx="18"/></clipPath><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#3afea3" stroke-opacity=".065" fill="none"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<g clip-path="url(#frame)"><rect width="600" height="660" fill="url(#fade)"/><rect width="600" height="660" fill="url(#grid)"/><ellipse cx="530" cy="330.0" rx="420" ry="400" fill="url(#aura)"/>
+</g>
+<path d="M24 1H576" fill="none" stroke="#2d664c" stroke-width="1"/>
+<path d="M24 659H576" fill="none" stroke="#2d664c" stroke-width="1"/>
+<rect x="1" y="1" width="598" height="658" rx="18" fill="none" stroke="#244636"/>
+<text x="32" y="45" fill="#69ffa9" font-size="15" font-weight="600" font-family="Consolas,Courier New,monospace" >R / R     SOFTWARE ENGINEERING</text>
+<path d="M32 67H568" fill="none" stroke="#1b3d2d" stroke-width="1"/>
+<text x="32" y="153" fill="#eaf9f0" font-size="70" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rifatur</text>
+<text x="32" y="231" fill="#eaf9f0" font-size="70" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rahman</text>
+<text x="32" y="284" fill="#65ff9f" font-size="24" font-weight="600" font-family="Consolas,Courier New,monospace" >FULL-STACK DEVELOPER</text>
+<text x="32" y="332" fill="#b1c6bc" font-size="23" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >.NET systems. Thoughtful interfaces.</text>
+<text x="32" y="366" fill="#b1c6bc" font-size="23" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >Applied AI. Built with curiosity.</text>
+<path d="M32 558H568" fill="none" stroke="#2d5948" stroke-width="1"/>
+<circle cx="37" cy="594" r="5" fill="#65ff9f"/>
+<text x="54" y="600" fill="#dbf4e5" font-size="16" font-weight="600" font-family="Consolas,Courier New,monospace" >SEEKING A FULL-STACK INTERNSHIP</text>
+<text x="32" y="634" fill="#8aa99a" font-size="14" font-weight="400" font-family="Consolas,Courier New,monospace" >CSE @ AIUB  /  DHAKA, BANGLADESH</text>
+<rect x="32" y="407" width="536" height="105" rx="10" fill="#060f0c" stroke="#2c6849"/>
+<text x="50" y="438" fill="#63ff9f" font-size="17" font-weight="400" font-family="Consolas,Courier New,monospace" >&gt; build --with-intent</text>
+<text x="50" y="472" fill="#eaf9f0" font-size="21" font-weight="400" font-family="Consolas,Courier New,monospace" >C#   /   WEB   /   AI</text>
+<path d="M50 492H550" fill="none" stroke="#255239" stroke-width="1.5"/>
+</svg>

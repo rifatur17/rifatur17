@@ -2,7 +2,13 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
-## Current mint video-reference revision
+## Current neon + clean portfolio revision
+
+The user selected a blend of option 2 (neon hacker/code rain/glitch) and option 3 (clean premium profile/project cards). The implementation replaces the repeated scanner/stat panels with a large name, focused introduction and four illustrated project cards. Security/CI and team contribution credit stays visible. Full CV information and project notes remain available in native expandable sections and the searchable transcript. No source PDF, account fields, repository history or contribution dates changed.
+
+Twenty self-contained SVG variants passed safety, parsing, generator reproducibility, static fallback and CV fidelity/attribution checks. Desktop hero, mobile hero, desktop StockPilot and mobile hospital previews were visually inspected. The primary name remains visible through brief sliced glitch overlays; rain and moving packets are decorative. Custom contribution and signal counts are no longer presented.
+
+## Previous mint video-reference revision
 
 The user requested a close match to YouTube Short `SJUqhtjIRgU`. The actual video was played and visually inspected in the browser: mint terminal framing, ASCII profile scan, contribution activity crawler and profile signal. The new design uses that composition with the user's portrait and CV-aligned identity. It does not claim pixel identity or change GitHub's surrounding page background.
 
