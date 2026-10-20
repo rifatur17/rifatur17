@@ -2,6 +2,12 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
+## Organization repository visibility
+
+Authenticated account access identified one organization, `hospital-appointment-team`, with one public repository, `hospital-appointment-system`. The repository already had animated artwork; this revision gives it an explicitly labeled organization banner and a dedicated profile section immediately after the introduction. The lower duplicate card was removed. The source URL, organization link and foundation PR are native clickable links. Six showcased projects remain six; account-owned repository statistics are unchanged.
+
+All 40 referenced SVGs passed existing safety, reproducibility, static fallback, source-CV and attribution checks. The mobile organization banner was visually inspected. All 19 non-LinkedIn HTTPS destinations returned 200, including the organization and repository. LinkedIn retained its automated-client restriction. The organization README's original body was preserved by SHA-256. Only README presentation and four SVGs changed in the organization repository; no application code or runtime checks were altered.
+
 ## Current emerald / visible-motion revision
 
 The user rejected the blue palette, asked for more moving objects and supplied YouTube video `JEFOzaeEJaw`. They explicitly selected black + emerald/teal + white. The video's final-profile segment and chapter list were inspected in the browser. A floating developer companion, orbiting code badges, multiple moving frame lights and packet trails were added. The technical toolkit has floating CV-listed skill tiles. A dated public GitHub overview and language donut follow the reference's skills/stats presentation; no visitor count or unsupported metric was invented.

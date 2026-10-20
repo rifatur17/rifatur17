@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 from terminal_showcase import make as terminal_base
 from showcase_panels import KINDS as PROJECT_KINDS
 ROOT=Path(__file__).resolve().parents[1]
-KINDS=[*PROJECT_KINDS,'toolkit','stats']
+KINDS=[*('organization' if k=='hospital' else k for k in PROJECT_KINDS),'toolkit','stats']
 NS='http://www.w3.org/2000/svg'
 
 def recolor(svg):
@@ -96,9 +96,12 @@ def extra(kind,narrow,animated):
  p.append(motion_objects(w,h,kind,animated));p.append('</svg>');return '\n'.join(p)+'\n'
 
 def make(kind,narrow=False,animated=True):
+ organization=kind=='organization'
+ if organization:kind='hospital'
  if kind in ('toolkit','stats'):result=extra(kind,narrow,animated)
  else:
   source=recolor(terminal_base(kind,narrow,animated))
+  if organization:source=source.replace('PROJECT / HOSPITAL','ORGANIZATION / HOSPITAL APPOINTMENT TEAM')
   # Strengthen edge rain without hiding text or altering diagram facts.
   source=source.replace('opacity=".13" font-family','opacity=".25" font-family')
   tree=ET.fromstring(source);w=int(tree.get('width'));h=int(tree.get('height'))

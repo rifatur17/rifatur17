@@ -76,12 +76,16 @@ def build():
          '**C# / ASP.NET Core** · web interfaces · applied AI. CSE student at **AIUB**, Dhaka.',
          contacts(d),
          '<p align="center"><b>Open to a Full Stack Developer Internship · C# / ASP.NET Core</b></p>',
+         '## Organization project',
+         '**[hospital-appointment-team](https://github.com/hospital-appointment-team) / [hospital-appointment-system](https://github.com/hospital-appointment-team/hospital-appointment-system)**',
+         '<a href="https://github.com/hospital-appointment-team/hospital-appointment-system">\n'+picture('organization','Organization project: Hospital Appointment System by hospital-appointment-team. Animated patient authentication, role checks and doctor administration flow.')+'\n</a>',
+         '**My focus:** patient authentication and doctor administration. Booking and appointment dashboards are wider team contributions; feature-branch and runtime-verification status remain documented in the repository.',
+         '[Open organization repo](https://github.com/hospital-appointment-team/hospital-appointment-system) · [My foundation PR](https://github.com/hospital-appointment-team/hospital-appointment-system/pull/1)',
          '## Technical toolkit',
          picture('toolkit','CV-listed tools: C#, ASP.NET Core, Python, TypeScript, React, SQL Server, C++, JavaScript, Git/CI, PHP, HTML and CSS. Floating developer tiles.'),
          '## Featured work']
     projects=[('stock','StockPilot — inventory and sales. Shared services, SQL write coordination and automated checks.',s[s.index('### StockPilot — inventory & sales')+4],''),
               ('incident','IncidentLens — evidence-led investigation. My contribution: dependency security, compatibility and CI.',s[s.index('### IncidentLens — evidence-based incident investigation')+4], '**My contribution:** security, compatibility and CI maintenance. Retains [Niloy Bhuiyan’s upstream authorship](https://github.com/Niloy-Bhuiyan/IncidentLens).'),
-              ('hospital','Hospital Appointment System — team project. My focus: patient authentication and doctor administration.',s[s.index('### Hospital Appointment System — patient & staff workflows')+4],'**My focus:** patient authentication and doctor administration within a team project. Contribution branches; runtime verification pending.'),
               ('solar','Solar System Simulation — C++, OpenGL and GLUT. Interactive orbits, camera and lighting.',s[s.index('### Solar System Simulation — interactive graphics')+3],'')]
     for kind,alt,links,credit in projects:
         repo=re.search(r"\[Repository\]\((https://[^)]+)\)",links).group(1)

@@ -32,3 +32,5 @@ git diff --check
 Inspect light/dark desktop/mobile renderings before publication. Keep upstream credit and the separation between project capabilities and personal contribution intact. LinkedIn may reject automated HTTP clients; its destination is taken directly from the supplied CV rather than treated as broken solely because of HTTP 999.
 
 The public profile README is displayed because this public repository matches the account username. Native bio, avatar and social fields are managed separately in GitHub account settings.
+
+The hospital organization project is deliberately placed before the technical toolkit. Keep the organization-owned URL intact; do not substitute a personal fork. It is displayed once as an organization card, with fuller engineering notes retained below.

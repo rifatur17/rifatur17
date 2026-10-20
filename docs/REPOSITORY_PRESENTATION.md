@@ -26,7 +26,7 @@ All nine remote branch heads matched these published commits. Original README bo
 
 - [rifatur17/StockPilot-Inventory-Sales-Management · 6d138828](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/commit/6d138828a6fea61de88611504e0599405f4a2b0d)
 - [rifatur17/IncidentLens · d77f1f8b](https://github.com/rifatur17/IncidentLens/commit/d77f1f8b963b69c4e4596ba450dee9439e4e165c)
-- [hospital-appointment-team/hospital-appointment-system · 5877e7db](https://github.com/hospital-appointment-team/hospital-appointment-system/commit/5877e7db2bad9b012f6ffa1d08f41673aa73c932)
+- [hospital-appointment-team/hospital-appointment-system · 064e02f8](https://github.com/hospital-appointment-team/hospital-appointment-system/commit/064e02f871ea5f17fda142fb3516f5ceb0aad0dd)
 - [rifatur17/Solar-System-Simulation · 036591a5](https://github.com/rifatur17/Solar-System-Simulation/commit/036591a5e70e118dacb6dffce864f08eccbd4972)
 - [rifatur17/G-Energy-Project-Demo · ef4330a2](https://github.com/rifatur17/G-Energy-Project-Demo/commit/ef4330a27a7d591dad73f924a8ba64a9f400a1d4)
 - [rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content · b59ea83c](https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content/commit/b59ea83c0ae6c240407ecf1cefd7ab3000098d98)
@@ -61,3 +61,7 @@ All nine repository branch heads were independently checked against their pushed
 - [rifatur17/rifatur17.github.io · d6b17c37](https://github.com/rifatur17/rifatur17.github.io/commit/d6b17c3701a32ee69bb8014c8331b74d56bcb0aa)
 - [rifatur17/github-test · a4fb4f1f](https://github.com/rifatur17/github-test/commit/a4fb4f1ffee2d1dc2f1e8eb4bee9de026eb627cc)
 - [rifatur17/contribution-calendar-art · fb194ac6](https://github.com/rifatur17/contribution-calendar-art/commit/fb194ac634af09df5098b7f870bc784c8b7933b6)
+
+## Organization project placement
+
+The hospital organization repository has its own `Organization project` section directly after the profile introduction. The entire card links to the organization-owned repository, with an organization link and foundation PR below. Team credit and runtime-verification notes remain visible. Its four local SVGs use the `organization-overview` filename and generator kind `organization`. This is README presentation; native GitHub pin settings are not changed.

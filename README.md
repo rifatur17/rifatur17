@@ -16,6 +16,23 @@
 
 <p align="center"><b>Open to a Full Stack Developer Internship · C# / ASP.NET Core</b></p>
 
+## Organization project
+
+**[hospital-appointment-team](https://github.com/hospital-appointment-team) / [hospital-appointment-system](https://github.com/hospital-appointment-team/hospital-appointment-system)**
+
+<a href="https://github.com/hospital-appointment-team/hospital-appointment-system">
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/verdant-still-organization-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/verdant-still-organization.svg">
+  <source media="(max-width: 600px)" srcset="assets/verdant-organization-mobile.svg">
+  <img src="assets/verdant-organization.svg" width="1200" alt="Organization project: Hospital Appointment System by hospital-appointment-team. Animated patient authentication, role checks and doctor administration flow.">
+</picture>
+</a>
+
+**My focus:** patient authentication and doctor administration. Booking and appointment dashboards are wider team contributions; feature-branch and runtime-verification status remain documented in the repository.
+
+[Open organization repo](https://github.com/hospital-appointment-team/hospital-appointment-system) · [My foundation PR](https://github.com/hospital-appointment-team/hospital-appointment-system/pull/1)
+
 ## Technical toolkit
 
 <picture>
@@ -50,19 +67,6 @@
 **My contribution:** security, compatibility and CI maintenance. Retains [Niloy Bhuiyan’s upstream authorship](https://github.com/Niloy-Bhuiyan/IncidentLens).
 
 [Repository](https://github.com/rifatur17/IncidentLens) · [My security change](https://github.com/rifatur17/IncidentLens/commit/ab1025ba8f7e5c571396285971d433f95b228b13) · [Compatibility adapter & tests](https://github.com/rifatur17/IncidentLens/tree/main/tools/eslint-glob-compat)
-
-<a href="https://github.com/hospital-appointment-team/hospital-appointment-system">
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/verdant-still-hospital-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/verdant-still-hospital.svg">
-  <source media="(max-width: 600px)" srcset="assets/verdant-hospital-mobile.svg">
-  <img src="assets/verdant-hospital.svg" width="1200" alt="Hospital Appointment System — team project. My focus: patient authentication and doctor administration.">
-</picture>
-</a>
-
-**My focus:** patient authentication and doctor administration within a team project. Contribution branches; runtime verification pending.
-
-[Repository](https://github.com/hospital-appointment-team/hospital-appointment-system) · [My foundation PR](https://github.com/hospital-appointment-team/hospital-appointment-system/pull/1)
 
 <a href="https://github.com/rifatur17/Solar-System-Simulation">
 <picture>

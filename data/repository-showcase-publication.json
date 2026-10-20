@@ -24,12 +24,12 @@
   {
     "repo": "hospital-appointment-team/hospital-appointment-system",
     "status": "published",
-    "sha": "5877e7db2bad9b012f6ffa1d08f41673aa73c932",
+    "sha": "064e02f871ea5f17fda142fb3516f5ceb0aad0dd",
     "readme_preserved": true,
     "original_sha256": "e795b100fc6ab3b9010cd7699480bdddb713c574a61eac4bc631901ccfe5d4c8",
     "original_bytes": 1434,
-    "header_bytes": 804,
-    "kind": "hospital",
+    "header_bytes": 1009,
+    "kind": "organization",
     "had_readme": true
   },
   {
