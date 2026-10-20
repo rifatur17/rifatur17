@@ -1,112 +1,116 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/scan-still-profile-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/scan-still-profile.svg">
-  <source media="(max-width: 600px)" srcset="assets/scan-profile-mobile.svg">
-  <img src="assets/scan-profile.svg" width="1200" alt="Rifatur Rahman / @rifatur17. Full Stack Developer. C# / ASP.NET Core / SQL Server. AIUB BSc CSE student in Dhaka, seeking a Full Stack Developer Internship. ASCII portrait derived from his actual public GitHub avatar.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/studio-still-dark-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/studio-still-light-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/studio-still-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/studio-still-light.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/studio-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/studio-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/studio-dark.svg">
+  <img src="assets/studio-light.svg" width="1200" alt="Rifatur Rahman — Full-Stack Developer. AIUB CSE student focused on .NET, web engineering and applied AI. Seeking a Full Stack Developer Internship.">
 </picture>
 
-[`[ portfolio ↗ ]`](https://rifatur17.github.io/) · [`[ CV ↓ ]`](https://rifatur17.github.io/assets/Rifatur_Rahman_CV.pdf) · [`[ email ]`](mailto:rifaturrahman1131@gmail.com) · [Text-only profile](docs/PROFILE_TEXT.md)
+I'm **Rifatur Rahman**, a Computer Science and Engineering student at **American International University-Bangladesh (AIUB)**, based in Dhaka. My main direction is **C# and ASP.NET Core**. I also work with web interfaces, testing, data analysis and AI-assisted systems.
 
-## `profile.signal`
+**Seeking a Full Stack Developer Internship** where I can contribute to useful features, learn through code review and build reliable software.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/scan-still-signal-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/scan-still-signal.svg">
-  <source media="(max-width: 600px)" srcset="assets/scan-signal-mobile.svg">
-  <img src="assets/scan-signal.svg" width="1200" alt="GitHub snapshot on 20 October 2026: 8 public repositories, 84 contributions, 4 primary repository languages. These are dated snapshot values.">
-</picture>
+[Portfolio](https://rifatur17.github.io/) · [Download CV](https://raw.githubusercontent.com/rifatur17/rifatur17/main/assets/Rifatur_Rahman_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/rifatur-rahman11/) · [Email](mailto:rifaturrahman1131@gmail.com)
 
-## `contribution.activity`
+## Selected work
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/scan-still-activity-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/scan-still-activity.svg">
-  <source media="(max-width: 600px)" srcset="assets/scan-activity-mobile.svg">
-  <img src="assets/scan-activity.svg" width="1200" alt="84 actual GitHub contributions over 21 October 2025 to 20 October 2026. Desktop shows all 365 days; mobile shows the latest 13 weeks. The animated crawler is decorative and does not change counts.">
-</picture>
+### StockPilot — inventory & sales
 
-[`[ full contribution calendar ↗ ]`](https://github.com/rifatur17?tab=overview) · [`snapshot / 20 OCT 2026`](data/github-public-snapshot.json)
+`C#` · `ASP.NET Core MVC / Web API` · `EF Core` · `SQL Server` · `Bootstrap`
 
-## `ls ~/projects`
+An inventory and sales application connecting purchase receiving, POS, invoices, payments, returns and reports.
 
-### `01 / StockPilot`
+- MVC pages and REST endpoints share the same application services.
+- Four Identity roles, account lockout, and role/ownership checks protect workflows.
+- SQL Server application locks, rowversion and persisted operation keys coordinate inventory writes and retries.
+- Unit, integration and browser checks run through GitHub Actions, including SQL Server container coverage.
 
-<a href="https://github.com/rifatur17/StockPilot-Inventory-Sales-Management">
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cyber-still-stockpilot-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cyber-still-stockpilot.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/cyber-motion-stockpilot-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/cyber-motion-stockpilot-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cyber-motion-stockpilot-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/cyber-motion-stockpilot-light.svg">
-  <img src="assets/cyber-motion-stockpilot-light.svg" width="1200" alt="StockPilot: MVC and API share services; LedgerGate serializes stock and ledger writes through a SQL Server application lock.">
-</picture>
-</a>
+[Repository](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management) · [Architecture](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/ARCHITECTURE.md) · [Concurrency design](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/INVENTORY_CONCURRENCY.md) · [Screenshot](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/screenshots/dashboard-desktop.png)
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cyber-readout-still-stockpilot-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cyber-readout-still-stockpilot.svg">
-  <source media="(max-width: 600px)" srcset="assets/cyber-readout-stockpilot-mobile.svg">
-  <img src="assets/cyber-readout-stockpilot.svg" width="1200" alt="scope: Inventory + sales: purchase receiving, POS, invoices, payments and stock movements. MVC and REST API share application services. inspect: SQL application locking, persisted retry keys, and role / ownership checks. tradeoff: Writes serialize for a small-business workload. No production deployment is claimed. stack: C# / ASP.NET Core MVC + Web API / EF Core / SQL Server / Bootstrap">
-</picture>
+### IncidentLens — evidence-based incident investigation
 
-[`[ repository ↗ ]`](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management) · [`write gate source`](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/src/StockPilot.Infrastructure/LedgerGate.cs) · [`application screenshot`](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/screenshots/dashboard-desktop.png) · [`test strategy`](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/TESTING.md)
+`Python` · `FastAPI` · `LangGraph` · `LangChain` · `Next.js`
 
-### `02 / G Energy`
+An incident-investigation system that connects logs, source changes and deployment evidence through hybrid vector/BM25 retrieval, an investigation workflow and citation checks.
 
-<a href="https://github.com/rifatur17/G-Energy-Project-Demo">
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cyber-still-genergy-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cyber-still-genergy.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/cyber-motion-genergy-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/cyber-motion-genergy-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cyber-motion-genergy-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/cyber-motion-genergy-light.svg">
-  <img src="assets/cyber-motion-genergy-light.svg" width="1200" alt="G Energy: reserve, charge and settle. Owner wallet and Driver access are distinct; charging and money movements are simulated.">
-</picture>
-</a>
+**My contribution:** repository maintenance, dependency security, glob compatibility and CI reliability. The project retains [Niloy Bhuiyan’s upstream authorship](https://github.com/Niloy-Bhuiyan/IncidentLens); the hosted demo belongs to that upstream project.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cyber-readout-still-genergy-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cyber-readout-still-genergy.svg">
-  <source media="(max-width: 600px)" srcset="assets/cyber-readout-genergy-mobile.svg">
-  <img src="assets/cyber-readout-genergy.svg" width="1200" alt="scope: EV charging demo: Owner / Driver access, vehicle assignments, reservations, charging sessions and a demo wallet. inspect: Vehicle-specific charging permission, charging-to-wallet settlement and protected Admin operations. boundary: Charging, top-ups, payments and refunds are simulated. This is a development project. stack: React / TypeScript / ASP.NET Core Web API / EF Core / SQL Server">
-</picture>
+[Repository](https://github.com/rifatur17/IncidentLens) · [My security change](https://github.com/rifatur17/IncidentLens/commit/ab1025ba8f7e5c571396285971d433f95b228b13) · [Compatibility adapter & tests](https://github.com/rifatur17/IncidentLens/tree/main/tools/eslint-glob-compat)
 
-[`[ repository ↗ ]`](https://github.com/rifatur17/G-Energy-Project-Demo) · [`access rules`](https://github.com/rifatur17/G-Energy-Project-Demo/blob/main/backend/GEnergy.Api/Services/VehicleAccess.cs) · [`settlement source`](https://github.com/rifatur17/G-Energy-Project-Demo/blob/main/backend/GEnergy.Api/Services/Wallets/WalletChargingSettlement.cs) · [`verification record`](https://github.com/rifatur17/G-Energy-Project-Demo/blob/main/docs/member5-verification.md)
+### Hospital Appointment System — patient & staff workflows
 
-### `03 / IncidentLens`
+`PHP` · `MySQL` · `HTML` · `CSS` · `JavaScript`
 
-<a href="https://github.com/rifatur17/IncidentLens">
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cyber-still-incidentlens-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cyber-still-incidentlens.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/cyber-motion-incidentlens-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/cyber-motion-incidentlens-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cyber-motion-incidentlens-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/cyber-motion-incidentlens-light.svg">
-  <img src="assets/cyber-motion-incidentlens-light.svg" width="1200" alt="IncidentLens maintenance: audit dependencies, preserve glob compatibility and verify regression/resource bounds. Original application by Niloy Bhuiyan.">
-</picture>
-</a>
+A team MVC project covering patient registration, doctor/specialization management, appointment booking and dashboards, developed through feature branches and pull requests.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cyber-readout-still-incidentlens-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cyber-readout-still-incidentlens.svg">
-  <source media="(max-width: 600px)" srcset="assets/cyber-readout-incidentlens-mobile.svg">
-  <img src="assets/cyber-readout-incidentlens.svg" width="1200" alt="my work: Dependency security, glob compatibility and CI reliability. inspect: Scoped compatibility adapter, regression fixtures, and bounds on nested / expanded patterns. context: The application uses Next.js, FastAPI, hybrid retrieval and LangGraph for evidence-based incident investigation. credit: Original application: Niloy Bhuiyan. Upstream history and MIT attribution preserved; I do not claim original authorship.">
-</picture>
+**My focus:** patient authentication and doctor administration. Booking and appointment dashboards are part of the wider team contribution. The repository documents the contribution branches and setup status.
 
-[`[ repository ↗ ]`](https://github.com/rifatur17/IncidentLens) · [`adapter + regression tests`](https://github.com/rifatur17/IncidentLens/tree/main/tools/eslint-glob-compat) · [`my security change`](https://github.com/rifatur17/IncidentLens/commit/ab1025ba8f7e5c571396285971d433f95b228b13) · [`upstream / Niloy Bhuiyan`](https://github.com/Niloy-Bhuiyan/IncidentLens)
+[Repository](https://github.com/hospital-appointment-team/hospital-appointment-system) · [My foundation PR](https://github.com/hospital-appointment-team/hospital-appointment-system/pull/1)
 
-## `cat ~/profile/stack.txt`
+### Solar System Simulation — interactive graphics
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cyber-readout-still-stack-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cyber-readout-still-stack.svg">
-  <source media="(max-width: 600px)" srcset="assets/cyber-readout-stack-mobile.svg">
-  <img src="assets/cyber-readout-stack.svg" width="1200" alt="interface: HTML / CSS / JavaScript / Bootstrap; React + TypeScript in G Energy application: C# / ASP.NET Core MVC / Web API data: Entity Framework Core / SQL Server verification: Unit, integration and browser checks / Git / GitHub Actions next: Contribute to full-stack features, learn through code review and deepen my .NET + relational data skills.">
-</picture>
+`C++` · `OpenGL` · `GLUT`
 
-### `connect --next`
+An interactive 3D solar-system simulation with planetary orbits, camera controls and lighting effects.
 
-[`rifaturrahman1131@gmail.com`](mailto:rifaturrahman1131@gmail.com) · [`portfolio / projects ↗`](https://rifatur17.github.io/projects/)
+[Repository](https://github.com/rifatur17/Solar-System-Simulation) · [Source](https://github.com/rifatur17/Solar-System-Simulation/blob/main/main.cpp)
+
+More .NET work: [G Energy — React + ASP.NET Core charging demonstration](https://github.com/rifatur17/G-Energy-Project-Demo).
+
+## Technical toolkit
+
+My core direction is **.NET full-stack development**. The broader technologies below are listed in my CV.
+
+| Area | Technologies |
+| :--- | :--- |
+| Languages | C#, C++, Java, Python, JavaScript, TypeScript, PHP, Dart, SQL, HTML, CSS |
+| Backend | ASP.NET Core MVC, ASP.NET Core Web API, Entity Framework Core, .NET Framework, Node.js, NestJS, REST APIs, WebSockets |
+| Frontend | React.js, Next.js, Tailwind CSS, Bootstrap 5 |
+| Databases | SQL Server / SSMS, MySQL, PostgreSQL, SQLite |
+| Testing & QA | Unit & integration testing, Playwright (E2E), pytest, Vitest |
+| Version control & CI | Git, GitHub, GitHub Actions |
+| Mobile & CMS | Flutter, WordPress |
+
+## Education
+
+**American International University-Bangladesh (AIUB)** · Dhaka, Bangladesh
+
+Bachelor of Science in Computer Science & Engineering — student
+
+**Relevant coursework:** Algorithms, Databases, Object-Oriented Programming, Software Engineering, Computer Networks, Advanced Programming with .NET, Advanced Programming in Web Technologies, SQAT.
+
+## Research & analysis
+
+**Unnoticed Disclosure: Readers Do Not Register AI Source Labels on De-Influencing Content**
+
+**Research team lead · four-person team.** Led work from research design through Python analysis and paper writing for a between-subjects experiment. The analysis uses pandas, SciPy and scikit-learn.
+
+| Study evidence | Reported result |
+| :--- | :--- |
+| Valid participants | 183 |
+| Source-label recall | 50.8% |
+| Consumer-trust prediction | Cross-validated ridge R² = 0.578 |
+| Anti-consumption classification | Cross-validated logistic-regression AUC = 0.879 |
+
+These are study-specific analysis results. The profile does not imply publication acceptance.
+
+[Research repository](https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content) · [Paper](https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content/blob/main/paper/Unnoticed%20Disclosure%20Readers%20Do%20Not%20Register%20AI.pdf) · [Analysis results](https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content/blob/main/results/results.txt)
+
+## Leadership
+
+- **Thesis team lead:** coordinated a four-member team through study design, analysis and writing.
+- **Academic project team lead:** coordinated .NET and Web Technologies projects, assigned tasks and contributed to implementation and delivery.
+
+## Training & workshops
+
+- **AI Engineering Bootcamp** (2025) — Ostad
+- **Networking Fundamentals** — Cisco
+
+## Connect
+
+[Email](mailto:rifaturrahman1131@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rifatur-rahman11/) · [Portfolio](https://rifatur17.github.io/) · [CV](https://raw.githubusercontent.com/rifatur17/rifatur17/main/assets/Rifatur_Rahman_CV.pdf)
+
+Dhaka, Bangladesh · [+8801410609872](tel:+8801410609872)

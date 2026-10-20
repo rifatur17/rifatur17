@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="580" viewBox="0 0 600 580" role="img" aria-labelledby="title desc">
+<title id="title">Rifatur Rahman — Full-Stack Developer</title>
+<desc id="desc">AIUB Computer Science and Engineering student. .NET applications, web engineering and applied AI. Seeking a Full Stack Developer Internship.</desc>
+<defs><radialGradient id="aura"><stop stop-color="#78aaff" stop-opacity="0.22"/><stop offset="1" stop-color="#07111f" stop-opacity="0"/></radialGradient><linearGradient id="edge"><stop stop-color="#78aaff"/><stop offset="1" stop-color="#75e2de"/></linearGradient><clipPath id="frame"><rect width="600" height="580" rx="20"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect width="600" height="580" fill="#07111f"/><ellipse cx="490" cy="80" rx="420" ry="330" fill="url(#aura)"/>
+<path d="M130 0L300 580" stroke="#233d5e" stroke-opacity="0.3"/>
+<path d="M200 0L370 580" stroke="#233d5e" stroke-opacity="0.3"/>
+<path d="M270 0L440 580" stroke="#233d5e" stroke-opacity="0.3"/>
+<path d="M340 0L510 580" stroke="#233d5e" stroke-opacity="0.3"/>
+<path d="M410 0L580 580" stroke="#233d5e" stroke-opacity="0.3"/>
+</g>
+<text x="30" y="49" fill="#78aaff" font-family="Consolas,Courier New,monospace" font-size="19" font-weight="600">RR / SOFTWARE ENGINEERING</text>
+<text x="30" y="126" fill="#f2f7ff" font-family="Segoe UI,Arial,sans-serif" font-size="65" font-weight="700">Rifatur</text>
+<text x="30" y="197" fill="#f2f7ff" font-family="Segoe UI,Arial,sans-serif" font-size="65" font-weight="700">Rahman</text>
+<text x="30" y="247" fill="#78aaff" font-family="Segoe UI,Arial,sans-serif" font-size="29" font-weight="600">Full-Stack Developer</text>
+<text x="30" y="301" fill="#a4b8d2" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="400">.NET applications.</text>
+<text x="30" y="337" fill="#a4b8d2" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="400">Web engineering. Applied AI.</text>
+<path d="M30 376H570" stroke="#233d5e" stroke-width="1" fill="none"/>
+<text x="30" y="419" fill="#75e2de" font-family="Consolas,Courier New,monospace" font-size="18" font-weight="600">UI</text>
+<text x="30" y="450" fill="#a4b8d2" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="400">React / MVC</text>
+<path d="M173 413h25" stroke="#78aaff" stroke-width="1.5" fill="none"/>
+<text x="215" y="419" fill="#75e2de" font-family="Consolas,Courier New,monospace" font-size="18" font-weight="600">API</text>
+<text x="215" y="450" fill="#a4b8d2" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="400">ASP.NET Core</text>
+<path d="M358 413h25" stroke="#78aaff" stroke-width="1.5" fill="none"/>
+<text x="400" y="419" fill="#75e2de" font-family="Consolas,Courier New,monospace" font-size="18" font-weight="600">DATA</text>
+<text x="400" y="450" fill="#a4b8d2" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="400">EF Core / SQL</text>
+<rect x="30" y="490" width="540" height="56" rx="9" fill="#0c1e36" stroke="#233d5e"/>
+<text x="48" y="525" fill="#f2f7ff" font-family="Consolas,Courier New,monospace" font-size="22" font-weight="500">SEEKING A FULL-STACK INTERNSHIP</text>
+<g class="motion"><circle r="4" fill="#75e2de"><animateMotion path="M30 470H570" dur="8s" repeatCount="indefinite"/></circle></g>
+<path d="M20 578H580" stroke="url(#edge)" stroke-width="2"/>
+</svg>

@@ -1,34 +1,30 @@
-# Profile design and maintenance
+# Profile maintenance
 
-The root README appears on the GitHub profile because this public repository matches the username `rifatur17`.
+## Current direction
 
-## Direction
+Midnight Studio is a restrained navy/indigo theme with blue/cyan accents, readable native Markdown and one original architecture banner. The banner has desktop/mobile, light/dark and physically static reduced-motion variants. All important identity, skills, education, projects, research, leadership and contact text is immediately readable and searchable. No third-party stats widget, code rain, synthetic-activity metric, delayed prose animation or external font is required.
 
-A developer-terminal visual direction: near-black green surfaces, phosphor-green output, cyan syntax accents, monospace typography, window chrome, coordinate grids, and source-oriented schematics. The hero opens with `whoami`, while project figures resemble a trace or a dependency inspector. This reflects the user's requested hacker/dev-console atmosphere without implying cybersecurity credentials or inventing operational data. Each figure explains an implemented boundary or tradeoff rather than displaying invented metrics.
+## Content and sources
 
-All panels share a circuit/matrix environment generated in `scripts/console_background.py`: green/cyan atmospheric gradients, moving code rain, circuit-edge packets, a traveling light sweep, perspective floor grids, and stepped illuminated corners. Prose panels add a dark center beneath the text so the stronger background stays at the edges. These are authored decorative graphics, not intercepted data or a live security console. GitHub controls the surrounding page and sidebar backgrounds; only repository-rendered assets are styled.
+- `data/cv-profile.json`: current CV-aligned identity, education, technology, contact, research and training data.
+- `scripts/build_readme.py`: project narratives, role attribution and page structure.
+- `scripts/build_assets.py`: the eight original banner variants.
+- `assets/Rifatur_Rahman_CV.pdf`: exact supplied CV; preserve its bytes unless a new version is explicitly supplied.
+- `docs/CV_RECONCILIATION.md`: source reconciliation and ownership boundaries.
+- `docs/PROFILE_SETTINGS.md`: prepared values for native sidebar fields that require account settings access.
 
-The video-reference revision adds an original ASCII profile scan, a signal panel and a contribution-grid crawler in `scripts/profile_scan.py`. The shared background source is unchanged. The ASCII portrait is derived from the actual public GitHub avatar, not a stock character. All metrics and heatmap tiles come from `data/github-public-snapshot.json`, retrieved from GitHub REST and GraphQL on 20 October 2026. They are a clearly dated snapshot, not a continuously refreshed widget. The crawler never changes contribution counts or repository history. Desktop shows the complete 365-day calendar; mobile shows the latest 13 weeks with an explicit label and full-calendar link.
+The older snapshot/ASCII source data and generator modules are historical records; they do not drive the current README.
 
-StockPilot leads because it directly supports the stated C#/.NET internship direction. G Energy demonstrates React-to-.NET integration. IncidentLens demonstrates narrowly attributed security and maintenance work. Hospital Appointment System was reviewed but not featured: its public README still describes unmerged contribution branches and pending runtime verification. Other graphics and research work remain discoverable through the portfolio.
+## Regenerate and verify
 
-## GitHub rendering
+```powershell
+python scripts/build_assets.py
+python scripts/build_readme.py
+python scripts/validate_profile.py
+python scripts/validate_profile.py --links
+git diff --check
+```
 
-- Project descriptions, engineering notes, identity and stack are terminal readouts with staggered text reveal. Every readout has descriptive alt text and a searchable [text-only transcript](PROFILE_TEXT.md). Project headings and navigation remain native Markdown links.
-- GitHub-supported `picture` elements select light/dark asset filenames. Both themes deliberately keep the artwork dark, like embedded terminal windows; surrounding text follows GitHub's selected theme.
-- All 46 referenced SVGs are local, self-contained vector files, with no scripts, external fonts, foreignObject, or network requests. Native SVG motion moves schematic packets, portrait scanners and the contribution crawler. Readout lines reveal within about three seconds, then remain readable for most of the 24-second cycle. Picture sources select 20 physically animation-free alternatives when reduced motion is requested.
-- No dynamic stats services, skill-icon services, custom CSS layouts, or external widgets are required.
-- Figures scale to their available width. Below 600px, picture sources select a larger-type header, vertically stacked project diagrams and narrower prose readouts with larger type. Links use native GitHub rendering so every destination remains individually clickable.
-- Figure links lead to implementation details. They are conceptual diagrams, not application screenshots or results from a test run.
+Inspect light/dark desktop/mobile renderings before publication. Keep upstream credit and the separation between project capabilities and personal contribution intact. LinkedIn may reject automated HTTP clients; its destination is taken directly from the supplied CV rather than treated as broken solely because of HTTP 999.
 
-See GitHub's [profile README requirements](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme) and [supported picture-element example](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github).
-
-## Update
-
-1. Edit prose in `scripts/text_panels.py`, navigation in `scripts/build_readme.py`, or figures in `scripts/build_assets.py`. Keep contribution boundaries explicit.
-2. Run `python scripts/build_assets.py` and `python scripts/build_readme.py` to regenerate assets, README and the text-only transcript.
-3. Run `python scripts/validate_profile.py` for local checks, or add `--links` to check HTTPS destinations.
-4. Preview the README on GitHub in light and dark mode and at a narrow viewport.
-5. Commit README and generated assets together. No scheduled workflow is necessary.
-
-The source-review record is in [EVIDENCE.md](EVIDENCE.md). It records inspection, not a new execution of the featured applications' test suites.
+The public profile README is displayed because this public repository matches the account username. Native bio, avatar and social fields are managed separately in GitHub account settings.

@@ -1,0 +1,42 @@
+{
+  "name": "Rifatur Rahman",
+  "role": "Full-Stack Developer",
+  "goal": "Seeking a Full Stack Developer Internship",
+  "location": "Dhaka, Bangladesh",
+  "email": "rifaturrahman1131@gmail.com",
+  "phone": "+8801410609872",
+  "github": "https://github.com/rifatur17",
+  "linkedin": "https://www.linkedin.com/in/rifatur-rahman11/",
+  "portfolio": "https://rifatur17.github.io/",
+  "cv": "assets/Rifatur_Rahman_CV.pdf",
+  "cv_url": "https://raw.githubusercontent.com/rifatur17/rifatur17/main/assets/Rifatur_Rahman_CV.pdf",
+  "cv_sha256": "9f82eac9ade8b6ce1fea78986d4b298d4cb34885fc2293081f861ccde74d5adb",
+  "university": "American International University-Bangladesh (AIUB)",
+  "degree": "Bachelor of Science in Computer Science & Engineering",
+  "coursework": ["Algorithms", "Databases", "Object-Oriented Programming", "Software Engineering", "Computer Networks", "Advanced Programming with .NET", "Advanced Programming in Web Technologies", "SQAT"],
+  "skills": {
+    "Languages": ["C#", "C++", "Java", "Python", "JavaScript", "TypeScript", "PHP", "Dart", "SQL", "HTML", "CSS"],
+    "Backend": ["ASP.NET Core MVC", "ASP.NET Core Web API", "Entity Framework Core", ".NET Framework", "Node.js", "NestJS", "REST APIs", "WebSockets"],
+    "Frontend": ["React.js", "Next.js", "Tailwind CSS", "Bootstrap 5"],
+    "Databases": ["SQL Server / SSMS", "MySQL", "PostgreSQL", "SQLite"],
+    "Testing & QA": ["Unit & integration testing", "Playwright (E2E)", "pytest", "Vitest"],
+    "Version control & CI": ["Git", "GitHub", "GitHub Actions"],
+    "Mobile & CMS": ["Flutter", "WordPress"]
+  },
+  "research": {
+    "title": "Unnoticed Disclosure: Readers Do Not Register AI Source Labels on De-Influencing Content",
+    "role": "Research team lead",
+    "team_size": 4,
+    "participants": 183,
+    "label_recall_percent": 50.8,
+    "trust_cv_r2": 0.578,
+    "anti_consumption_cv_auc": 0.879,
+    "repo": "https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content",
+    "paper": "https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content/blob/main/paper/Unnoticed%20Disclosure%20Readers%20Do%20Not%20Register%20AI.pdf",
+    "results": "https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content/blob/main/results/results.txt"
+  },
+  "training": [
+    {"name": "AI Engineering Bootcamp", "provider": "Ostad", "year": "2025"},
+    {"name": "Networking Fundamentals", "provider": "Cisco", "year": ""}
+  ]
+}
