@@ -7,7 +7,7 @@ import re
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 import xml.etree.ElementTree as ET
-from terminal_showcase import make
+from emerald_showcase import make,make_badge
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -19,13 +19,17 @@ def main():
     d=json.loads((ROOT/'data/cv-profile.json').read_text(encoding='utf-8'))
     md=(ROOT/'README.md').read_text(encoding='utf-8')
     paths=set(re.findall(r'(?:src|srcset)="(assets/[^\"]+)"',md))
-    assert len(paths)==28
+    assert len(paths)==40
     for name in paths:
         p=ROOT/name
         xml=p.read_text(encoding='utf-8')
         tree=ET.fromstring(xml)
         assert not re.search(r'<script|<foreignObject|https?://(?!www.w3.org/2000/svg)|onload=|@import',xml,re.I)
-        stem=p.stem.removeprefix('cipher-')
+        stem=p.stem.removeprefix('verdant-')
+        if stem.startswith('contact-'):
+            assert xml==make_badge(stem.removeprefix('contact-'))
+            assert not any(e.tag.rsplit('}',1)[-1].startswith('animate') for e in tree.iter())
+            continue
         animated=not stem.startswith('still-')
         stem=stem.removeprefix('still-')
         narrow=stem.endswith('-mobile')
@@ -33,6 +37,9 @@ def main():
         assert xml==make(kind,narrow,animated)
         if not animated:
             assert not any(e.tag.rsplit('}',1)[-1].startswith('animate') for e in tree.iter())
+    stats=json.loads((ROOT/'data/profile-public-metadata.json').read_text(encoding='utf-8'))
+    assert sum(stats['primary_languages_by_repo'].values())<=stats['public_repositories']
+    assert stats['showcased_projects']==6 and stats['contribution_history_excluded']
     assert hashlib.sha256((ROOT/d['cv']).read_bytes()).hexdigest()==d['cv_sha256']
     for key in ('name','email','phone','linkedin','portfolio','degree','university'):
         assert d[key] in md,key
@@ -41,7 +48,7 @@ def main():
     assert 'upstream authorship' in md and 'My contribution:' in md and 'My focus:' in md
     assert not re.search(r'<script|<style|style=',md,re.I)
     assert all(re.search(r'alt="[^\"]+"',i) for i in re.findall(r'<img\b[^>]+>',md))
-    print('PASS: 28 reproducible safe SVGs; static alternatives; exact supplied CV bytes; CV fields/skills/training; explicit contribution credit.')
+    print('PASS: 40 reproducible safe SVGs; static alternatives; exact supplied CV bytes; CV fields/skills/training; explicit contribution credit.')
     if args.links:
         urls=sorted(set(re.findall(r'https://[^\s)"<>]+',md)))
         def check(url):

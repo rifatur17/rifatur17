@@ -1,24 +1,38 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cipher-still-hero-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cipher-still-hero.svg">
-  <source media="(max-width: 600px)" srcset="assets/cipher-hero-mobile.svg">
-  <img src="assets/cipher-hero.svg" width="1200" alt="Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Black/deep-blue developer terminal with decorative code rain, a brief name glitch and a CV-based code window.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/verdant-still-hero-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/verdant-still-hero.svg">
+  <source media="(max-width: 600px)" srcset="assets/verdant-hero-mobile.svg">
+  <img src="assets/verdant-hero.svg" width="1200" alt="Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Black, emerald and teal developer terminal with a floating code companion, orbiting symbols and a CV-based code window.">
 </picture>
 
 **C# / ASP.NET Core** · web interfaces · applied AI. CSE student at **AIUB**, Dhaka.
 
-[Portfolio](https://rifatur17.github.io/) · [Download CV](https://raw.githubusercontent.com/rifatur17/rifatur17/main/assets/Rifatur_Rahman_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/rifatur-rahman11/) · [Email](mailto:rifaturrahman1131@gmail.com)
+<p align="center">
+<a href="https://rifatur17.github.io/"><img src="assets/verdant-contact-portfolio.svg" width="130" alt="Portfolio"></a>
+<a href="https://raw.githubusercontent.com/rifatur17/rifatur17/main/assets/Rifatur_Rahman_CV.pdf"><img src="assets/verdant-contact-cv.svg" width="130" alt="Download CV"></a>
+<a href="https://www.linkedin.com/in/rifatur-rahman11/"><img src="assets/verdant-contact-linkedin.svg" width="130" alt="LinkedIn"></a>
+<a href="mailto:rifaturrahman1131@gmail.com"><img src="assets/verdant-contact-email.svg" width="130" alt="Email"></a>
+</p>
 
 <p align="center"><b>Open to a Full Stack Developer Internship · C# / ASP.NET Core</b></p>
+
+## Technical toolkit
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/verdant-still-toolkit-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/verdant-still-toolkit.svg">
+  <source media="(max-width: 600px)" srcset="assets/verdant-toolkit-mobile.svg">
+  <img src="assets/verdant-toolkit.svg" width="1200" alt="CV-listed tools: C#, ASP.NET Core, Python, TypeScript, React, SQL Server, C++, JavaScript, Git/CI, PHP, HTML and CSS. Floating developer tiles.">
+</picture>
 
 ## Featured work
 
 <a href="https://github.com/rifatur17/StockPilot-Inventory-Sales-Management">
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cipher-still-stock-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cipher-still-stock.svg">
-  <source media="(max-width: 600px)" srcset="assets/cipher-stock-mobile.svg">
-  <img src="assets/cipher-stock.svg" width="1200" alt="StockPilot — inventory and sales. Shared services, SQL write coordination and automated checks.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/verdant-still-stock-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/verdant-still-stock.svg">
+  <source media="(max-width: 600px)" srcset="assets/verdant-stock-mobile.svg">
+  <img src="assets/verdant-stock.svg" width="1200" alt="StockPilot — inventory and sales. Shared services, SQL write coordination and automated checks.">
 </picture>
 </a>
 
@@ -26,10 +40,10 @@
 
 <a href="https://github.com/rifatur17/IncidentLens">
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cipher-still-incident-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cipher-still-incident.svg">
-  <source media="(max-width: 600px)" srcset="assets/cipher-incident-mobile.svg">
-  <img src="assets/cipher-incident.svg" width="1200" alt="IncidentLens — evidence-led investigation. My contribution: dependency security, compatibility and CI.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/verdant-still-incident-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/verdant-still-incident.svg">
+  <source media="(max-width: 600px)" srcset="assets/verdant-incident-mobile.svg">
+  <img src="assets/verdant-incident.svg" width="1200" alt="IncidentLens — evidence-led investigation. My contribution: dependency security, compatibility and CI.">
 </picture>
 </a>
 
@@ -39,10 +53,10 @@
 
 <a href="https://github.com/hospital-appointment-team/hospital-appointment-system">
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cipher-still-hospital-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cipher-still-hospital.svg">
-  <source media="(max-width: 600px)" srcset="assets/cipher-hospital-mobile.svg">
-  <img src="assets/cipher-hospital.svg" width="1200" alt="Hospital Appointment System — team project. My focus: patient authentication and doctor administration.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/verdant-still-hospital-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/verdant-still-hospital.svg">
+  <source media="(max-width: 600px)" srcset="assets/verdant-hospital-mobile.svg">
+  <img src="assets/verdant-hospital.svg" width="1200" alt="Hospital Appointment System — team project. My focus: patient authentication and doctor administration.">
 </picture>
 </a>
 
@@ -52,10 +66,10 @@
 
 <a href="https://github.com/rifatur17/Solar-System-Simulation">
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cipher-still-solar-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cipher-still-solar.svg">
-  <source media="(max-width: 600px)" srcset="assets/cipher-solar-mobile.svg">
-  <img src="assets/cipher-solar.svg" width="1200" alt="Solar System Simulation — C++, OpenGL and GLUT. Interactive orbits, camera and lighting.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/verdant-still-solar-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/verdant-still-solar.svg">
+  <source media="(max-width: 600px)" srcset="assets/verdant-solar-mobile.svg">
+  <img src="assets/verdant-solar.svg" width="1200" alt="Solar System Simulation — C++, OpenGL and GLUT. Interactive orbits, camera and lighting.">
 </picture>
 </a>
 
@@ -65,10 +79,10 @@
 
 <a href="https://github.com/rifatur17/G-Energy-Project-Demo">
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cipher-still-energy-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cipher-still-energy.svg">
-  <source media="(max-width: 600px)" srcset="assets/cipher-energy-mobile.svg">
-  <img src="assets/cipher-energy.svg" width="1200" alt="G Energy — React and ASP.NET Core charging demonstration. Animated UI and API workflow illustration.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/verdant-still-energy-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/verdant-still-energy.svg">
+  <source media="(max-width: 600px)" srcset="assets/verdant-energy-mobile.svg">
+  <img src="assets/verdant-energy.svg" width="1200" alt="G Energy — React and ASP.NET Core charging demonstration. Animated UI and API workflow illustration.">
 </picture>
 </a>
 
@@ -76,14 +90,25 @@
 
 <a href="https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content">
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/cipher-still-research-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/cipher-still-research.svg">
-  <source media="(max-width: 600px)" srcset="assets/cipher-research-mobile.svg">
-  <img src="assets/cipher-research.svg" width="1200" alt="Unnoticed Disclosure — four-person research team; 183 valid participants; Python analysis. Illustrated research workflow.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/verdant-still-research-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/verdant-still-research.svg">
+  <source media="(max-width: 600px)" srcset="assets/verdant-research-mobile.svg">
+  <img src="assets/verdant-research.svg" width="1200" alt="Unnoticed Disclosure — four-person research team; 183 valid participants; Python analysis. Illustrated research workflow.">
 </picture>
 </a>
 
 **Research team lead · four-person team.** [Repository](https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content) · [Paper](https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content/blob/main/paper/Unnoticed%20Disclosure%20Readers%20Do%20Not%20Register%20AI.pdf) · [Analysis results](https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content/blob/main/results/results.txt)
+
+## GitHub overview
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/verdant-still-stats-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/verdant-still-stats.svg">
+  <source media="(max-width: 600px)" srcset="assets/verdant-stats-mobile.svg">
+  <img src="assets/verdant-stats.svg" width="1200" alt="Public metadata snapshot on 2026-10-21: 9 public repositories, 4 primary repository languages and 6 showcased projects. Language distribution is by repository, not a skill rating.">
+</picture>
+
+[Snapshot details](data/profile-public-metadata.json) · Public repository metadata, updated 2026-10-21.
 
 <details>
 <summary><b>Engineering notes & project contributions</b></summary>

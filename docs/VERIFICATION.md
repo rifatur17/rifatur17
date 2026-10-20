@@ -2,7 +2,17 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
-## Current hacker + developer terminal revision
+## Current emerald / visible-motion revision
+
+The user rejected the blue palette, asked for more moving objects and supplied YouTube video `JEFOzaeEJaw`. They explicitly selected black + emerald/teal + white. The video's final-profile segment and chapter list were inspected in the browser. A floating developer companion, orbiting code badges, multiple moving frame lights and packet trails were added. The technical toolkit has floating CV-listed skill tiles. A dated public GitHub overview and language donut follow the reference's skills/stats presentation; no visitor count or unsupported metric was invented.
+
+GitHub REST returned 9 public repositories: Python is the primary language of 4, C# of 2, TypeScript of 1 and C++ of 1. One repository has no primary language and is excluded from the donut. Six projects are showcased. Snapshot date is 21 October 2026 (Asia/Dhaka); no contribution-history total is promoted as genuine work.
+
+All 36 profile variants and four static contact badges passed parsing, safety, reproducibility, physically static fallback, CV hash, skill/training coverage and attribution checks. Desktop/mobile identity, toolkit and desktop/mobile statistics were visually inspected. Donut dash geometry and mobile label spacing were corrected during review. Source comparison confirms hero motion paths increased from 1 to 12 and StockPilot paths from 1 to 9; these are SVG motion elements, not performance measurements.
+
+All nine repository publications completed and their remote branch heads matched the pushed commits. Original README bodies remained byte-for-byte unchanged beneath the refreshed image headers. GitHub Markdown rendering passed. All 18 non-LinkedIn HTTPS destinations returned 200; LinkedIn retained its automated-client 999 restriction.
+
+## Previous hacker + developer terminal revision
 
 The user requested a stronger hacker/developer blend while keeping a premium appearance. The identity header was redesigned as a dark developer workspace with a CV-based JSON-style window, blue/cyan corner lighting, slow edge code rain, a brief sliced name overlay and a terminal cursor. Project diagrams retain their original content and animations beneath matching dark framing. New filenames prevent stale GitHub asset caches.
 

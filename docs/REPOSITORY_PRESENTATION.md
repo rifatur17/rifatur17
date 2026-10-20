@@ -1,6 +1,6 @@
 # Repository presentation coverage
 
-The profile and the repositories it exposes share original black/deep-blue terminal artwork with restrained code rain and blue/cyan edges. Each repository includes desktop/mobile and reduced-motion static SVGs under `.github/showcase/`. Existing README content follows its header unchanged. Solar System had no README, so a concise source-linked description was added.
+The profile and the repositories it exposes share original black/emerald/teal artwork with visible floating code badges, frame lights and packet trails. Each repository includes desktop/mobile and reduced-motion static SVGs under `.github/showcase/`. Existing README content follows its header unchanged. Solar System had no README, so a concise source-linked description was added.
 
 | Repository | Visual workflow |
 | :--- | :--- |
@@ -16,11 +16,25 @@ The profile and the repositories it exposes share original black/deep-blue termi
 
 ## Maintenance
 
-The source is `scripts/terminal_showcase.py` in the profile repository. Use `make(kind, narrow, animated)` for each repository's four SVGs; its `.github/showcase/README.md` records its kind. The profile uses 28 assets; repository copies add 36 assets. Original reference graphics were not copied.
+The source is `scripts/emerald_showcase.py` in the profile repository. Use `make(kind, narrow, animated)` for each repository's four SVGs; its `.github/showcase/README.md` records its kind. The profile uses 40 assets (36 panel variants and 4 contact badges); repository copies add 36 assets. Original reference graphics were not copied.
 
 Animations are explanatory artwork. They do not establish runtime verification, benchmark results or deployment status. Existing contribution boundaries, upstream authorship, project setup instructions and synthetic-commit disclosure must remain intact.
 
-## Current terminal publication commits
+## Current emerald publication commits
+
+All nine remote branch heads matched these published commits. Original README bodies were preserved.
+
+- [rifatur17/StockPilot-Inventory-Sales-Management · 6d138828](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/commit/6d138828a6fea61de88611504e0599405f4a2b0d)
+- [rifatur17/IncidentLens · d77f1f8b](https://github.com/rifatur17/IncidentLens/commit/d77f1f8b963b69c4e4596ba450dee9439e4e165c)
+- [hospital-appointment-team/hospital-appointment-system · 5877e7db](https://github.com/hospital-appointment-team/hospital-appointment-system/commit/5877e7db2bad9b012f6ffa1d08f41673aa73c932)
+- [rifatur17/Solar-System-Simulation · 036591a5](https://github.com/rifatur17/Solar-System-Simulation/commit/036591a5e70e118dacb6dffce864f08eccbd4972)
+- [rifatur17/G-Energy-Project-Demo · ef4330a2](https://github.com/rifatur17/G-Energy-Project-Demo/commit/ef4330a27a7d591dad73f924a8ba64a9f400a1d4)
+- [rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content · b59ea83c](https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content/commit/b59ea83c0ae6c240407ecf1cefd7ab3000098d98)
+- [rifatur17/rifatur17.github.io · 6beba419](https://github.com/rifatur17/rifatur17.github.io/commit/6beba4192ad28d36d4fa4461925f8623fe78fc96)
+- [rifatur17/github-test · 4fe331cd](https://github.com/rifatur17/github-test/commit/4fe331cda392689a3309d5487cd694b7c18ea085)
+- [rifatur17/contribution-calendar-art · f512c6d0](https://github.com/rifatur17/contribution-calendar-art/commit/f512c6d0b87712cf731dfec0c117e6899099d9b0)
+
+## Previous terminal publication commits
 
 All nine remote branch heads matched these published commits; original project documentation is preserved.
 

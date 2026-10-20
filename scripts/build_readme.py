@@ -7,16 +7,22 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def picture(kind,alt):
-    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'cipher-still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'cipher-still-{kind}.svg'),('(max-width: 600px)',f'cipher-{kind}-mobile.svg')]
-    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/cipher-{kind}.svg" width="1200" alt="{alt}">\n</picture>'
+    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'verdant-still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'verdant-still-{kind}.svg'),('(max-width: 600px)',f'verdant-{kind}-mobile.svg')]
+    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/verdant-{kind}.svg" width="1200" alt="{alt}">\n</picture>'
 
 
 def banner():
-    return picture('hero','Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Black/deep-blue developer terminal with decorative code rain, a brief name glitch and a CV-based code window.')
+    return picture('hero','Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Black, emerald and teal developer terminal with a floating code companion, orbiting symbols and a CV-based code window.')
+
+
+def contacts(d):
+    targets=[('portfolio',d['portfolio'],'Portfolio'),('cv',d['cv_url'],'Download CV'),('linkedin',d['linkedin'],'LinkedIn'),('email','mailto:'+d['email'],'Email')]
+    return '<p align="center">\n'+''.join(f'<a href="{url}"><img src="assets/verdant-contact-{kind}.svg" width="130" alt="{label}"></a>\n' for kind,url,label in targets)+'</p>'
 
 
 def build():
     d=json.loads((ROOT/'data/cv-profile.json').read_text(encoding='utf-8'))
+    metadata=json.loads((ROOT/'data/profile-public-metadata.json').read_text(encoding='utf-8'))
     s=[banner(),
        "I'm **Rifatur Rahman**, a Computer Science and Engineering student at **American International University-Bangladesh (AIUB)**, based in Dhaka. My main direction is **C# and ASP.NET Core**. I also work with web interfaces, testing, data analysis and AI-assisted systems.",
        '**Seeking a Full Stack Developer Internship** where I can contribute to useful features, learn through code review and build reliable software.',
@@ -68,8 +74,10 @@ def build():
     full_cv='\n\n'.join(s[cv_start:])
     top=[banner(),
          '**C# / ASP.NET Core** · web interfaces · applied AI. CSE student at **AIUB**, Dhaka.',
-         s[3],
+         contacts(d),
          '<p align="center"><b>Open to a Full Stack Developer Internship · C# / ASP.NET Core</b></p>',
+         '## Technical toolkit',
+         picture('toolkit','CV-listed tools: C#, ASP.NET Core, Python, TypeScript, React, SQL Server, C++, JavaScript, Git/CI, PHP, HTML and CSS. Floating developer tiles.'),
          '## Featured work']
     projects=[('stock','StockPilot — inventory and sales. Shared services, SQL write coordination and automated checks.',s[s.index('### StockPilot — inventory & sales')+4],''),
               ('incident','IncidentLens — evidence-led investigation. My contribution: dependency security, compatibility and CI.',s[s.index('### IncidentLens — evidence-based incident investigation')+4], '**My contribution:** security, compatibility and CI maintenance. Retains [Niloy Bhuiyan’s upstream authorship](https://github.com/Niloy-Bhuiyan/IncidentLens).'),
@@ -85,6 +93,9 @@ def build():
             '[Repository](https://github.com/rifatur17/G-Energy-Project-Demo)',
             '<a href="'+d['research']['repo']+'">\n'+picture('research','Unnoticed Disclosure — four-person research team; 183 valid participants; Python analysis. Illustrated research workflow.')+'\n</a>',
             '**Research team lead · four-person team.** [Repository]('+d['research']['repo']+') · [Paper]('+d['research']['paper']+') · [Analysis results]('+d['research']['results']+')']
+    top += ['## GitHub overview',
+            picture('stats',f'Public metadata snapshot on {metadata["snapshot_date"]}: {metadata["public_repositories"]} public repositories, {len(metadata["primary_languages_by_repo"])} primary repository languages and {metadata["showcased_projects"]} showcased projects. Language distribution is by repository, not a skill rating.'),
+            f'[Snapshot details](data/profile-public-metadata.json) · Public repository metadata, updated {metadata["snapshot_date"]}.']
     top += ['<details>\n<summary><b>Engineering notes & project contributions</b></summary>\n\n'+notes+'\n\n</details>',
             '<details>\n<summary><b>Full CV · skills, education, research & training</b></summary>\n\n'+full_cv+'\n\n</details>',
             f'[Let’s connect](mailto:{d["email"]}) · [Portfolio]({d["portfolio"]}) · [Download CV]({d["cv_url"]})']

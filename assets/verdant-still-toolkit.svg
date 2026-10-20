@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Technical toolkit</title>
+<desc id="desc">CV-listed technologies and a dated public repository snapshot. Moving badges and marker lights are decorative.</desc>
+<rect x="1" y="1" width="1198" height="388" rx="12" fill="#050e0a" stroke="#245543"/>
+<text x="28" y="43" font-size="14" fill="#63e3b6" font-weight="600" font-family="Consolas,Courier New,monospace">DEVELOPER / TOOLKIT</text>
+<text x="28" y="90" font-size="34" fill="#edf8f2" font-weight="700" font-family="Segoe UI,Arial,sans-serif">Technical toolkit</text>
+<g transform="translate(28 132)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="23" y="43" font-size="22" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">C#</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">C#</text>
+</g></g>
+<g transform="translate(220 132)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="17" y="43" font-size="18" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">.NET</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">ASP.NET Core</text>
+</g></g>
+<g transform="translate(412 132)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="23" y="43" font-size="22" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">Py</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Python</text>
+</g></g>
+<g transform="translate(604 132)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="23" y="43" font-size="22" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">TS</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">TypeScript</text>
+</g></g>
+<g transform="translate(796 132)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="23" y="43" font-size="22" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">R</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">React</text>
+</g></g>
+<g transform="translate(988 132)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="20" y="43" font-size="18" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">SQL</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">SQL Server</text>
+</g></g>
+<g transform="translate(28 248)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="20" y="43" font-size="18" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">C++</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">C++</text>
+</g></g>
+<g transform="translate(220 248)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="23" y="43" font-size="22" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">JS</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">JavaScript</text>
+</g></g>
+<g transform="translate(412 248)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="20" y="43" font-size="18" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">Git</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">Git / CI</text>
+</g></g>
+<g transform="translate(604 248)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="20" y="43" font-size="18" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">PHP</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">PHP</text>
+</g></g>
+<g transform="translate(796 248)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="23" y="43" font-size="22" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">5</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">HTML</text>
+</g></g>
+<g transform="translate(988 248)"><g>
+<rect width="176" height="95" rx="12" fill="#0a1b13" stroke="#2b6c52"/><rect x="12" y="12" width="48" height="45" rx="9" fill="#103024" stroke="#388f6b"/>
+<text x="23" y="43" font-size="22" fill="#b6ffe0" font-weight="700" font-family="Consolas,Courier New,monospace">{}</text>
+<text x="12" y="80" font-size="17" fill="#d5eee0" font-weight="400" font-family="Segoe UI,Arial,sans-serif">CSS</text>
+</g></g>
+<text x="28" y="370" font-size="15" fill="#86ae99" font-weight="400" font-family="Consolas,Courier New,monospace">Core: C# / ASP.NET Core · complete CV below</text>
+<defs><filter id="object-glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<g transform="translate(1150 40)"><g>
+<rect x="-20" y="-15" width="40" height="30" rx="8" fill="#0a211a" stroke="#43c69c"/><text x="0" y="6" text-anchor="middle" font-family="Consolas,Courier New,monospace" font-size="17" fill="#e3fff1">&lt;/&gt;</text></g></g>
+</svg>
