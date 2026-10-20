@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="780" viewBox="0 0 600 780" role="img" aria-labelledby="title desc">
+<title id="title">Rifatur Rahman — developer terminal</title>
+<desc id="desc">Full-stack developer and AIUB CSE student in Dhaka. C#, ASP.NET Core, web engineering and applied AI. Original black and deep-blue artwork, with decorative code rain and brief glitch accents.</desc>
+<defs><linearGradient id="base"><stop stop-color="#020407"/><stop offset="1" stop-color="#071126"/></linearGradient><radialGradient id="halo"><stop stop-color="#265bea" stop-opacity=".3"/><stop offset="1" stop-color="#265bea" stop-opacity="0"/></radialGradient><pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 0H6" stroke="#78a7ff" stroke-opacity=".035"/></pattern><clipPath id="frame"><rect width="600" height="780" rx="12"/></clipPath></defs><g clip-path="url(#frame)"><rect width="600" height="780" fill="url(#base)"/><ellipse cx="456.0" cy="351.0" rx="500" ry="400" fill="url(#halo)"/><rect width="600" height="780" fill="url(#scan)"/></g><rect x="1" y="1" width="598" height="778" rx="12" fill="none" stroke="#20365b"/>
+<defs><clipPath id="cyber-frame"><rect x="2" y="2" width="596" height="776" rx="12"/></clipPath><linearGradient id="edge-blue"><stop stop-color="#45caff"/><stop offset=".5" stop-color="#2447a1"/><stop offset="1" stop-color="#8d85ff"/></linearGradient><filter id="packet-glow"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<g clip-path="url(#cyber-frame)">
+<g opacity=".13" font-family="Consolas,Courier New,monospace" font-size="11" fill="#58a8ff">
+<text x="588" y="0">01</text>
+<text x="588" y="-21">{}</text>
+<text x="588" y="-42">10</text>
+<text x="588" y="-63">//</text>
+<text x="588" y="-84">01</text>
+<animateTransform attributeName="transform" type="translate" from="0 -80" to="0 920" dur="12s" begin="0s" repeatCount="indefinite"/>
+</g>
+<g opacity=".13" font-family="Consolas,Courier New,monospace" font-size="11" fill="#58a8ff">
+<text x="569" y="0">01</text>
+<text x="569" y="-21">{}</text>
+<text x="569" y="-42">10</text>
+<text x="569" y="-63">//</text>
+<text x="569" y="-84">01</text>
+<animateTransform attributeName="transform" type="translate" from="0 -80" to="0 920" dur="13s" begin="-2s" repeatCount="indefinite"/>
+</g>
+<g opacity=".13" font-family="Consolas,Courier New,monospace" font-size="11" fill="#58a8ff">
+<text x="550" y="0">01</text>
+<text x="550" y="-21">{}</text>
+<text x="550" y="-42">10</text>
+<text x="550" y="-63">//</text>
+<text x="550" y="-84">01</text>
+<animateTransform attributeName="transform" type="translate" from="0 -80" to="0 920" dur="14s" begin="-4s" repeatCount="indefinite"/>
+</g>
+<g opacity=".13" font-family="Consolas,Courier New,monospace" font-size="11" fill="#58a8ff">
+<text x="531" y="0">01</text>
+<text x="531" y="-21">{}</text>
+<text x="531" y="-42">10</text>
+<text x="531" y="-63">//</text>
+<text x="531" y="-84">01</text>
+<animateTransform attributeName="transform" type="translate" from="0 -80" to="0 920" dur="15s" begin="-6s" repeatCount="indefinite"/>
+</g>
+<g opacity=".13" font-family="Consolas,Courier New,monospace" font-size="11" fill="#58a8ff">
+<text x="512" y="0">01</text>
+<text x="512" y="-21">{}</text>
+<text x="512" y="-42">10</text>
+<text x="512" y="-63">//</text>
+<text x="512" y="-84">01</text>
+<animateTransform attributeName="transform" type="translate" from="0 -80" to="0 920" dur="16s" begin="-8s" repeatCount="indefinite"/>
+</g>
+<g opacity=".13" font-family="Consolas,Courier New,monospace" font-size="11" fill="#58a8ff">
+<text x="493" y="0">01</text>
+<text x="493" y="-21">{}</text>
+<text x="493" y="-42">10</text>
+<text x="493" y="-63">//</text>
+<text x="493" y="-84">01</text>
+<animateTransform attributeName="transform" type="translate" from="0 -80" to="0 920" dur="17s" begin="-10s" repeatCount="indefinite"/>
+</g>
+</g>
+<path d="M2 38V12Q2 2 12 2H48" fill="none" stroke="url(#edge-blue)" stroke-width="2"/>
+<path d="M552 2H588Q598 2 598 12V38" fill="none" stroke="url(#edge-blue)" stroke-width="2"/>
+<path d="M2 742V768Q2 778 12 778H48" fill="none" stroke="url(#edge-blue)" stroke-width="2"/>
+<path d="M552 778H588Q598 778 598 768V742" fill="none" stroke="url(#edge-blue)" stroke-width="2"/>
+<circle cx="30" cy="27" r="3.5" fill="#669eff"/>
+<circle cx="46" cy="27" r="3.5" fill="#3d5386"/>
+<circle cx="62" cy="27" r="3.5" fill="#1d3157"/>
+<text x="100" y="33" font-family="Consolas,Courier New,monospace" font-size="14" fill="#8ba8d1" font-weight="400" >rifatur17 / developer.workspace</text>
+<path d="M1 51H599" fill="none" stroke="#263e68"/>
+<text x="30" y="97" font-family="Consolas,Courier New,monospace" font-size="16" fill="#64bcff" font-weight="600" >[ FULL-STACK / .NET / WEB / AI ]</text>
+<text x="30" y="169" font-family="Segoe UI,Arial,sans-serif" font-size="68" fill="#eaf1ff" font-weight="750" >Rifatur</text>
+<text x="30" y="245" font-family="Segoe UI,Arial,sans-serif" font-size="68" fill="#eaf1ff" font-weight="750" >Rahman</text>
+<defs><clipPath id="name-glitch"><rect x="0" y="127" width="600" height="9"/><rect x="0" y="160" width="600" height="5"/></clipPath></defs><g clip-path="url(#name-glitch)" opacity="0">
+<text x="37" y="169" font-family="Segoe UI,Arial,sans-serif" font-size="68" fill="#67d9ff" font-weight="750" >Rifatur</text>
+<text x="25" y="169" font-family="Segoe UI,Arial,sans-serif" font-size="68" fill="#9585ff" font-weight="750" >Rifatur</text>
+<animate attributeName="opacity" values="0;0;.7;0;.4;0;0" keyTimes="0;.8;.805;.81;.815;.82;1" dur="14s" repeatCount="indefinite"/></g>
+<text x="30" y="291" font-family="Segoe UI,Arial,sans-serif" font-size="23" fill="#b4c8e8" font-weight="400" >Building interfaces. Designing systems.</text>
+<text x="30" y="328" font-family="Segoe UI,Arial,sans-serif" font-size="23" fill="#b4c8e8" font-weight="400" >Exploring applied AI.</text>
+<rect x="22" y="362" width="556" height="300" rx="16" fill="#4781ff" opacity=".07"/><rect x="30" y="370" width="540" height="284" rx="10" fill="#030a17" stroke="#36578b"/>
+<text x="48" y="399" font-family="Consolas,Courier New,monospace" font-size="16" fill="#7dbbff" font-weight="400" >~/developer.json</text>
+<path d="M30 414H570" fill="none" stroke="#263e68"/>
+<text x="48" y="446" font-family="Consolas,Courier New,monospace" font-size="17" fill="#7daeff" font-weight="400" >{</text>
+<text x="48" y="473" font-family="Consolas,Courier New,monospace" font-size="17" fill="#c6dcfa" font-weight="400" >  &quot;name&quot;: &quot;Rifatur Rahman&quot;,</text>
+<text x="48" y="500" font-family="Consolas,Courier New,monospace" font-size="17" fill="#88cfff" font-weight="400" >  &quot;focus&quot;: &quot;C# / ASP.NET Core&quot;,</text>
+<text x="48" y="527" font-family="Consolas,Courier New,monospace" font-size="17" fill="#c6dcfa" font-weight="400" >  &quot;build&quot;: [&quot;web&quot;, &quot;applied AI&quot;],</text>
+<text x="48" y="554" font-family="Consolas,Courier New,monospace" font-size="17" fill="#c6dcfa" font-weight="400" >  &quot;education&quot;: &quot;CSE @ AIUB&quot;</text>
+<text x="48" y="581" font-family="Consolas,Courier New,monospace" font-size="17" fill="#7daeff" font-weight="400" >}</text>
+<text x="48" y="635" font-family="Consolas,Courier New,monospace" font-size="15" fill="#6ebaff" font-weight="400" >&gt; build · test · iterate</text>
+<rect x="535" y="623" width="8" height="15" fill="#8bceff"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.49;.5;1" dur="1.6s" repeatCount="indefinite"/></rect>
+<path d="M22 390V662H560" fill="none" stroke="#244978"/>
+<circle r="4" fill="#8acaff"><animateMotion path="M22 390V662H560" dur="8s" repeatCount="indefinite"/></circle>
+<path d="M30 675H570" fill="none" stroke="#263e68"/>
+<text x="30" y="703" font-family="Consolas,Courier New,monospace" font-size="16" fill="#93b1d8" font-weight="400" >CSE @ AIUB  /  DHAKA, BANGLADESH</text>
+<text x="30" y="737" font-family="Consolas,Courier New,monospace" font-size="16" fill="#80c4ff" font-weight="600" >SEEKING A FULL-STACK INTERNSHIP</text>
+</svg>

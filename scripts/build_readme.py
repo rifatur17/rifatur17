@@ -7,12 +7,12 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def picture(kind,alt):
-    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'showcase-still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'showcase-still-{kind}.svg'),('(max-width: 600px)',f'showcase-{kind}-mobile.svg')]
-    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/showcase-{kind}.svg" width="1200" alt="{alt}">\n</picture>'
+    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'cipher-still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'cipher-still-{kind}.svg'),('(max-width: 600px)',f'cipher-{kind}-mobile.svg')]
+    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/cipher-{kind}.svg" width="1200" alt="{alt}">\n</picture>'
 
 
 def banner():
-    return picture('hero','Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Animated interface, API and database flow.')
+    return picture('hero','Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Black/deep-blue developer terminal with decorative code rain, a brief name glitch and a CV-based code window.')
 
 
 def build():

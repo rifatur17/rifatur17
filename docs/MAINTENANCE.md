@@ -2,11 +2,11 @@
 
 ## Current direction
 
-The current presentation takes inspiration from the supplied Ashfak-Hossain GitHub reference: cohesive project-specific diagrams, a prominent featured project, concise prose and visible source links. Black/deep-blue surfaces and blue accents remain. Motion illustrates each project's workflow rather than repeating a decorative scanner.
+The current direction blends hacker styling with a readable developer portfolio: black/deep-blue surfaces, blue/cyan corner accents, subtle edge code rain, a brief sliced name glitch, and a CV-based developer code window. The main name stays readable. Project-specific workflow diagrams remain the central showcase, with sources and credit visible.
 
-Twenty-eight SVGs provide desktop/mobile and animated/static variants for the hero, four main projects, G Energy and research. Full CV information and engineering notes remain in expandable native sections. Credit and contribution boundaries remain visible. These are explanatory illustrations, not production measurements or live service status.
+The profile uses 28 variants for seven panels: desktop/mobile and animated/physically static alternatives. `scripts/terminal_showcase.py` defines the terminal framing and identity header, reusing project diagrams from `scripts/showcase_panels.py`. Regenerate through `scripts/build_assets.py`. New `cipher-` image paths avoid GitHub's old image cache.
 
-Matching local artwork is also published in the project repositories. Each repository uses four SVGs under `.github/showcase/` and a picture header in README.md, followed by its original documentation. See `docs/REPOSITORY_PRESENTATION.md` for coverage. The generator also supports portfolio, test and synthetic-art headers; those do not become featured development projects on the profile.
+Matching README assets live in the nine repositories listed in `docs/REPOSITORY_PRESENTATION.md`. Their new `terminal-overview` filenames avoid stale cached visuals. Full CV information, source PDF, project code and original documentation remain intact.
 
 ## Content and sources
 
@@ -17,7 +17,7 @@ Matching local artwork is also published in the project repositories. Each repos
 - `docs/CV_RECONCILIATION.md`: source reconciliation and ownership boundaries.
 - `docs/PROFILE_SETTINGS.md`: prepared values for native sidebar fields that require account settings access.
 
-`scripts/showcase_panels.py` defines current artwork and project labels. Older snapshot, ASCII, mint-frame, matrix and prose generators are historical records.
+`scripts/terminal_showcase.py` defines current identity/framing; `scripts/showcase_panels.py` supplies project diagrams and labels. Older snapshot, ASCII, mint-frame, matrix and prose generators are historical records.
 
 ## Regenerate and verify
 

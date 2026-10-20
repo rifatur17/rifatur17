@@ -7,7 +7,7 @@ import re
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 import xml.etree.ElementTree as ET
-from showcase_panels import make
+from terminal_showcase import make
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -25,7 +25,7 @@ def main():
         xml=p.read_text(encoding='utf-8')
         tree=ET.fromstring(xml)
         assert not re.search(r'<script|<foreignObject|https?://(?!www.w3.org/2000/svg)|onload=|@import',xml,re.I)
-        stem=p.stem.removeprefix('showcase-')
+        stem=p.stem.removeprefix('cipher-')
         animated=not stem.startswith('still-')
         stem=stem.removeprefix('still-')
         narrow=stem.endswith('-mobile')

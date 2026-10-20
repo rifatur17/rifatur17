@@ -2,7 +2,15 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
-## Current project-specific animated showcase revision
+## Current hacker + developer terminal revision
+
+The user requested a stronger hacker/developer blend while keeping a premium appearance. The identity header was redesigned as a dark developer workspace with a CV-based JSON-style window, blue/cyan corner lighting, slow edge code rain, a brief sliced name overlay and a terminal cursor. Project diagrams retain their original content and animations beneath matching dark framing. New filenames prevent stale GitHub asset caches.
+
+All 28 profile SVG variants passed reproducibility, safety, parsing, physically static fallback, CV hash, complete skill/training coverage and attribution checks. Desktop hero, mobile hero and StockPilot previews were visually reviewed. Nine repository copies were regenerated and checked, with the complete original README bodies verified by SHA-256. Application code, CV bytes, runtime-status notes and upstream/team credit were preserved.
+
+All nine repository updates were pushed and their remote heads verified. The new StockPilot README was inspected on GitHub with visible corner lighting, falling edge glyphs and its preserved animated workflow. New SVG filenames are reflected in the native picture sources.
+
+## Previous project-specific animated showcase revision
 
 The actual current Ashfak-Hossain profile was visually inspected in the browser, including the animated seat, scanner and request examples. Its public profile and two repository READMEs were read as design references. No reference SVG assets were copied. This revision retains black/deep-blue colors and introduces original project-specific illustrations: StockPilot inventory/write coordination, IncidentLens retrieval/citation flow, hospital authentication, Solar System orbit motion, G Energy UI/API flow and research design/analysis.
 
