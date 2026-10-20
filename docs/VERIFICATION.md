@@ -2,7 +2,15 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
-## Current animated prose revision
+## Current matrix/circuit background revision
+
+Published in `90b5001ceff6dfa6c62e77687c346823e8b4e0fe`, confirmed by GitHub's API. All nine visible panels now share a matrix/circuit atmosphere: authored code rain, glowing moving circuit packets, a traveling light sweep, perspective floor grids, illuminated brackets, and green/cyan gradients. Text panels keep a darker center for readability. This styles README artwork; GitHub retains control of the surrounding page and sidebar.
+
+All 44 generated SVGs (about 640 KB total source) passed parsing, generator reproducibility and safety checks. Static prose alternatives were explicitly checked for any remaining SVG animation elements. Desktop header, desktop prose, mobile prose and the live animated prose rendering were visually inspected. GitHub Markdown rendering and `git diff --check` passed.
+
+Published profile checks passed in Chrome at 1440/390/320px in both light and dark themes: all nine images decoded, no horizontal overflow, and CV/transcript destinations were present. A live animated readout changed by 16062 pixels between frames. A reduced-motion mobile visit selected all nine static alternatives and the sampled readout changed by exactly zero pixels. Previous asset filenames were retired after the new prefixed assets were generated and validated.
+
+## Previous animated prose revision
 
 Published in `ccfaacb087d42fb34d81a8cc078c8350505c0932`, confirmed by GitHub's API. Identity, project descriptions, engineering notes and stack are now animated readouts with line numbers, staggered text reveal and cursors. The name in the hero also reveals in sequence. Individual navigation links remain clickable native Markdown. A text-only transcript preserves searchable prose and contribution boundaries. GitHub's native sidebar bio has not been modified and cannot host these README image effects.
 
