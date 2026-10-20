@@ -2,7 +2,19 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
-## Current video-reference presentation revision
+## Current CV-aligned Midnight Studio revision
+
+Published implementation in `8b80e1277b4107cc25a671ee94028260cc29c667`. Both pages of the supplied CV were extracted and visually reviewed. Education, coursework, the complete technical toolkit, four selected projects, research results, leadership and training are represented in native Markdown. Repository evidence preserves IncidentLens upstream attribution and distinguishes personal work from team work. No graduation year, CGPA, employment or publication acceptance was invented.
+
+Eight reproducible Studio banners provide dark/light, desktop/mobile and animated/static variants. Four banner preview PNGs were generated; dark desktop, light desktop and dark mobile were visually inspected. The published GitHub desktop profile was also visually inspected and its rendered accessibility content confirmed the new sections and corrected CV LinkedIn destination. This revision did not repeat the earlier six-viewport browser matrix.
+
+`python scripts/validate_profile.py --links` passed SVG safety, parsing, reproducibility, static fallback, CV fidelity, skill coverage and attribution checks. Eighteen of nineteen distinct HTTPS destinations returned HTTP 200. LinkedIn returned HTTP 999 to automated requests; its URL matches the supplied CV, but automated reachability was not confirmed. GitHub Markdown rendering and `git diff --check` passed.
+
+The public CV download was fetched after publication and matches the supplied PDF byte-for-byte: SHA-256 `9f82eac9ade8b6ce1fea78986d4b298d4cb34885fc2293081f861ccde74d5adb`. The source PDF was not modified. Native account sidebar fields remain unchanged because the available account update returned HTTP 404 and the browser is signed out; prepared values are in `docs/PROFILE_SETTINGS.md`.
+
+The previous hacker graphics and snapshot statistics are no longer displayed. The separate synthetic contribution-art repository and its disclosure were not changed by this CV revision. Earlier verification entries below document historical versions only.
+
+## Previous video-reference presentation revision
 
 Published in `60d0858`, after inspecting both user-supplied YouTube references in the browser. The presentation now combines a scanning ASCII portrait made from the real public avatar, typed profile fields, a verified signal panel, and an animated contribution crawler. Existing project evidence and technical readouts remain. The shared background source was preserved byte-for-byte: SHA-256 `F14C1D23725E43E94DB223C6B08727C754781992F8B8716675B55E04E47743A9` before and after this revision.
 
