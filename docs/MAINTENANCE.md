@@ -2,7 +2,7 @@
 
 ## Current direction
 
-The user selected a blend of cyberpunk hacker styling and a clean premium developer profile. The current design uses a near-black background, neon-green accents, decorative falling glyphs, brief sliced glitch lettering and moving diagram packets. A large readable identity banner leads into four project cards. Both GitHub page themes use the same artwork. Native links and role attribution remain visible; full CV information and engineering notes are in expandable sections.
+The user selected a blend of cyberpunk hacker styling and a clean premium developer profile. The current design uses a black/deep-blue background, electric-blue accents, decorative falling glyphs, brief sliced glitch lettering and moving diagram packets. A large readable identity banner leads into four project cards. Both GitHub page themes use the same artwork. Native links and role attribution remain visible; full CV information and engineering notes are in expandable sections.
 
 Twenty SVGs provide desktop/mobile and animated/physically static reduced-motion variants for the hero and four project cards. Important text never disappears. Project illustrations are conceptual, not live telemetry. The surrounding GitHub page and sidebar remain under GitHub's control.
 

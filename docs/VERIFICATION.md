@@ -2,7 +2,11 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
-## Current neon + clean portfolio revision
+## Current black and deep-blue palette revision
+
+At the user's request, the existing design is retained with black/deep-blue surfaces and electric-blue accents. All 34 six-digit palette colors were mapped consistently, including text, rain, grid, terminal surfaces, project diagrams, glitch overlays and moving packets. Source comparison after normalizing color literals confirms that geometry, typography, prose and animation timing are unchanged. All twenty desktop/mobile and motion/static variants were regenerated and validated; the supplied CV is unchanged.
+
+## Previous neon + clean portfolio revision
 
 The user selected a blend of option 2 (neon hacker/code rain/glitch) and option 3 (clean premium profile/project cards). The implementation replaces the repeated scanner/stat panels with a large name, focused introduction and four illustrated project cards. Security/CI and team contribution credit stays visible. Full CV information and project notes remain available in native expandable sections and the searchable transcript. No source PDF, account fields, repository history or contribution dates changed.
 

@@ -1,102 +1,102 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="660" viewBox="0 0 600 660" role="img" aria-labelledby="title desc">
 <title id="title">Rifatur Rahman — Full-Stack Developer</title>
 <desc id="desc">Original neon portfolio illustration. Rain, glitch and moving packets are decorative, not live telemetry.</desc>
-<defs><radialGradient id="aura"><stop stop-color="#36ff9a" stop-opacity=".16"/><stop offset="1" stop-color="#36ff9a" stop-opacity="0"/></radialGradient><linearGradient id="fade"><stop stop-color="#04090a"/><stop offset="1" stop-color="#071714"/></linearGradient><clipPath id="frame"><rect x="1" y="1" width="598" height="658" rx="18"/></clipPath><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#3afea3" stroke-opacity=".065" fill="none"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<defs><radialGradient id="aura"><stop stop-color="#327dff" stop-opacity=".16"/><stop offset="1" stop-color="#327dff" stop-opacity="0"/></radialGradient><linearGradient id="fade"><stop stop-color="#030609"/><stop offset="1" stop-color="#07152f"/></linearGradient><clipPath id="frame"><rect x="1" y="1" width="598" height="658" rx="18"/></clipPath><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#4189ff" stroke-opacity=".065" fill="none"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
 <g clip-path="url(#frame)"><rect width="600" height="660" fill="url(#fade)"/><rect width="600" height="660" fill="url(#grid)"/><ellipse cx="530" cy="330.0" rx="420" ry="400" fill="url(#aura)"/>
 <g class="motion" opacity=".22">
-<text x="322" y="0" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
-<text x="322" y="-22" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
-<text x="322" y="-44" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
-<text x="322" y="-66" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
-<text x="322" y="-88" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
-<text x="322" y="-110" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
+<text x="322" y="0" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
+<text x="322" y="-22" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
+<text x="322" y="-44" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
+<text x="322" y="-66" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
+<text x="322" y="-88" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
+<text x="322" y="-110" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
 <animateTransform attributeName="transform" type="translate" from="0 -80" to="0 830" dur="9s" begin="0.0s" repeatCount="indefinite"/></g>
 <g class="motion" opacity=".22">
-<text x="355" y="0" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
-<text x="355" y="-22" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
-<text x="355" y="-44" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
-<text x="355" y="-66" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
-<text x="355" y="-88" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
-<text x="355" y="-110" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
+<text x="355" y="0" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
+<text x="355" y="-22" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
+<text x="355" y="-44" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
+<text x="355" y="-66" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
+<text x="355" y="-88" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
+<text x="355" y="-110" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
 <animateTransform attributeName="transform" type="translate" from="0 -80" to="0 830" dur="11s" begin="-1.7s" repeatCount="indefinite"/></g>
 <g class="motion" opacity=".22">
-<text x="388" y="0" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
-<text x="388" y="-22" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
-<text x="388" y="-44" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
-<text x="388" y="-66" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
-<text x="388" y="-88" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
-<text x="388" y="-110" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
+<text x="388" y="0" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
+<text x="388" y="-22" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
+<text x="388" y="-44" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
+<text x="388" y="-66" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
+<text x="388" y="-88" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
+<text x="388" y="-110" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
 <animateTransform attributeName="transform" type="translate" from="0 -80" to="0 830" dur="13s" begin="-3.4s" repeatCount="indefinite"/></g>
 <g class="motion" opacity=".22">
-<text x="421" y="0" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
-<text x="421" y="-22" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
-<text x="421" y="-44" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
-<text x="421" y="-66" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
-<text x="421" y="-88" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
-<text x="421" y="-110" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
+<text x="421" y="0" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
+<text x="421" y="-22" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
+<text x="421" y="-44" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
+<text x="421" y="-66" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
+<text x="421" y="-88" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
+<text x="421" y="-110" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
 <animateTransform attributeName="transform" type="translate" from="0 -80" to="0 830" dur="9s" begin="-5.1s" repeatCount="indefinite"/></g>
 <g class="motion" opacity=".22">
-<text x="454" y="0" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
-<text x="454" y="-22" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
-<text x="454" y="-44" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
-<text x="454" y="-66" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
-<text x="454" y="-88" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
-<text x="454" y="-110" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
+<text x="454" y="0" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
+<text x="454" y="-22" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
+<text x="454" y="-44" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
+<text x="454" y="-66" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
+<text x="454" y="-88" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
+<text x="454" y="-110" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
 <animateTransform attributeName="transform" type="translate" from="0 -80" to="0 830" dur="11s" begin="-6.8s" repeatCount="indefinite"/></g>
 <g class="motion" opacity=".22">
-<text x="487" y="0" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
-<text x="487" y="-22" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
-<text x="487" y="-44" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
-<text x="487" y="-66" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
-<text x="487" y="-88" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
-<text x="487" y="-110" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
+<text x="487" y="0" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
+<text x="487" y="-22" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
+<text x="487" y="-44" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
+<text x="487" y="-66" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
+<text x="487" y="-88" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
+<text x="487" y="-110" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
 <animateTransform attributeName="transform" type="translate" from="0 -80" to="0 830" dur="13s" begin="-8.5s" repeatCount="indefinite"/></g>
 <g class="motion" opacity=".22">
-<text x="520" y="0" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
-<text x="520" y="-22" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
-<text x="520" y="-44" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
-<text x="520" y="-66" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
-<text x="520" y="-88" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
-<text x="520" y="-110" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
+<text x="520" y="0" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
+<text x="520" y="-22" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
+<text x="520" y="-44" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
+<text x="520" y="-66" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
+<text x="520" y="-88" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
+<text x="520" y="-110" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
 <animateTransform attributeName="transform" type="translate" from="0 -80" to="0 830" dur="9s" begin="-10.2s" repeatCount="indefinite"/></g>
 <g class="motion" opacity=".22">
-<text x="553" y="0" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
-<text x="553" y="-22" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
-<text x="553" y="-44" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
-<text x="553" y="-66" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
-<text x="553" y="-88" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
-<text x="553" y="-110" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
+<text x="553" y="0" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
+<text x="553" y="-22" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
+<text x="553" y="-44" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
+<text x="553" y="-66" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
+<text x="553" y="-88" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
+<text x="553" y="-110" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
 <animateTransform attributeName="transform" type="translate" from="0 -80" to="0 830" dur="11s" begin="-11.9s" repeatCount="indefinite"/></g>
 <g class="motion" opacity=".22">
-<text x="586" y="0" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
-<text x="586" y="-22" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
-<text x="586" y="-44" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
-<text x="586" y="-66" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
-<text x="586" y="-88" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
-<text x="586" y="-110" fill="#44ff9a" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
+<text x="586" y="0" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
+<text x="586" y="-22" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >&lt;&gt;</text>
+<text x="586" y="-44" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >01</text>
+<text x="586" y="-66" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >{}</text>
+<text x="586" y="-88" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >//</text>
+<text x="586" y="-110" fill="#4d94ff" font-size="12" font-weight="400" font-family="Consolas,Courier New,monospace" >10</text>
 <animateTransform attributeName="transform" type="translate" from="0 -80" to="0 830" dur="13s" begin="-13.6s" repeatCount="indefinite"/></g>
 </g>
-<path d="M24 1H576" fill="none" stroke="#2d664c" stroke-width="1"/>
-<path d="M24 659H576" fill="none" stroke="#2d664c" stroke-width="1"/>
-<rect x="1" y="1" width="598" height="658" rx="18" fill="none" stroke="#244636"/>
-<text x="32" y="45" fill="#69ffa9" font-size="15" font-weight="600" font-family="Consolas,Courier New,monospace" >R / R     SOFTWARE ENGINEERING</text>
-<path d="M32 67H568" fill="none" stroke="#1b3d2d" stroke-width="1"/>
-<text x="32" y="153" fill="#eaf9f0" font-size="70" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rifatur</text>
-<text x="32" y="231" fill="#eaf9f0" font-size="70" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rahman</text>
+<path d="M24 1H576" fill="none" stroke="#2b4c7a" stroke-width="1"/>
+<path d="M24 659H576" fill="none" stroke="#2b4c7a" stroke-width="1"/>
+<rect x="1" y="1" width="598" height="658" rx="18" fill="none" stroke="#243b60"/>
+<text x="32" y="45" fill="#75adff" font-size="15" font-weight="600" font-family="Consolas,Courier New,monospace" >R / R     SOFTWARE ENGINEERING</text>
+<path d="M32 67H568" fill="none" stroke="#192d4d" stroke-width="1"/>
+<text x="32" y="153" fill="#edf4ff" font-size="70" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rifatur</text>
+<text x="32" y="231" fill="#edf4ff" font-size="70" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rahman</text>
 <defs><clipPath id="glitch-slice"><rect x="0" y="104" width="600" height="13"/><rect x="0" y="138" width="600" height="6"/></clipPath></defs><g clip-path="url(#glitch-slice)" opacity="0" class="motion">
-<text x="40" y="153" fill="#45ff9a" font-size="70" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rifatur</text>
-<text x="27" y="153" fill="#b799ff" font-size="70" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rifatur</text>
+<text x="40" y="153" fill="#4a8eff" font-size="70" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rifatur</text>
+<text x="27" y="153" fill="#91b7ff" font-size="70" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rifatur</text>
 <animate attributeName="opacity" values="0;0;.8;0;.6;0;0" keyTimes="0;.73;.735;.74;.745;.75;1" dur="10s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;8 0;-5 0;3 0;0 0;0 0" keyTimes="0;.73;.735;.74;.745;.75;1" dur="10s" repeatCount="indefinite"/></g>
-<text x="32" y="284" fill="#65ff9f" font-size="24" font-weight="600" font-family="Consolas,Courier New,monospace" >FULL-STACK DEVELOPER</text>
-<text x="32" y="332" fill="#b1c6bc" font-size="23" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >.NET systems. Thoughtful interfaces.</text>
-<text x="32" y="366" fill="#b1c6bc" font-size="23" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >Applied AI. Built with curiosity.</text>
-<path d="M32 558H568" fill="none" stroke="#2d5948" stroke-width="1"/>
-<circle cx="37" cy="594" r="5" fill="#65ff9f"/>
-<text x="54" y="600" fill="#dbf4e5" font-size="16" font-weight="600" font-family="Consolas,Courier New,monospace" >SEEKING A FULL-STACK INTERNSHIP</text>
-<text x="32" y="634" fill="#8aa99a" font-size="14" font-weight="400" font-family="Consolas,Courier New,monospace" >CSE @ AIUB  /  DHAKA, BANGLADESH</text>
-<rect x="32" y="407" width="536" height="105" rx="10" fill="#060f0c" stroke="#2c6849"/>
-<text x="50" y="438" fill="#63ff9f" font-size="17" font-weight="400" font-family="Consolas,Courier New,monospace" >&gt; build --with-intent</text>
-<text x="50" y="472" fill="#eaf9f0" font-size="21" font-weight="400" font-family="Consolas,Courier New,monospace" >C#   /   WEB   /   AI</text>
-<path d="M50 492H550" fill="none" stroke="#255239" stroke-width="1.5"/>
-<circle r="8" fill="#46ff91" opacity=".3" filter="url(#glow)"><animateMotion path="M50 492H550" dur="6s" repeatCount="indefinite"/></circle><circle r="3" fill="#b5ffcf"><animateMotion path="M50 492H550" dur="6s" repeatCount="indefinite"/></circle>
+<text x="32" y="284" fill="#6aa6ff" font-size="24" font-weight="600" font-family="Consolas,Courier New,monospace" >FULL-STACK DEVELOPER</text>
+<text x="32" y="332" fill="#afbed4" font-size="23" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >.NET systems. Thoughtful interfaces.</text>
+<text x="32" y="366" fill="#afbed4" font-size="23" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >Applied AI. Built with curiosity.</text>
+<path d="M32 558H568" fill="none" stroke="#243e66" stroke-width="1"/>
+<circle cx="37" cy="594" r="5" fill="#6aa6ff"/>
+<text x="54" y="600" fill="#ddeaff" font-size="16" font-weight="600" font-family="Consolas,Courier New,monospace" >SEEKING A FULL-STACK INTERNSHIP</text>
+<text x="32" y="634" fill="#879fbe" font-size="14" font-weight="400" font-family="Consolas,Courier New,monospace" >CSE @ AIUB  /  DHAKA, BANGLADESH</text>
+<rect x="32" y="407" width="536" height="105" rx="10" fill="#050c1b" stroke="#31588c"/>
+<text x="50" y="438" fill="#70acff" font-size="17" font-weight="400" font-family="Consolas,Courier New,monospace" >&gt; build --with-intent</text>
+<text x="50" y="472" fill="#edf4ff" font-size="21" font-weight="400" font-family="Consolas,Courier New,monospace" >C#   /   WEB   /   AI</text>
+<path d="M50 492H550" fill="none" stroke="#294a78" stroke-width="1.5"/>
+<circle r="8" fill="#4c93ff" opacity=".3" filter="url(#glow)"><animateMotion path="M50 492H550" dur="6s" repeatCount="indefinite"/></circle><circle r="3" fill="#b8d8ff"><animateMotion path="M50 492H550" dur="6s" repeatCount="indefinite"/></circle>
 </svg>

@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="490" viewBox="0 0 1200 490" role="img" aria-labelledby="title desc">
 <title id="title">Rifatur Rahman — Full-Stack Developer</title>
 <desc id="desc">Original neon portfolio illustration. Rain, glitch and moving packets are decorative, not live telemetry.</desc>
-<defs><radialGradient id="aura"><stop stop-color="#36ff9a" stop-opacity=".16"/><stop offset="1" stop-color="#36ff9a" stop-opacity="0"/></radialGradient><linearGradient id="fade"><stop stop-color="#04090a"/><stop offset="1" stop-color="#071714"/></linearGradient><clipPath id="frame"><rect x="1" y="1" width="1198" height="488" rx="18"/></clipPath><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#3afea3" stroke-opacity=".065" fill="none"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<defs><radialGradient id="aura"><stop stop-color="#327dff" stop-opacity=".16"/><stop offset="1" stop-color="#327dff" stop-opacity="0"/></radialGradient><linearGradient id="fade"><stop stop-color="#030609"/><stop offset="1" stop-color="#07152f"/></linearGradient><clipPath id="frame"><rect x="1" y="1" width="1198" height="488" rx="18"/></clipPath><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#4189ff" stroke-opacity=".065" fill="none"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
 <g clip-path="url(#frame)"><rect width="1200" height="490" fill="url(#fade)"/><rect width="1200" height="490" fill="url(#grid)"/><ellipse cx="1130" cy="245.0" rx="420" ry="400" fill="url(#aura)"/>
 </g>
-<path d="M24 1H1176" fill="none" stroke="#2d664c" stroke-width="1"/>
-<path d="M24 489H1176" fill="none" stroke="#2d664c" stroke-width="1"/>
-<rect x="1" y="1" width="1198" height="488" rx="18" fill="none" stroke="#244636"/>
-<text x="48" y="45" fill="#69ffa9" font-size="15" font-weight="600" font-family="Consolas,Courier New,monospace" >R / R     SOFTWARE ENGINEERING</text>
-<path d="M48 67H1152" fill="none" stroke="#1b3d2d" stroke-width="1"/>
-<text x="48" y="171" fill="#eaf9f0" font-size="68" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rifatur Rahman</text>
-<text x="48" y="221" fill="#65ff9f" font-size="25" font-weight="600" font-family="Consolas,Courier New,monospace" >FULL-STACK DEVELOPER</text>
-<text x="48" y="269" fill="#b1c6bc" font-size="23" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >.NET systems. Thoughtful interfaces.</text>
-<text x="48" y="303" fill="#b1c6bc" font-size="23" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >Applied AI. Built with curiosity.</text>
-<path d="M48 388H1152" fill="none" stroke="#2d5948" stroke-width="1"/>
-<circle cx="53" cy="424" r="5" fill="#65ff9f"/>
-<text x="70" y="430" fill="#dbf4e5" font-size="16" font-weight="600" font-family="Consolas,Courier New,monospace" >SEEKING A FULL-STACK INTERNSHIP</text>
-<text x="48" y="464" fill="#8aa99a" font-size="14" font-weight="400" font-family="Consolas,Courier New,monospace" >CSE @ AIUB  /  DHAKA, BANGLADESH</text>
-<rect x="817" y="110" width="335" height="260" rx="10" fill="#060f0c" stroke="#2c6849"/>
-<circle cx="837" cy="130" r="3" fill="#65ff9f"/>
-<circle cx="853" cy="130" r="3" fill="#285b40"/>
-<circle cx="869" cy="130" r="3" fill="#285b40"/>
-<text x="836" y="174" fill="#65ff9f" font-size="17" font-weight="400" font-family="Consolas,Courier New,monospace" >&gt; developer.init()</text>
-<text x="838" y="216" fill="#8eaa9a" font-size="16" font-weight="400" font-family="Consolas,Courier New,monospace" >focus</text>
-<text x="968" y="216" fill="#e9fff1" font-size="18" font-weight="400" font-family="Consolas,Courier New,monospace" >&quot;.NET&quot;</text>
-<text x="838" y="254" fill="#8eaa9a" font-size="16" font-weight="400" font-family="Consolas,Courier New,monospace" >interface</text>
-<text x="968" y="254" fill="#e9fff1" font-size="18" font-weight="400" font-family="Consolas,Courier New,monospace" >&quot;WEB&quot;</text>
-<text x="838" y="292" fill="#8eaa9a" font-size="16" font-weight="400" font-family="Consolas,Courier New,monospace" >explore</text>
-<text x="968" y="292" fill="#e9fff1" font-size="18" font-weight="400" font-family="Consolas,Courier New,monospace" >&quot;AI&quot;</text>
-<path d="M838 332H1131" fill="none" stroke="#255239" stroke-width="1.5"/>
+<path d="M24 1H1176" fill="none" stroke="#2b4c7a" stroke-width="1"/>
+<path d="M24 489H1176" fill="none" stroke="#2b4c7a" stroke-width="1"/>
+<rect x="1" y="1" width="1198" height="488" rx="18" fill="none" stroke="#243b60"/>
+<text x="48" y="45" fill="#75adff" font-size="15" font-weight="600" font-family="Consolas,Courier New,monospace" >R / R     SOFTWARE ENGINEERING</text>
+<path d="M48 67H1152" fill="none" stroke="#192d4d" stroke-width="1"/>
+<text x="48" y="171" fill="#edf4ff" font-size="68" font-weight="750" font-family="Segoe UI,Arial,sans-serif" >Rifatur Rahman</text>
+<text x="48" y="221" fill="#6aa6ff" font-size="25" font-weight="600" font-family="Consolas,Courier New,monospace" >FULL-STACK DEVELOPER</text>
+<text x="48" y="269" fill="#afbed4" font-size="23" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >.NET systems. Thoughtful interfaces.</text>
+<text x="48" y="303" fill="#afbed4" font-size="23" font-weight="400" font-family="Segoe UI,Arial,sans-serif" >Applied AI. Built with curiosity.</text>
+<path d="M48 388H1152" fill="none" stroke="#243e66" stroke-width="1"/>
+<circle cx="53" cy="424" r="5" fill="#6aa6ff"/>
+<text x="70" y="430" fill="#ddeaff" font-size="16" font-weight="600" font-family="Consolas,Courier New,monospace" >SEEKING A FULL-STACK INTERNSHIP</text>
+<text x="48" y="464" fill="#879fbe" font-size="14" font-weight="400" font-family="Consolas,Courier New,monospace" >CSE @ AIUB  /  DHAKA, BANGLADESH</text>
+<rect x="817" y="110" width="335" height="260" rx="10" fill="#050c1b" stroke="#31588c"/>
+<circle cx="837" cy="130" r="3" fill="#6aa6ff"/>
+<circle cx="853" cy="130" r="3" fill="#27436a"/>
+<circle cx="869" cy="130" r="3" fill="#27436a"/>
+<text x="836" y="174" fill="#6aa6ff" font-size="17" font-weight="400" font-family="Consolas,Courier New,monospace" >&gt; developer.init()</text>
+<text x="838" y="216" fill="#8ba1bf" font-size="16" font-weight="400" font-family="Consolas,Courier New,monospace" >focus</text>
+<text x="968" y="216" fill="#ebf4ff" font-size="18" font-weight="400" font-family="Consolas,Courier New,monospace" >&quot;.NET&quot;</text>
+<text x="838" y="254" fill="#8ba1bf" font-size="16" font-weight="400" font-family="Consolas,Courier New,monospace" >interface</text>
+<text x="968" y="254" fill="#ebf4ff" font-size="18" font-weight="400" font-family="Consolas,Courier New,monospace" >&quot;WEB&quot;</text>
+<text x="838" y="292" fill="#8ba1bf" font-size="16" font-weight="400" font-family="Consolas,Courier New,monospace" >explore</text>
+<text x="968" y="292" fill="#ebf4ff" font-size="18" font-weight="400" font-family="Consolas,Courier New,monospace" >&quot;AI&quot;</text>
+<path d="M838 332H1131" fill="none" stroke="#294a78" stroke-width="1.5"/>
 </svg>
