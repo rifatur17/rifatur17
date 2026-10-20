@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+<title id="title">IncidentLens — dependency security maintenance</title>
+<desc id="desc">Animation-free conceptual engineering schematic, not live telemetry. Project details and source links follow in the README.</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#123323" stroke-width="0.6" /></pattern><radialGradient id="glow"><stop stop-color="#14663e" stop-opacity="0.32" /><stop offset="1" stop-color="#050d0b" stop-opacity="0" /></radialGradient></defs>
+<rect x="1" y="1" width="718" height="458" rx="12" fill="#050d0b" stroke="#214d38" />
+<rect x="2" y="44" width="716" height="414" fill="url(#grid)" />
+<ellipse cx="540" cy="230" rx="360" ry="260" fill="url(#glow)" />
+<defs>
+      <linearGradient id="bg-base" x2="0.8" y2="1"><stop stop-color="#041e18" /><stop offset="0.5" stop-color="#020b09" /><stop offset="1" stop-color="#001614" /></linearGradient>
+      <radialGradient id="bg-aura"><stop stop-color="#0c765a" stop-opacity="0.42" /><stop offset="1" stop-color="#00110d" stop-opacity="0" /></radialGradient>
+      <pattern id="bg-grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#2baf73" stroke-opacity="0.16" stroke-width="0.7" /><circle cx="0" cy="0" r="1" fill="#4fffb1" opacity="0.32" /></pattern>
+      <linearGradient id="bg-sweep"><stop stop-color="#65ffc0" stop-opacity="0" /><stop offset="0.95" stop-color="#65ffc0" stop-opacity="0.1" /><stop offset="1" stop-color="#afffe8" stop-opacity="0.45" /></linearGradient>
+      <filter id="bg-bloom"><feGaussianBlur stdDeviation="3" /></filter>
+      <clipPath id="bg-clip"><rect x="2" y="45" width="716" height="413" rx="10" /></clipPath>
+    </defs>
+    <g clip-path="url(#bg-clip)">
+      <rect x="2" y="45" width="716" height="413" fill="url(#bg-base)" />
+      <ellipse cx="633.6" cy="193.2" rx="417.59999999999997" ry="358.8" fill="url(#bg-aura)" />
+      <rect x="2" y="45" width="716" height="413" fill="url(#bg-grid)" />
+    
+<path d="M14 77H44V161H23V388H85" fill="none" stroke="#2fbc89" stroke-opacity="0.35" stroke-width="1.3" />
+<path d="M706 89H677V175H696V377H623" fill="none" stroke="#2fbc89" stroke-opacity="0.35" stroke-width="1.3" />
+<path d="M16 409H180L207 382H468L496 410H703" fill="none" stroke="#2fbc89" stroke-opacity="0.35" stroke-width="1.3" />
+<path d="M0 460L281 365" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M90 460L301 365" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M180 460L320 365" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M270 460L340 365" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M360 460L360 365" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M450 460L380 365" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M540 460L400 365" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M630 460L419 365" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M720 460L439 365" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M0 442H720" stroke="#38b77e" stroke-opacity="0.13" />
+<path d="M0 419H720" stroke="#38b77e" stroke-opacity="0.13" />
+<path d="M0 397H720" stroke="#38b77e" stroke-opacity="0.13" />
+<path d="M0 380H720" stroke="#38b77e" stroke-opacity="0.13" />
+<rect x="23" y="68" width="590" height="330" fill="#020b09" opacity="0.32" />
+</g>
+<path d="M3 81V47H37" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5" />
+<path d="M683 47H717V81" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5" />
+<path d="M3 421V457H37" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5" />
+<path d="M683 457H717V421" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5" />
+<circle cx="22" cy="23" r="4" fill="#396048" />
+<circle cx="39" cy="23" r="4" fill="#467b59" />
+<circle cx="56" cy="23" r="4" fill="#71ffaf" />
+<text x="91" y="29" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="16" font-weight="400">~/projects/incidentlens — source map</text>
+<text x="625" y="29" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="14" font-weight="400">UTF-8</text>
+<path d="M1 44H719" fill="none" stroke="#214d38" stroke-width="1" />
+<text x="28" y="92" fill="#71ffaf" font-family="Consolas, Courier New, monospace" font-size="27" font-weight="700">$ inspect maintenance.scope</text>
+<rect x="28" y="119" width="664" height="82" rx="4" fill="#091812" stroke="#214d38" />
+<text x="48" y="153" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="29" font-weight="700">AUDIT</text>
+<text x="48" y="184" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="400">dependency chain</text>
+<rect x="28" y="218" width="664" height="82" rx="4" fill="#091812" stroke="#214d38" />
+<text x="48" y="252" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="29" font-weight="700">ADAPT</text>
+<text x="48" y="283" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="400">glob compatibility boundary</text>
+<rect x="28" y="317" width="664" height="82" rx="4" fill="#091812" stroke="#214d38" />
+<text x="48" y="351" fill="#69e5ed" font-family="Consolas, Courier New, monospace" font-size="29" font-weight="700">VERIFY</text>
+<text x="48" y="382" fill="#9eb7ab" font-family="Consolas, Courier New, monospace" font-size="25" font-weight="400">regression + resource bounds</text>
+<text x="28" y="444" fill="#71ffaf" font-family="Consolas, Courier New, monospace" font-size="24" font-weight="400">// upstream authorship preserved</text>
+</svg>

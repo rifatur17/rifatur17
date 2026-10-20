@@ -6,6 +6,8 @@ The root README appears on the GitHub profile because this public repository mat
 
 A developer-terminal visual direction: near-black green surfaces, phosphor-green output, cyan syntax accents, monospace typography, window chrome, coordinate grids, and source-oriented schematics. The hero opens with `whoami`, while project figures resemble a trace or a dependency inspector. This reflects the user's requested hacker/dev-console atmosphere without implying cybersecurity credentials or inventing operational data. Each figure explains an implemented boundary or tradeoff rather than displaying invented metrics.
 
+All panels share a circuit/matrix environment generated in `scripts/console_background.py`: green/cyan atmospheric gradients, moving code rain, circuit-edge packets, a traveling light sweep, perspective floor grids, and stepped illuminated corners. Prose panels add a dark center beneath the text so the stronger background stays at the edges. These are authored decorative graphics, not intercepted data or a live security console. GitHub controls the surrounding page and sidebar backgrounds; only repository-rendered assets are styled.
+
 StockPilot leads because it directly supports the stated C#/.NET internship direction. G Energy demonstrates React-to-.NET integration. IncidentLens demonstrates narrowly attributed security and maintenance work. Hospital Appointment System was reviewed but not featured: its public README still describes unmerged contribution branches and pending runtime verification. Other graphics and research work remain discoverable through the portfolio.
 
 ## GitHub rendering

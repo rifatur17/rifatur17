@@ -2,6 +2,7 @@
 from html import escape
 import textwrap
 import xml.etree.ElementTree as ET
+from console_background import background
 
 PANELS = {
     'intro': ('cat ~/profile/about.txt', [
@@ -49,6 +50,7 @@ def make_text(kind, narrow=False, animated=True):
     rows.pop()
     height = 127+len(rows)*step+38
     p = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">', f'<title id="title">{escape(command)}</title>', f'<desc id="desc">{escape(" ".join(f"{label}: {value}" for label,value in fields))}</desc>', '<style>@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.6s step-end infinite}@media(prefers-reduced-motion:reduce){.motion{display:none}.cursor{animation:none}}</style>', f'<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="9" fill="#050d0b" stroke="#214d38"/>']
+    p.append(background(width,height,True))
     for i,c in enumerate(['#396048','#467b59','#71ffaf']):
         p.append(f'<circle cx="{22+i*17}" cy="23" r="4" fill="{c}"/>')
     def txt(x,y,s,size,color):
@@ -76,7 +78,7 @@ def make_text(kind, narrow=False, animated=True):
         tree=ET.fromstring(result)
         for parent in tree.iter():
             for child in list(parent):
-                if child.tag.rsplit('}',1)[-1] in ('style','animate','animateMotion') or child.attrib.get('class')=='motion':
+                if child.tag.rsplit('}',1)[-1] in ('style','animate','animateMotion','animateTransform') or child.attrib.get('class')=='motion':
                     parent.remove(child)
         result=ET.tostring(tree,encoding='unicode')+'\n'
     return result

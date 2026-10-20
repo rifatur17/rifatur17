@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1025" viewBox="0 0 600 1025" role="img" aria-labelledby="title desc">
+<title id="title">cat ~/profile/about.txt</title>
+<desc id="desc">identity: Rifatur Rahman / Dhaka, Bangladesh education: BSc in Computer Science and Engineering student at American International University-Bangladesh (AIUB). focus: Building across the interface, API and database with C# and ASP.NET Core. seeking: Full Stack Developer Internship</desc>
+<rect x="1" y="1" width="598" height="1023" rx="9" fill="#050d0b" stroke="#214d38" />
+<defs>
+      <linearGradient id="bg-base" x2="0.8" y2="1"><stop stop-color="#041e18" /><stop offset="0.5" stop-color="#020b09" /><stop offset="1" stop-color="#001614" /></linearGradient>
+      <radialGradient id="bg-aura"><stop stop-color="#0c765a" stop-opacity="0.42" /><stop offset="1" stop-color="#00110d" stop-opacity="0" /></radialGradient>
+      <pattern id="bg-grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#2baf73" stroke-opacity="0.16" stroke-width="0.7" /><circle cx="0" cy="0" r="1" fill="#4fffb1" opacity="0.32" /></pattern>
+      <linearGradient id="bg-sweep"><stop stop-color="#65ffc0" stop-opacity="0" /><stop offset="0.95" stop-color="#65ffc0" stop-opacity="0.1" /><stop offset="1" stop-color="#afffe8" stop-opacity="0.45" /></linearGradient>
+      <filter id="bg-bloom"><feGaussianBlur stdDeviation="3" /></filter>
+      <clipPath id="bg-clip"><rect x="2" y="45" width="596" height="978" rx="10" /></clipPath>
+    </defs>
+    <g clip-path="url(#bg-clip)">
+      <rect x="2" y="45" width="596" height="978" fill="url(#bg-base)" />
+      <ellipse cx="528.0" cy="430.5" rx="348.0" ry="799.5" fill="url(#bg-aura)" />
+      <rect x="2" y="45" width="596" height="978" fill="url(#bg-grid)" />
+    
+<path d="M14 77H44V359H23V953H85" fill="none" stroke="#2fbc89" stroke-opacity="0.35" stroke-width="1.3" />
+<path d="M586 89H557V390H576V942H503" fill="none" stroke="#2fbc89" stroke-opacity="0.35" stroke-width="1.3" />
+<path d="M16 974H150L177 947H390L418 975H583" fill="none" stroke="#2fbc89" stroke-opacity="0.35" stroke-width="1.3" />
+<path d="M0 1025L234 930" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M75 1025L250 930" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M150 1025L267 930" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M225 1025L284 930" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M300 1025L300 930" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M375 1025L316 930" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M450 1025L333 930" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M525 1025L350 930" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M600 1025L366 930" stroke="#38b77e" stroke-opacity="0.16" />
+<path d="M0 1007H600" stroke="#38b77e" stroke-opacity="0.13" />
+<path d="M0 984H600" stroke="#38b77e" stroke-opacity="0.13" />
+<path d="M0 962H600" stroke="#38b77e" stroke-opacity="0.13" />
+<path d="M0 945H600" stroke="#38b77e" stroke-opacity="0.13" />
+<rect x="57" y="105" width="488" height="865" rx="3" fill="#020b09" opacity="0.84" />
+</g>
+<path d="M3 81V47H37" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5" />
+<path d="M563 47H597V81" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5" />
+<path d="M3 986V1022H37" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5" />
+<path d="M563 1022H597V986" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5" />
+<circle cx="22" cy="23" r="4" fill="#396048" />
+<circle cx="39" cy="23" r="4" fill="#467b59" />
+<circle cx="56" cy="23" r="4" fill="#71ffaf" />
+<text x="91" y="29" font-family="Consolas,Courier New,monospace" font-size="16" fill="#9eb7ab">rifatur17@dev: ~/readout</text>
+<path d="M1 44H599" stroke="#214d38" />
+<text x="28" y="92" font-family="Consolas,Courier New,monospace" font-size="26" fill="#69e5ed">$ cat ~/profile/about.txt</text>
+<text x="22" y="136" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">01</text>
+<defs><clipPath id="row-0"><rect x="70" y="102" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-0)"><text x="70" y="136" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[IDENTITY]</text></g>
+<text x="22" y="179" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">02</text>
+<defs><clipPath id="row-1"><rect x="70" y="145" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-1)"><text x="70" y="179" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Rifatur Rahman / Dhaka,</text></g>
+<text x="22" y="222" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">03</text>
+<defs><clipPath id="row-2"><rect x="70" y="188" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-2)"><text x="70" y="222" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Bangladesh</text></g>
+<text x="22" y="308" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">05</text>
+<defs><clipPath id="row-4"><rect x="70" y="274" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-4)"><text x="70" y="308" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[EDUCATION]</text></g>
+<text x="22" y="351" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">06</text>
+<defs><clipPath id="row-5"><rect x="70" y="317" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-5)"><text x="70" y="351" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">BSc in Computer Science</text></g>
+<text x="22" y="394" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">07</text>
+<defs><clipPath id="row-6"><rect x="70" y="360" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-6)"><text x="70" y="394" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">and Engineering student at</text></g>
+<text x="22" y="437" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">08</text>
+<defs><clipPath id="row-7"><rect x="70" y="403" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-7)"><text x="70" y="437" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">American International</text></g>
+<text x="22" y="480" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">09</text>
+<defs><clipPath id="row-8"><rect x="70" y="446" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-8)"><text x="70" y="480" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">University-Bangladesh</text></g>
+<text x="22" y="523" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">10</text>
+<defs><clipPath id="row-9"><rect x="70" y="489" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-9)"><text x="70" y="523" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">(AIUB).</text></g>
+<text x="22" y="609" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">12</text>
+<defs><clipPath id="row-11"><rect x="70" y="575" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-11)"><text x="70" y="609" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[FOCUS]</text></g>
+<text x="22" y="652" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">13</text>
+<defs><clipPath id="row-12"><rect x="70" y="618" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-12)"><text x="70" y="652" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Building across the</text></g>
+<text x="22" y="695" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">14</text>
+<defs><clipPath id="row-13"><rect x="70" y="661" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-13)"><text x="70" y="695" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">interface, API and</text></g>
+<text x="22" y="738" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">15</text>
+<defs><clipPath id="row-14"><rect x="70" y="704" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-14)"><text x="70" y="738" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">database with C# and</text></g>
+<text x="22" y="781" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">16</text>
+<defs><clipPath id="row-15"><rect x="70" y="747" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-15)"><text x="70" y="781" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">ASP.NET Core.</text></g>
+<text x="22" y="867" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">18</text>
+<defs><clipPath id="row-17"><rect x="70" y="833" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-17)"><text x="70" y="867" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[SEEKING]</text></g>
+<text x="22" y="910" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">19</text>
+<defs><clipPath id="row-18"><rect x="70" y="876" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-18)"><text x="70" y="910" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Full Stack Developer</text></g>
+<text x="22" y="953" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">20</text>
+<defs><clipPath id="row-19"><rect x="70" y="919" width="510" height="43" /></clipPath></defs>
+<g clip-path="url(#row-19)"><text x="70" y="953" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Internship</text></g>
+<path d="M22 994H578" stroke="#173e29" />
+<text x="26" y="1015" font-family="Consolas,Courier New,monospace" font-size="16" fill="#658976">// source-backed profile</text>
+<rect class="cursor" x="549" y="1004" width="23" height="6" fill="#71ffaf" />
+</svg>

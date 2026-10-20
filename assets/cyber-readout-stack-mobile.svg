@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1197" viewBox="0 0 600 1197" role="img" aria-labelledby="title desc">
+<title id="title">cat ~/profile/stack.txt</title>
+<desc id="desc">interface: HTML / CSS / JavaScript / Bootstrap; React + TypeScript in G Energy application: C# / ASP.NET Core MVC / Web API data: Entity Framework Core / SQL Server verification: Unit, integration and browser checks / Git / GitHub Actions next: Contribute to full-stack features, learn through code review and deepen my .NET + relational data skills.</desc>
+<style>@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.6s step-end infinite}@media(prefers-reduced-motion:reduce){.motion{display:none}.cursor{animation:none}}</style>
+<rect x="1" y="1" width="598" height="1195" rx="9" fill="#050d0b" stroke="#214d38"/>
+<defs>
+      <linearGradient id="bg-base" x2="0.8" y2="1"><stop stop-color="#041e18"/><stop offset="0.5" stop-color="#020b09"/><stop offset="1" stop-color="#001614"/></linearGradient>
+      <radialGradient id="bg-aura"><stop stop-color="#0c765a" stop-opacity="0.42"/><stop offset="1" stop-color="#00110d" stop-opacity="0"/></radialGradient>
+      <pattern id="bg-grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#2baf73" stroke-opacity="0.16" stroke-width="0.7"/><circle cx="0" cy="0" r="1" fill="#4fffb1" opacity="0.32"/></pattern>
+      <linearGradient id="bg-sweep"><stop stop-color="#65ffc0" stop-opacity="0"/><stop offset="0.95" stop-color="#65ffc0" stop-opacity="0.1"/><stop offset="1" stop-color="#afffe8" stop-opacity="0.45"/></linearGradient>
+      <filter id="bg-bloom"><feGaussianBlur stdDeviation="3"/></filter>
+      <clipPath id="bg-clip"><rect x="2" y="45" width="596" height="1150" rx="10"/></clipPath>
+    </defs>
+    <g clip-path="url(#bg-clip)">
+      <rect x="2" y="45" width="596" height="1150" fill="url(#bg-base)"/>
+      <ellipse cx="528.0" cy="502.74" rx="348.0" ry="933.6600000000001" fill="url(#bg-aura)"/>
+      <rect x="2" y="45" width="596" height="1150" fill="url(#bg-grid)"/>
+    
+<g class="motion" opacity="0.48" font-family="Consolas,Courier New,monospace" font-size="13" fill="#4df59b">
+<text x="18.0" y="0" opacity="1.0" fill="#baffde">01</text>
+<text x="18.0" y="-22" opacity="0.9">&lt;&gt;</text>
+<text x="18.0" y="-44" opacity="0.8">10</text>
+<text x="18.0" y="-66" opacity="0.7">//</text>
+<text x="18.0" y="-88" opacity="0.6">{}</text>
+<text x="18.0" y="-110" opacity="0.5">01</text>
+<text x="18.0" y="-132" opacity="0.4">[]</text>
+<text x="18.0" y="-154" opacity="0.3">10</text>
+<animateTransform attributeName="transform" type="translate" from="0 -60" to="0 1407" dur="8.0s" begin="0.0s" repeatCount="indefinite"/></g>
+<g class="motion" opacity="0.48" font-family="Consolas,Courier New,monospace" font-size="13" fill="#4df59b">
+<text x="88.5" y="0" opacity="1.0" fill="#baffde">&lt;&gt;</text>
+<text x="88.5" y="-22" opacity="0.9">10</text>
+<text x="88.5" y="-44" opacity="0.8">//</text>
+<text x="88.5" y="-66" opacity="0.7">{}</text>
+<text x="88.5" y="-88" opacity="0.6">01</text>
+<text x="88.5" y="-110" opacity="0.5">[]</text>
+<text x="88.5" y="-132" opacity="0.4">10</text>
+<text x="88.5" y="-154" opacity="0.3">01</text>
+<animateTransform attributeName="transform" type="translate" from="0 -60" to="0 1407" dur="9.7s" begin="-1.43s" repeatCount="indefinite"/></g>
+<g class="motion" opacity="0.16" font-family="Consolas,Courier New,monospace" font-size="13" fill="#4df59b">
+<text x="159.0" y="0" opacity="1.0" fill="#baffde">10</text>
+<text x="159.0" y="-22" opacity="0.9">//</text>
+<text x="159.0" y="-44" opacity="0.8">{}</text>
+<text x="159.0" y="-66" opacity="0.7">01</text>
+<text x="159.0" y="-88" opacity="0.6">[]</text>
+<text x="159.0" y="-110" opacity="0.5">10</text>
+<text x="159.0" y="-132" opacity="0.4">01</text>
+<text x="159.0" y="-154" opacity="0.3">&lt;&gt;</text>
+<animateTransform attributeName="transform" type="translate" from="0 -60" to="0 1407" dur="11.4s" begin="-2.86s" repeatCount="indefinite"/></g>
+<g class="motion" opacity="0.16" font-family="Consolas,Courier New,monospace" font-size="13" fill="#4df59b">
+<text x="229.5" y="0" opacity="1.0" fill="#baffde">//</text>
+<text x="229.5" y="-22" opacity="0.9">{}</text>
+<text x="229.5" y="-44" opacity="0.8">01</text>
+<text x="229.5" y="-66" opacity="0.7">[]</text>
+<text x="229.5" y="-88" opacity="0.6">10</text>
+<text x="229.5" y="-110" opacity="0.5">01</text>
+<text x="229.5" y="-132" opacity="0.4">&lt;&gt;</text>
+<text x="229.5" y="-154" opacity="0.3">10</text>
+<animateTransform attributeName="transform" type="translate" from="0 -60" to="0 1407" dur="13.1s" begin="-4.29s" repeatCount="indefinite"/></g>
+<g class="motion" opacity="0.16" font-family="Consolas,Courier New,monospace" font-size="13" fill="#4df59b">
+<text x="300.0" y="0" opacity="1.0" fill="#baffde">{}</text>
+<text x="300.0" y="-22" opacity="0.9">01</text>
+<text x="300.0" y="-44" opacity="0.8">[]</text>
+<text x="300.0" y="-66" opacity="0.7">10</text>
+<text x="300.0" y="-88" opacity="0.6">01</text>
+<text x="300.0" y="-110" opacity="0.5">&lt;&gt;</text>
+<text x="300.0" y="-132" opacity="0.4">10</text>
+<text x="300.0" y="-154" opacity="0.3">//</text>
+<animateTransform attributeName="transform" type="translate" from="0 -60" to="0 1407" dur="14.8s" begin="-5.72s" repeatCount="indefinite"/></g>
+<g class="motion" opacity="0.16" font-family="Consolas,Courier New,monospace" font-size="13" fill="#4df59b">
+<text x="370.5" y="0" opacity="1.0" fill="#baffde">01</text>
+<text x="370.5" y="-22" opacity="0.9">[]</text>
+<text x="370.5" y="-44" opacity="0.8">10</text>
+<text x="370.5" y="-66" opacity="0.7">01</text>
+<text x="370.5" y="-88" opacity="0.6">&lt;&gt;</text>
+<text x="370.5" y="-110" opacity="0.5">10</text>
+<text x="370.5" y="-132" opacity="0.4">//</text>
+<text x="370.5" y="-154" opacity="0.3">{}</text>
+<animateTransform attributeName="transform" type="translate" from="0 -60" to="0 1407" dur="8.0s" begin="-7.1499999999999995s" repeatCount="indefinite"/></g>
+<g class="motion" opacity="0.16" font-family="Consolas,Courier New,monospace" font-size="13" fill="#4df59b">
+<text x="441.0" y="0" opacity="1.0" fill="#baffde">[]</text>
+<text x="441.0" y="-22" opacity="0.9">10</text>
+<text x="441.0" y="-44" opacity="0.8">01</text>
+<text x="441.0" y="-66" opacity="0.7">&lt;&gt;</text>
+<text x="441.0" y="-88" opacity="0.6">10</text>
+<text x="441.0" y="-110" opacity="0.5">//</text>
+<text x="441.0" y="-132" opacity="0.4">{}</text>
+<text x="441.0" y="-154" opacity="0.3">01</text>
+<animateTransform attributeName="transform" type="translate" from="0 -60" to="0 1407" dur="9.7s" begin="-8.58s" repeatCount="indefinite"/></g>
+<g class="motion" opacity="0.48" font-family="Consolas,Courier New,monospace" font-size="13" fill="#4df59b">
+<text x="511.5" y="0" opacity="1.0" fill="#baffde">10</text>
+<text x="511.5" y="-22" opacity="0.9">01</text>
+<text x="511.5" y="-44" opacity="0.8">&lt;&gt;</text>
+<text x="511.5" y="-66" opacity="0.7">10</text>
+<text x="511.5" y="-88" opacity="0.6">//</text>
+<text x="511.5" y="-110" opacity="0.5">{}</text>
+<text x="511.5" y="-132" opacity="0.4">01</text>
+<text x="511.5" y="-154" opacity="0.3">[]</text>
+<animateTransform attributeName="transform" type="translate" from="0 -60" to="0 1407" dur="11.4s" begin="-10.01s" repeatCount="indefinite"/></g>
+<g class="motion" opacity="0.48" font-family="Consolas,Courier New,monospace" font-size="13" fill="#4df59b">
+<text x="582.0" y="0" opacity="1.0" fill="#baffde">01</text>
+<text x="582.0" y="-22" opacity="0.9">&lt;&gt;</text>
+<text x="582.0" y="-44" opacity="0.8">10</text>
+<text x="582.0" y="-66" opacity="0.7">//</text>
+<text x="582.0" y="-88" opacity="0.6">{}</text>
+<text x="582.0" y="-110" opacity="0.5">01</text>
+<text x="582.0" y="-132" opacity="0.4">[]</text>
+<text x="582.0" y="-154" opacity="0.3">10</text>
+<animateTransform attributeName="transform" type="translate" from="0 -60" to="0 1407" dur="13.1s" begin="-11.44s" repeatCount="indefinite"/></g>
+<path d="M14 77H44V419H23V1125H85" fill="none" stroke="#2fbc89" stroke-opacity="0.35" stroke-width="1.3"/>
+<g class="motion"><circle r="7" fill="#6affca" opacity="0.55" filter="url(#bg-bloom)"><animateMotion path="M14 77H44V419H23V1125H85" dur="9s" begin="0s" repeatCount="indefinite"/></circle><circle r="2.5" fill="#a1ffe3"><animateMotion path="M14 77H44V419H23V1125H85" dur="9s" begin="0s" repeatCount="indefinite"/></circle></g>
+<path d="M586 89H557V455H576V1114H503" fill="none" stroke="#2fbc89" stroke-opacity="0.35" stroke-width="1.3"/>
+<g class="motion"><circle r="7" fill="#6affca" opacity="0.55" filter="url(#bg-bloom)"><animateMotion path="M586 89H557V455H576V1114H503" dur="12s" begin="-2s" repeatCount="indefinite"/></circle><circle r="2.5" fill="#a1ffe3"><animateMotion path="M586 89H557V455H576V1114H503" dur="12s" begin="-2s" repeatCount="indefinite"/></circle></g>
+<path d="M16 1146H150L177 1119H390L418 1147H583" fill="none" stroke="#2fbc89" stroke-opacity="0.35" stroke-width="1.3"/>
+<g class="motion"><circle r="7" fill="#6affca" opacity="0.55" filter="url(#bg-bloom)"><animateMotion path="M16 1146H150L177 1119H390L418 1147H583" dur="15s" begin="-4s" repeatCount="indefinite"/></circle><circle r="2.5" fill="#a1ffe3"><animateMotion path="M16 1146H150L177 1119H390L418 1147H583" dur="15s" begin="-4s" repeatCount="indefinite"/></circle></g>
+<path d="M0 1197L234 1102" stroke="#38b77e" stroke-opacity="0.16"/>
+<path d="M75 1197L250 1102" stroke="#38b77e" stroke-opacity="0.16"/>
+<path d="M150 1197L267 1102" stroke="#38b77e" stroke-opacity="0.16"/>
+<path d="M225 1197L284 1102" stroke="#38b77e" stroke-opacity="0.16"/>
+<path d="M300 1197L300 1102" stroke="#38b77e" stroke-opacity="0.16"/>
+<path d="M375 1197L316 1102" stroke="#38b77e" stroke-opacity="0.16"/>
+<path d="M450 1197L333 1102" stroke="#38b77e" stroke-opacity="0.16"/>
+<path d="M525 1197L350 1102" stroke="#38b77e" stroke-opacity="0.16"/>
+<path d="M600 1197L366 1102" stroke="#38b77e" stroke-opacity="0.16"/>
+<path d="M0 1179H600" stroke="#38b77e" stroke-opacity="0.13"/>
+<path d="M0 1156H600" stroke="#38b77e" stroke-opacity="0.13"/>
+<path d="M0 1134H600" stroke="#38b77e" stroke-opacity="0.13"/>
+<path d="M0 1117H600" stroke="#38b77e" stroke-opacity="0.13"/>
+<g class="motion"><rect x="-120" y="45" width="120" height="1152" fill="url(#bg-sweep)"/><animateTransform attributeName="transform" type="translate" from="0 0" to="720 0" dur="13s" repeatCount="indefinite"/></g>
+<rect x="57" y="105" width="488" height="1037" rx="3" fill="#020b09" opacity="0.84"/>
+</g>
+<path d="M3 81V47H37" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5"/>
+<path d="M563 47H597V81" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5"/>
+<path d="M3 1158V1194H37" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5"/>
+<path d="M563 1194H597V1158" fill="none" stroke="#76ffd0" stroke-opacity="0.8" stroke-width="1.5"/>
+<circle cx="22" cy="23" r="4" fill="#396048"/>
+<circle cx="39" cy="23" r="4" fill="#467b59"/>
+<circle cx="56" cy="23" r="4" fill="#71ffaf"/>
+<text x="91" y="29" font-family="Consolas,Courier New,monospace" font-size="16" fill="#9eb7ab">rifatur17@dev: ~/readout</text>
+<path d="M1 44H599" stroke="#214d38"/>
+<text x="28" y="92" font-family="Consolas,Courier New,monospace" font-size="26" fill="#69e5ed">$ cat ~/profile/stack.txt</text>
+<text x="22" y="136" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">01</text>
+<defs><clipPath id="row-0"><rect x="70" y="102" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.01;0.09;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-0)"><text x="70" y="136" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[INTERFACE]</text></g>
+<text x="22" y="179" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">02</text>
+<defs><clipPath id="row-1"><rect x="70" y="145" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.0115;0.0915;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-1)"><text x="70" y="179" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">HTML / CSS / JavaScript /</text></g>
+<text x="22" y="222" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">03</text>
+<defs><clipPath id="row-2"><rect x="70" y="188" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.013000000000000001;0.093;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-2)"><text x="70" y="222" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Bootstrap; React +</text></g>
+<text x="22" y="265" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">04</text>
+<defs><clipPath id="row-3"><rect x="70" y="231" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.0145;0.0945;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-3)"><text x="70" y="265" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">TypeScript in G Energy</text></g>
+<text x="22" y="351" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">06</text>
+<defs><clipPath id="row-5"><rect x="70" y="317" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.0175;0.0975;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-5)"><text x="70" y="351" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[APPLICATION]</text></g>
+<text x="22" y="394" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">07</text>
+<defs><clipPath id="row-6"><rect x="70" y="360" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.019000000000000003;0.099;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-6)"><text x="70" y="394" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">C# / ASP.NET Core MVC /</text></g>
+<text x="22" y="437" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">08</text>
+<defs><clipPath id="row-7"><rect x="70" y="403" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.0205;0.1005;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-7)"><text x="70" y="437" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Web API</text></g>
+<text x="22" y="523" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">10</text>
+<defs><clipPath id="row-9"><rect x="70" y="489" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.0235;0.10350000000000001;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-9)"><text x="70" y="523" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[DATA]</text></g>
+<text x="22" y="566" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">11</text>
+<defs><clipPath id="row-10"><rect x="70" y="532" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.025;0.10500000000000001;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-10)"><text x="70" y="566" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Entity Framework Core /</text></g>
+<text x="22" y="609" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">12</text>
+<defs><clipPath id="row-11"><rect x="70" y="575" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.026500000000000003;0.10650000000000001;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-11)"><text x="70" y="609" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">SQL Server</text></g>
+<text x="22" y="695" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">14</text>
+<defs><clipPath id="row-13"><rect x="70" y="661" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.0295;0.1095;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-13)"><text x="70" y="695" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[VERIFICATION]</text></g>
+<text x="22" y="738" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">15</text>
+<defs><clipPath id="row-14"><rect x="70" y="704" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.031;0.111;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-14)"><text x="70" y="738" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Unit, integration and</text></g>
+<text x="22" y="781" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">16</text>
+<defs><clipPath id="row-15"><rect x="70" y="747" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.0325;0.1125;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-15)"><text x="70" y="781" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">browser checks / Git /</text></g>
+<text x="22" y="824" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">17</text>
+<defs><clipPath id="row-16"><rect x="70" y="790" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.034;0.114;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-16)"><text x="70" y="824" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">GitHub Actions</text></g>
+<text x="22" y="910" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">19</text>
+<defs><clipPath id="row-18"><rect x="70" y="876" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.037;0.11699999999999999;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-18)"><text x="70" y="910" font-family="Consolas,Courier New,monospace" font-size="32" fill="#71ffaf">[NEXT]</text></g>
+<text x="22" y="953" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">20</text>
+<defs><clipPath id="row-19"><rect x="70" y="919" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.0385;0.1185;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-19)"><text x="70" y="953" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">Contribute to full-stack</text></g>
+<text x="22" y="996" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">21</text>
+<defs><clipPath id="row-20"><rect x="70" y="962" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.04;0.12;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-20)"><text x="70" y="996" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">features, learn through</text></g>
+<text x="22" y="1039" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">22</text>
+<defs><clipPath id="row-21"><rect x="70" y="1005" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.0415;0.1215;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-21)"><text x="70" y="1039" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">code review and deepen my</text></g>
+<text x="22" y="1082" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">23</text>
+<defs><clipPath id="row-22"><rect x="70" y="1048" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.043000000000000003;0.123;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-22)"><text x="70" y="1082" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">.NET + relational data</text></g>
+<text x="22" y="1125" font-family="Consolas,Courier New,monospace" font-size="17" fill="#537363">24</text>
+<defs><clipPath id="row-23"><rect x="70" y="1091" width="510" height="43"><animate attributeName="width" values="0;0;510;510" keyTimes="0;0.044500000000000005;0.1245;1" dur="24s" repeatCount="indefinite"/></rect></clipPath></defs>
+<g clip-path="url(#row-23)"><text x="70" y="1125" font-family="Consolas,Courier New,monospace" font-size="32" fill="#d9eee2">skills.</text></g>
+<path d="M22 1166H578" stroke="#173e29"/>
+<text x="26" y="1187" font-family="Consolas,Courier New,monospace" font-size="16" fill="#658976">// source-backed profile</text>
+<rect class="cursor" x="549" y="1176" width="23" height="6" fill="#71ffaf"/>
+<g class="motion"><circle r="3" fill="#69e5ed"><animateMotion path="M22 1166H578" dur="5s" repeatCount="indefinite"/></circle></g>
+</svg>

@@ -15,7 +15,7 @@ def picture(kind, panel=False):
         alt={'header':'Rifatur Rahman — animated full-stack developer terminal. C# / ASP.NET Core / SQL Server. Seeking a Full Stack Developer Internship.','stockpilot':'StockPilot: MVC and API share services; LedgerGate serializes stock and ledger writes through a SQL Server application lock.','genergy':'G Energy: reserve, charge and settle. Owner wallet and Driver access are distinct; charging and money movements are simulated.','incidentlens':'IncidentLens maintenance: audit dependencies, preserve glob compatibility and verify regression/resource bounds. Original application by Niloy Bhuiyan.'}[kind]
         sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'still-{kind}.svg'),('(max-width: 600px) and (prefers-color-scheme: dark)',f'motion-{kind}-mobile-dark.svg'),('(max-width: 600px)',f'motion-{kind}-mobile-light.svg'),('(prefers-color-scheme: dark)',f'motion-{kind}-dark.svg'),('(prefers-color-scheme: light)',f'motion-{kind}-light.svg')]
         fallback=f'motion-{kind}-light.svg'
-    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/{fallback}" width="1200" alt="{escape(alt,quote=True)}">\n</picture>'
+    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/cyber-{file}">\n' for media,file in sources)+f'  <img src="assets/cyber-{fallback}" width="1200" alt="{escape(alt,quote=True)}">\n</picture>'
 
 
 if __name__=='__main__':

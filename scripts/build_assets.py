@@ -3,6 +3,7 @@ from html import escape
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from text_panels import PANELS, make_text
+from console_background import background
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
@@ -17,6 +18,7 @@ def make(theme, kind, narrow=False, animated=True):
     title = {"header": "Rifatur Rahman — full-stack engineering terminal", "stockpilot": "StockPilot — inventory write path", "genergy": "G Energy — charging and wallet boundaries", "incidentlens": "IncidentLens — dependency security maintenance"}[kind]
     p = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">', f'<title id="title">{escape(title)}</title>', '<desc id="desc">Animated conceptual engineering schematic, not live telemetry. Project details and source links follow in the README.</desc>', '<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#123323" stroke-width="0.6"/></pattern><radialGradient id="glow"><stop stop-color="#14663e" stop-opacity="0.32"/><stop offset="1" stop-color="#050d0b" stop-opacity="0"/></radialGradient></defs>', f'<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="12" fill="{bg}" stroke="{line}"/>', f'<rect x="2" y="44" width="{width-4}" height="{height-46}" fill="url(#grid)"/>', f'<ellipse cx="{width-180}" cy="{height//2}" rx="360" ry="260" fill="url(#glow)"/>']
 
+    p.append(background(width,height))
     p.append('<style>@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.6s step-end infinite}@media(prefers-reduced-motion:reduce){.motion{display:none}.cursor{animation:none;opacity:1}}</style>')
 
     def text(x, y, s, size=18, color=ink, weight=400, spacing=None):
@@ -199,15 +201,15 @@ if __name__ == "__main__":
     for theme in ("dark", "light"):
         for kind in ("header", "stockpilot", "genergy", "incidentlens"):
             for narrow in (False, True):
-                name = f"motion-{kind}{'-mobile' if narrow else ''}-{theme}.svg"
+                name = f"cyber-motion-{kind}{'-mobile' if narrow else ''}-{theme}.svg"
                 (ASSETS/name).write_text(make(theme,kind,narrow),encoding="utf-8",newline="\n")
     for kind in ("header", "stockpilot", "genergy", "incidentlens"):
         for narrow in (False, True):
-            name = f"still-{kind}{'-mobile' if narrow else ''}.svg"
+            name = f"cyber-still-{kind}{'-mobile' if narrow else ''}.svg"
             (ASSETS/name).write_text(make('dark',kind,narrow,False),encoding="utf-8",newline="\n")
     for kind in PANELS:
         for narrow in (False, True):
             for animated in (False, True):
-                name=f"readout-{'still-' if not animated else ''}{kind}{'-mobile' if narrow else ''}.svg"
+                name=f"cyber-readout-{'still-' if not animated else ''}{kind}{'-mobile' if narrow else ''}.svg"
                 (ASSETS/name).write_text(make_text(kind,narrow,animated),encoding='utf-8',newline='\n')
     print("Generated 44 terminal SVG assets, including animated prose and static alternatives.")

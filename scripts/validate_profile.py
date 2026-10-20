@@ -23,24 +23,28 @@ def main():
     for path in sorted(set(paths)):
         file = ROOT / path
         xml = file.read_text(encoding="utf-8")
+        stem=file.stem.removeprefix('cyber-')
         tree = ET.fromstring(xml)
         assert tree.attrib["viewBox"].startswith(("0 0 1200 ", "0 0 720 ", "0 0 600 "))
         assert not re.search(r"<script|<foreignObject|https?://(?!www.w3.org/2000/svg)|onload=|@import", xml, re.I)
-        if file.stem.startswith('readout-'):
-            animated=not file.stem.startswith('readout-still-')
-            name=file.stem.removeprefix('readout-').removeprefix('still-')
+        assert 'bg-grid' in xml and 'bg-base' in xml
+        if stem.startswith('readout-'):
+            animated=not stem.startswith('readout-still-')
+            name=stem.removeprefix('readout-').removeprefix('still-')
             narrow=name.endswith('-mobile')
             assert xml == make_text(name.removesuffix('-mobile'),narrow,animated)
             assert ('<animate ' in xml) == animated
+            if not animated:
+                assert not any(el.tag.rsplit('}',1)[-1].startswith('animate') for el in tree.iter())
             continue
-        animated = file.stem.startswith('motion-')
+        animated = stem.startswith('motion-')
         if animated:
             assert "prefers-reduced-motion:reduce" in xml
             assert "animateMotion" in xml and "animateTransform" in xml
-            kind, theme = file.stem.removeprefix("motion-").rsplit("-", 1)
+            kind, theme = stem.removeprefix("motion-").rsplit("-", 1)
         else:
             assert 'animateMotion' not in xml and 'animateTransform' not in xml
-            kind, theme = file.stem.removeprefix('still-'), 'dark'
+            kind, theme = stem.removeprefix('still-'), 'dark'
         narrow = kind.endswith("-mobile")
         assert xml == make(theme, kind.removesuffix("-mobile"), narrow, animated), f"Stale asset: {path}"
     assert len(re.findall(r"<picture>", md)) == len(re.findall(r"</picture>", md)) == 9
