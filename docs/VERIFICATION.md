@@ -2,7 +2,15 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
-## Current matrix/circuit background revision
+## Current video-reference presentation revision
+
+Published in `60d0858`, after inspecting both user-supplied YouTube references in the browser. The presentation now combines a scanning ASCII portrait made from the real public avatar, typed profile fields, a verified signal panel, and an animated contribution crawler. Existing project evidence and technical readouts remain. The shared background source was preserved byte-for-byte: SHA-256 `F14C1D23725E43E94DB223C6B08727C754781992F8B8716675B55E04E47743A9` before and after this revision.
+
+GitHub REST and GraphQL supplied the committed public snapshot: 8 public repositories, 4 primary repository languages, 84 contribution events across 5 active days and 365 unique calendar dates. Daily counts reconcile exactly to the returned total. These values are explicitly a 20 October 2026 snapshot, not live counters; later real work can change GitHub's current count. The crawler never modifies tile counts, repository history or commit dates. No daily-commit automation was installed.
+
+All 46 referenced SVGs passed parsing, safety, generator reproducibility and animation-free fallback checks. All 16 HTTPS destinations returned HTTP 200. GitHub's Markdown API rendered the new ten-picture README. All three new panel types were rendered and visually reviewed at desktop/mobile sizes. The scanning portrait animation was inspected in a browser before publication; the public GitHub profile then visibly displayed the ASCII scanner, signal values, heatmap and moving crawler. Original background and project source links were preserved. `git diff --check` passed.
+
+## Previous matrix/circuit background revision
 
 Published in `90b5001ceff6dfa6c62e77687c346823e8b4e0fe`, confirmed by GitHub's API. All nine visible panels now share a matrix/circuit atmosphere: authored code rain, glowing moving circuit packets, a traveling light sweep, perspective floor grids, illuminated brackets, and green/cyan gradients. Text panels keep a darker center for readability. This styles README artwork; GitHub retains control of the surrounding page and sidebar.
 
