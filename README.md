@@ -1,55 +1,89 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/midnight-still-hero-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight-still-hero.svg">
-  <source media="(max-width: 600px)" srcset="assets/midnight-hero-mobile.svg">
-  <img src="assets/midnight-hero.svg" width="1200" alt="Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Neon code rain, glitch lettering and a moving code packet.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/showcase-still-hero-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/showcase-still-hero.svg">
+  <source media="(max-width: 600px)" srcset="assets/showcase-hero-mobile.svg">
+  <img src="assets/showcase-hero.svg" width="1200" alt="Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Animated interface, API and database flow.">
 </picture>
 
 **C# / ASP.NET Core** · web interfaces · applied AI. CSE student at **AIUB**, Dhaka.
 
 [Portfolio](https://rifatur17.github.io/) · [Download CV](https://raw.githubusercontent.com/rifatur17/rifatur17/main/assets/Rifatur_Rahman_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/rifatur-rahman11/) · [Email](mailto:rifaturrahman1131@gmail.com)
 
-## Selected work
+<p align="center"><b>Open to a Full Stack Developer Internship · C# / ASP.NET Core</b></p>
 
+## Featured work
+
+<a href="https://github.com/rifatur17/StockPilot-Inventory-Sales-Management">
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/midnight-still-stock-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight-still-stock.svg">
-  <source media="(max-width: 600px)" srcset="assets/midnight-stock-mobile.svg">
-  <img src="assets/midnight-stock.svg" width="1200" alt="StockPilot — inventory and sales. Shared services, SQL write coordination and automated checks.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/showcase-still-stock-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/showcase-still-stock.svg">
+  <source media="(max-width: 600px)" srcset="assets/showcase-stock-mobile.svg">
+  <img src="assets/showcase-stock.svg" width="1200" alt="StockPilot — inventory and sales. Shared services, SQL write coordination and automated checks.">
 </picture>
+</a>
 
 [Repository](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management) · [Architecture](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/ARCHITECTURE.md) · [Concurrency design](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/INVENTORY_CONCURRENCY.md) · [Screenshot](https://github.com/rifatur17/StockPilot-Inventory-Sales-Management/blob/main/docs/screenshots/dashboard-desktop.png)
 
+<a href="https://github.com/rifatur17/IncidentLens">
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/midnight-still-incident-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight-still-incident.svg">
-  <source media="(max-width: 600px)" srcset="assets/midnight-incident-mobile.svg">
-  <img src="assets/midnight-incident.svg" width="1200" alt="IncidentLens — evidence-led investigation. My contribution: dependency security, compatibility and CI.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/showcase-still-incident-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/showcase-still-incident.svg">
+  <source media="(max-width: 600px)" srcset="assets/showcase-incident-mobile.svg">
+  <img src="assets/showcase-incident.svg" width="1200" alt="IncidentLens — evidence-led investigation. My contribution: dependency security, compatibility and CI.">
 </picture>
+</a>
 
 **My contribution:** security, compatibility and CI maintenance. Retains [Niloy Bhuiyan’s upstream authorship](https://github.com/Niloy-Bhuiyan/IncidentLens).
 
 [Repository](https://github.com/rifatur17/IncidentLens) · [My security change](https://github.com/rifatur17/IncidentLens/commit/ab1025ba8f7e5c571396285971d433f95b228b13) · [Compatibility adapter & tests](https://github.com/rifatur17/IncidentLens/tree/main/tools/eslint-glob-compat)
 
+<a href="https://github.com/hospital-appointment-team/hospital-appointment-system">
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/midnight-still-hospital-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight-still-hospital.svg">
-  <source media="(max-width: 600px)" srcset="assets/midnight-hospital-mobile.svg">
-  <img src="assets/midnight-hospital.svg" width="1200" alt="Hospital Appointment System — team project. My focus: patient authentication and doctor administration.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/showcase-still-hospital-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/showcase-still-hospital.svg">
+  <source media="(max-width: 600px)" srcset="assets/showcase-hospital-mobile.svg">
+  <img src="assets/showcase-hospital.svg" width="1200" alt="Hospital Appointment System — team project. My focus: patient authentication and doctor administration.">
 </picture>
+</a>
 
-**My focus:** patient authentication and doctor administration within a team project.
+**My focus:** patient authentication and doctor administration within a team project. Contribution branches; runtime verification pending.
 
 [Repository](https://github.com/hospital-appointment-team/hospital-appointment-system) · [My foundation PR](https://github.com/hospital-appointment-team/hospital-appointment-system/pull/1)
 
+<a href="https://github.com/rifatur17/Solar-System-Simulation">
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/midnight-still-solar-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/midnight-still-solar.svg">
-  <source media="(max-width: 600px)" srcset="assets/midnight-solar-mobile.svg">
-  <img src="assets/midnight-solar.svg" width="1200" alt="Solar System Simulation — C++, OpenGL and GLUT. Interactive orbits, camera and lighting.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/showcase-still-solar-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/showcase-still-solar.svg">
+  <source media="(max-width: 600px)" srcset="assets/showcase-solar-mobile.svg">
+  <img src="assets/showcase-solar.svg" width="1200" alt="Solar System Simulation — C++, OpenGL and GLUT. Interactive orbits, camera and lighting.">
 </picture>
+</a>
 
 [Repository](https://github.com/rifatur17/Solar-System-Simulation) · [Source](https://github.com/rifatur17/Solar-System-Simulation/blob/main/main.cpp)
+
+## More work
+
+<a href="https://github.com/rifatur17/G-Energy-Project-Demo">
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/showcase-still-energy-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/showcase-still-energy.svg">
+  <source media="(max-width: 600px)" srcset="assets/showcase-energy-mobile.svg">
+  <img src="assets/showcase-energy.svg" width="1200" alt="G Energy — React and ASP.NET Core charging demonstration. Animated UI and API workflow illustration.">
+</picture>
+</a>
+
+[Repository](https://github.com/rifatur17/G-Energy-Project-Demo)
+
+<a href="https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content">
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/showcase-still-research-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/showcase-still-research.svg">
+  <source media="(max-width: 600px)" srcset="assets/showcase-research-mobile.svg">
+  <img src="assets/showcase-research.svg" width="1200" alt="Unnoticed Disclosure — four-person research team; 183 valid participants; Python analysis. Illustrated research workflow.">
+</picture>
+</a>
+
+**Research team lead · four-person team.** [Repository](https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content) · [Paper](https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content/blob/main/paper/Unnoticed%20Disclosure%20Readers%20Do%20Not%20Register%20AI.pdf) · [Analysis results](https://github.com/rifatur17/Unnoticed-Disclosure-Readers-Do-Not-Register-AI-Source-Labels-on-De-Influencing-Content/blob/main/results/results.txt)
 
 <details>
 <summary><b>Engineering notes & project contributions</b></summary>

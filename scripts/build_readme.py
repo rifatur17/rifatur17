@@ -1,17 +1,18 @@
 """CV-aligned profile with readable native Markdown and one original banner."""
 from pathlib import Path
 import json
+import re
 
 ROOT=Path(__file__).resolve().parents[1]
 
 
 def picture(kind,alt):
-    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'midnight-still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'midnight-still-{kind}.svg'),('(max-width: 600px)',f'midnight-{kind}-mobile.svg')]
-    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/midnight-{kind}.svg" width="1200" alt="{alt}">\n</picture>'
+    sources=[('(prefers-reduced-motion: reduce) and (max-width: 600px)',f'showcase-still-{kind}-mobile.svg'),('(prefers-reduced-motion: reduce)',f'showcase-still-{kind}.svg'),('(max-width: 600px)',f'showcase-{kind}-mobile.svg')]
+    return '<picture>\n'+''.join(f'  <source media="{media}" srcset="assets/{file}">\n' for media,file in sources)+f'  <img src="assets/showcase-{kind}.svg" width="1200" alt="{alt}">\n</picture>'
 
 
 def banner():
-    return picture('hero','Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Neon code rain, glitch lettering and a moving code packet.')
+    return picture('hero','Rifatur Rahman — Full-Stack Developer. CSE student at AIUB in Dhaka. Seeking a Full Stack Developer Internship. Animated interface, API and database flow.')
 
 
 def build():
@@ -68,15 +69,22 @@ def build():
     top=[banner(),
          '**C# / ASP.NET Core** · web interfaces · applied AI. CSE student at **AIUB**, Dhaka.',
          s[3],
-         '## Selected work']
+         '<p align="center"><b>Open to a Full Stack Developer Internship · C# / ASP.NET Core</b></p>',
+         '## Featured work']
     projects=[('stock','StockPilot — inventory and sales. Shared services, SQL write coordination and automated checks.',s[s.index('### StockPilot — inventory & sales')+4],''),
               ('incident','IncidentLens — evidence-led investigation. My contribution: dependency security, compatibility and CI.',s[s.index('### IncidentLens — evidence-based incident investigation')+4], '**My contribution:** security, compatibility and CI maintenance. Retains [Niloy Bhuiyan’s upstream authorship](https://github.com/Niloy-Bhuiyan/IncidentLens).'),
-              ('hospital','Hospital Appointment System — team project. My focus: patient authentication and doctor administration.',s[s.index('### Hospital Appointment System — patient & staff workflows')+4],'**My focus:** patient authentication and doctor administration within a team project.'),
+              ('hospital','Hospital Appointment System — team project. My focus: patient authentication and doctor administration.',s[s.index('### Hospital Appointment System — patient & staff workflows')+4],'**My focus:** patient authentication and doctor administration within a team project. Contribution branches; runtime verification pending.'),
               ('solar','Solar System Simulation — C++, OpenGL and GLUT. Interactive orbits, camera and lighting.',s[s.index('### Solar System Simulation — interactive graphics')+3],'')]
     for kind,alt,links,credit in projects:
-        top.append(picture(kind,alt))
+        repo=re.search(r"\[Repository\]\((https://[^)]+)\)",links).group(1)
+        top.append(f'<a href="{repo}">\n'+picture(kind,alt)+'\n</a>')
         if credit: top.append(credit)
         top.append(links)
+    top += ['## More work',
+            '<a href="https://github.com/rifatur17/G-Energy-Project-Demo">\n'+picture('energy','G Energy — React and ASP.NET Core charging demonstration. Animated UI and API workflow illustration.')+'\n</a>',
+            '[Repository](https://github.com/rifatur17/G-Energy-Project-Demo)',
+            '<a href="'+d['research']['repo']+'">\n'+picture('research','Unnoticed Disclosure — four-person research team; 183 valid participants; Python analysis. Illustrated research workflow.')+'\n</a>',
+            '**Research team lead · four-person team.** [Repository]('+d['research']['repo']+') · [Paper]('+d['research']['paper']+') · [Analysis results]('+d['research']['results']+')']
     top += ['<details>\n<summary><b>Engineering notes & project contributions</b></summary>\n\n'+notes+'\n\n</details>',
             '<details>\n<summary><b>Full CV · skills, education, research & training</b></summary>\n\n'+full_cv+'\n\n</details>',
             f'[Let’s connect](mailto:{d["email"]}) · [Portfolio]({d["portfolio"]}) · [Download CV]({d["cv_url"]})']

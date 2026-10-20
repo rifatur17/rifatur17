@@ -2,7 +2,17 @@
 
 Checked on 20 October 2026 (Asia/Dhaka).
 
-## Current black and deep-blue palette revision
+## Current project-specific animated showcase revision
+
+The actual current Ashfak-Hossain profile was visually inspected in the browser, including the animated seat, scanner and request examples. Its public profile and two repository READMEs were read as design references. No reference SVG assets were copied. This revision retains black/deep-blue colors and introduces original project-specific illustrations: StockPilot inventory/write coordination, IncidentLens retrieval/citation flow, hospital authentication, Solar System orbit motion, G Energy UI/API flow and research design/analysis.
+
+Profile validation covers 28 safe, reproducible SVGs, physical static alternatives, supplied CV hash, skills, training and role attribution. Desktop/mobile previews were reviewed; StockPilot and Solar/incident footer spacing was corrected. Nine additional repositories have four local SVG variants each. All existing README bytes following their new headers are preserved; Solar receives a concise source-linked README because it had none. GitHub Markdown API rendering confirmed picture/source markup in all nine repo contexts.
+
+All illustrated transitions are explanatory. No benchmark, deployment, runtime verification or genuine-contribution claims are inferred from an animation. Existing upstream credits, team contribution scope and the synthetic-calendar disclosure remain intact. Only documentation and SVG assets are changed in the project repositories; application test suites are not rerun for those changes.
+
+All nine repository publications completed and their remote branch heads matched the local commits; coverage and exact commits are recorded in `docs/REPOSITORY_PRESENTATION.md`. Live GitHub StockPilot and Solar System READMEs were visually reviewed. Two StockPilot captures had 26,785 changed pixels within the animated panel, confirming motion after publication. All 18 non-LinkedIn HTTPS destinations returned 200; LinkedIn returned 999 to the automated client, as before. GitHub Markdown rendering and `git diff --check` passed.
+
+## Previous black and deep-blue palette revision
 
 At the user's request, the existing design is retained with black/deep-blue surfaces and electric-blue accents. All 34 six-digit palette colors were mapped consistently, including text, rain, grid, terminal surfaces, project diagrams, glitch overlays and moving packets. Source comparison after normalizing color literals confirms that geometry, typography, prose and animation timing are unchanged. All twenty desktop/mobile and motion/static variants were regenerated and validated; the supplied CV is unchanged.
 

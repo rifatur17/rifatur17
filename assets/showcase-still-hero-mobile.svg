@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="650" viewBox="0 0 600 650" role="img" aria-labelledby="title desc">
+<title id="title">Rifatur Rahman — .NET, web and applied AI</title>
+<desc id="desc">Original project illustration. Moving states and particles explain a workflow, not live service status or measured test results.</desc>
+<defs><linearGradient id="bg"><stop stop-color="#04090f"/><stop offset="1" stop-color="#0b1932"/></linearGradient><radialGradient id="aura"><stop stop-color="#2865c7" stop-opacity=".22"/><stop offset="1" stop-color="#2865c7" stop-opacity="0"/></radialGradient><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#7aaaff" opacity=".12"/></pattern><clipPath id="frame"><rect x="1" y="1" width="598" height="648" rx="18"/></clipPath></defs><g clip-path="url(#frame)"><rect width="600" height="650" fill="url(#bg)"/><ellipse cx="491.99999999999994" cy="292.5" rx="450" ry="400" fill="url(#aura)"/><rect width="600" height="650" fill="url(#dots)"/></g><rect x="1" y="1" width="598" height="648" rx="18" fill="none" stroke="#233858"/>
+<text x="32" y="53" font-family="Consolas,Courier New,monospace" font-size="14" fill="#91baff" font-weight="600">—  .NET  /  WEB ENGINEERING  /  APPLIED AI</text>
+<text x="32" y="134" font-family="Segoe UI,Arial,sans-serif" font-size="62" fill="#e9f2ff" font-weight="750">Rifatur</text>
+<text x="32" y="205" font-family="Segoe UI,Arial,sans-serif" font-size="62" fill="#e9f2ff" font-weight="750">Rahman</text>
+<text x="32" y="251" font-family="Segoe UI,Arial,sans-serif" font-size="25" fill="#bdcde4" font-weight="400">Full-stack development,</text>
+<text x="32" y="288" font-family="Segoe UI,Arial,sans-serif" font-size="25" fill="#bdcde4" font-weight="400">from interface to database.</text>
+<rect x="32.0" y="341" width="166.66666666666666" height="58" rx="10" fill="#0b1425" stroke="#29405f"/>
+<text x="115.33333333333333" y="376" font-family="Consolas,Courier New,monospace" font-size="17" fill="#c8e1ff" font-weight="600" text-anchor="middle">UI</text>
+<path d="M198.66666666666666 370h18" fill="none" stroke="#294c7d" stroke-width="1.4"/>
+<rect x="216.66666666666666" y="341" width="166.66666666666666" height="58" rx="10" fill="#0b1425" stroke="#29405f"/>
+<text x="300.0" y="376" font-family="Consolas,Courier New,monospace" font-size="17" fill="#c8e1ff" font-weight="600" text-anchor="middle">API</text>
+<path d="M383.3333333333333 370h18" fill="none" stroke="#294c7d" stroke-width="1.4"/>
+<rect x="401.3333333333333" y="341" width="166.66666666666666" height="58" rx="10" fill="#0b1425" stroke="#29405f"/>
+<text x="484.66666666666663" y="376" font-family="Consolas,Courier New,monospace" font-size="17" fill="#c8e1ff" font-weight="600" text-anchor="middle">SQL</text>
+<text x="32" y="440" font-family="Consolas,Courier New,monospace" font-size="17" fill="#92b7e7" font-weight="400">MVC / React → .NET → EF Core</text>
+<path d="M32 465H568" fill="none" stroke="#294c7d" stroke-width="1.4"/>
+<text x="32" y="584" font-family="Consolas,Courier New,monospace" font-size="19" fill="#b8cce5" font-weight="400">CSE @ AIUB  ·  DHAKA</text>
+<text x="32" y="619" font-family="Consolas,Courier New,monospace" font-size="16" fill="#82b7ff" font-weight="600">SEEKING A FULL-STACK INTERNSHIP</text>
+</svg>
